@@ -3,7 +3,7 @@ layout: page
 title: DesparadosAEye
 description: deep learning on the edge
 img: /assets/img/desparados_3.png
-importance: 3
+importance: 1
 category: school
 date: Jan.-May 2021
 ---

@@ -3,7 +3,7 @@ layout: page
 title: Cookie Cutter CNC
 description: A failed yet informative attempt to build a 2&times;2 sheet metal cutter  
 img: /assets/img/cc_1.jpg
-importance: 1
+importance: 5
 category: personal
 date: April-May 2015
 redirect: https://jacobfv123.medium.com/cookie-cutter-cnc-923c68932ee6

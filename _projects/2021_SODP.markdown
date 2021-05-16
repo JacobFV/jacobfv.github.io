@@ -3,7 +3,7 @@ layout: page
 title: 2021 Stanford Open Datathon
 description: Team research project analyzing misinformation related to coronavirus vaccination hesitancy
 img: /assets/img/covid_7.png
-importance: 2
+importance: 1
 category: community
 date: April 2021
 ---
