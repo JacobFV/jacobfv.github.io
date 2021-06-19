@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Jacob Valdez | Jacob Valdez</title>
+<title>Jacob Valdez | Dev Platforms</title>
 <meta name="description" content="Personal R&D portfolio site
 ">
 
@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2020/dev-platforms/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -113,8 +113,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/projects/">
                 projects
@@ -146,50 +144,87 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>Meditating on AI</h1>
-    <h2>Deep thoughts on deep learning</h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">Dev Platforms</h1>
+    <p class="post-meta">June 1, 2020</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/what-is-intelligence/">What is intelligence?</a></h3>
-        <p class="post-meta">June 18, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/meditating-on-ai/">Meditating on AI</a></h3>
-        <p class="post-meta">March 12, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/skills-assessment-reflection/">Skills Assessment Reflection</a></h3>
-        <p class="post-meta">June 14, 2020</p>
-        <p>My Summer 2020 focus statement</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/dev-platforms/">Dev Platforms</a></h3>
-        <p class="post-meta">June 1, 2020</p>
-        <p>Various potential 'incubators' for AGI.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/arxiv-notes/">arxiv-notes</a></h3>
-        <p class="post-meta">June 1, 2020</p>
-        <p>Some relevant articles that I will apply towards AGI</p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <h2 id="general">General</h2>
+
+<ul>
+  <li>https://openai.com/resources/ This includes Microscope which lets you view the attention patterns of a convolutional neural network.</li>
+</ul>
+
+<h2 id="reinforcement-learning">Reinforcement Learning</h2>
+
+<h3 id="agents">Agents</h3>
+<ul>
+  <li><a href="https://github.com/openai/baseline">OpenAI Baselines</a>: “OpenAI Baselines is a set of high-quality implementations of reinforcement learning algorithms.” Check out <a href="https://github.com/openai/baselines/network/dependents?package_id=UGFja2FnZS01MDIzMjE5Mw%3D%3D">implementations</a>.</li>
+  <li><a href="https://github.com/ramanans1/plan2explore">plan2explore</a></li>
+</ul>
+
+<h3 id="frameworks">Frameworks</h3>
+<ul>
+  <li><a href="nengo.ai">Nengo</a> Large scale cognitive brain modeling toolkit. Several publications <a href="https://www.nengo.ai/publications/">here</a> including a good <a href="http://compneuro.uwaterloo.ca/files/publications/bekolay.2014.pdf">introduction to nengo</a></li>
+  <li><a href="https://github.com/threedworld-mit/tdw/">tdw</a> Plenty of examples in the repository including dynamic crowd simulation.
+    <blockquote>
+      <p>ThreeDWorld (TDW) is a platform for interactive multi-modal physical simulation. With TDW, users can simulate high-fidelity sensory data and physical interactions between mobile agents and objects in a wide variety of rich 3D environments.</p>
+    </blockquote>
+  </li>
+  <li>gym</li>
+  <li><a href="https://github.com/deepmind/acme">Acme</a>
+    <blockquote>
+      <p>Acme is a library of reinforcement learning (RL) agents and agent building blocks. Acme strives to expose simple, efficient, and readable agents, that serve both as reference implementations of popular algorithms and as strong baselines, while still providing enough flexibility to do novel research. The design of Acme also attempts to provide multiple points of entry to the RL problem at differing levels of complexity.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="environments">Environments</h3>
+<ul>
+  <li><a href="https://arxiv.org/abs/2009.05524">Physically Embedded Planning Problems: New Challenges for Reinforcement Learning</a>
+    <ul>
+      <li>instead of directly playing board games, you have to learn to move your robotic joints to play. This is much more dificult.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/deepmind/dm_control">Control Suite</a>
+    <blockquote>
+      <p>The DeepMind Control Suite is a set of continuous control tasks with a standardised structure and interpretable rewards, intended to serve as performance benchmarks for reinforcement learning agents. The tasks are written in Python and powered by the MuJoCo physics engine, making them easy to use and modify. (https://arxiv.org/abs/1801.00690)</p>
+    </blockquote>
+  </li>
+  <li>Behavior Suite <a href="https://github.com/deepmind/bsuite">(bsuite)</a>
+    <blockquote>
+      <p><code class="language-plaintext highlighter-rouge">bsuite</code> is a collection of carefully-designed experiments
+that investigate core capabilities of reinforcement learning (RL) agents with
+two objectives. First, to collect clear, informative and scalable problems
+that capture key issues in the design of general and efficient learning algorithms. Second, to study agent behaviour through their performance
+on these shared benchmarks. (https://arxiv.org/abs/1908.03568)</p>
+    </blockquote>
+  </li>
+  <li>Arcade Learning Environment (<a href="https://github.com/mgbellemare/Arcade-Learning-Environment">ALE</a>): Automatically benchmark agents on an array of video games.
+    <blockquote>
+      <p>interface to hundreds of Atari 2600 game environments, each one different, interesting, and designed to be a challenge for human players (https://jair.org/index.php/jair/article/view/10819)</p>
+    </blockquote>
+  </li>
+  <li><a href="https://github.com/Kautenja/gym-super-mario-bros">Super Mario Bros</a>
+    <blockquote>
+      <p>An OpenAI Gym environment for Super Mario Bros. &amp; Super Mario Bros. 2 (Lost Levels) on The Nintendo Entertainment System (NES) using the nes-py emulator.</p>
+    </blockquote>
+  </li>
+  <li><a href="https://github.com/Microsoft/malmo/tree/master/MalmoEnv">MalmoEnv</a>: MalmoEnv is an OpenAI “gym” Python Environment for Malmo/Minecraft, directly implemented Python to Java Minecraft.</li>
+  <li><a href="https://github.com/deepmind/lab">DeepMind Lab</a> “is a 3D learning environment based on id Software’s Quake III Arena via ioquake3 and other open source software”</li>
+  <li><a href="https://github.com/openai/gym/blob/master/docs/environments.md">Open AI Gym Environments</a></li>
+  <li><a href="https://github.com/deepmind/open_spiel">Open Spiel</a></li>
+  <li><a href="https://arxiv.org/abs/2007.14987">Presentation and Analysis of a Multimodal Dataset for Grounded LanguageLearning</a></li>
+</ul>
+
+  </article>
 
   
-
 
 </div>
 
