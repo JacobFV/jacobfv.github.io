@@ -1,12 +1,76 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - JacobFV
+  - Limboid
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  # Limboid
+  - Limboid/the-fertile-crescent
+  - Limboid/mutt
+  - Limboid/node-tree
+  - Limboid/modalities
+  - Limboid/tensorcode
+  - Limboid/unsupervised
+  - Limboid/mpnets
+  - Limboid/man
+  - Limboid/massive-man
+  - Limboid/computer-env
+  - Limboid/computatrum
+  - Limboid/the-artificial-experience
+  - Limboid/the-artificial-school
+  - Limboid/ainimal-zookeeper
+  - Limboid/limboid-robot
+  - Limboid/company
+
+  # older AI
+  - JacobFV/jnumpy
+  - JacobFV/multigraph-nn
+  - JacobFV/tf-som
+  - JacobFV/AGI
+  - JacobFV/smae
+  - JacobFV/jaygents
+  - JacobFV/glom-tensorflow
+  - JacobFV/Computatrum-2019-attempt
+  - JacobFV/Nodal-RL
+  - JacobFV/Nodal-SL
+
+  # personal projects
+  - JacobFV/sodp-team114
+  - JacobFV/factory-server
+  - JacobFV/Workplace-Surveillance-System
+
+  # school
+  - JacobFV/20Questions
+  - JacobFV/DesparadosAEYE
+  - JacobFV/Sale
+  - JacobFV/SQT-English-to-Spanish-Translator
+  - JacobFV/Labatron
+  - JacobFV/CookieControl
+  - JacobFV/Arduino-CookieControl
+  - JacobFV/Copyright-Calculator
+  - JacobFV/Ballistic-Physics
+  - JacobFV/Polyatomic-Dominoes
+  - JacobFV/naive_bayes
+
+  - JacobFV/JFS
+  - JacobFV/JOSS
+
+  # teaching
+  - JacobFV/ai-proverbs
+  - JacobFV/latex-altacv-resume
+  - JacobFV/Artificial-Intelligence-Principle-and-Practice
+  - JacobFV/Electromagnetism-and-Quantum-Computing
+  - JacobFV/particle-accelerator
+
+  # work
+  - JacobFV/mln-dashboard
+  - JacobFV/dash
+
+  # utils
+  - JacobFV/CUILIB
+  - JacobFV/jplotlib
+  - JacobFV/outdoors
+  - JacobFV/jekyll-phone-protect
+  - JacobFV/Discrete-Averager
+  - JacobFV/rewriter
+
+  # dumpster

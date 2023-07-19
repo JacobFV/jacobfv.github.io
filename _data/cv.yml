@@ -1,97 +1,140 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: BSCS
+      institution: The University of Texas at Arlington, Arlington, TX
+      year: 2020 - 2022
+      start: 2020-06-01
+      end: 2022-08-12
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Studied CS with focus on ML
+        - Networked with professors, PhD's, and ML industry figures
+        - "Also learned to operate CNC's and shop equiptment at the <a href='https://libraries.uta.edu/services/fablab'>FabLab</a>"
+        - "GPA: 3.6/4.0"
+
+    - title: AAS in Mathematics
+      institution: Navarro College, Waxahachie, TX
+      year: 2014 - 2018
+      start: 2014-09-01
+      end: 2018-05-01
       description:
-        - Description 1.
-        - Description 2.
+        - 85 hours completed
+        - "Graduated <i>Magna Cum Laude</i>"
+        - "GPA: 3.9/4.0"
+
+    - title: STEM classes + Navarro College and UT Tyler dual-credit program
+      institution: Waxahachie Global High School, Waxahachie, TX
+      year: 2014 - 2018
+      start: 2014-08-01
+      end: 2018-05-01
+      description:
+        - "Created dozens of <a href='https://jacobfvaldez.weebly.com/engineering.html'>projects</a> and <a href='https://jacobfvaldez.weebly.com/videos.html'>videos</a>, wrote a <a href='https://jacobfvaldez.weebly.com/programming.html'>handful of programs</a>, and  gave more than a <a href='https://jacobfvaldez.weebly.com/presentations.html'>dozen presentations</a>"
+        - "Took Calculus I-III and Linear Differential Equations in my senior year and made A+'s"
+        - Graduated rank 7
+        - "GPA: 3.9/4.0; 5.6/6.0"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer
+      institution: "<a href='https://motio.com/'>Motio Inc</a>"
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Develop <a href='https://motio.com/products/soterre/soterre-for-qlik-sense/'>Soterre for Qlik Sense</a>
+        - Started as intern in June; full-time after August 16th 2022
+    - title: Student Research Assistant
+      institution: "<a href='https://itlab.uta.edu'>IT Lab, UTA</a>"
+      year: 2021 - 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Collaborated with research group to evolve and test a flask-based statistical visualization tool <a href='https://github.com/banditsbeware/dash'>CoWiz (renamed as Dash)</a>
+        - Developed full stack web server <a href='https://github.com/JacobFV/mln-dashboard'>MLN-Dashboard</a> using Next-React-GraphQL-Strapi stack
+    - title: Student Research Assistant
+      institution: UTA College of Social Work, Arlington TX
+      year: 2021 - 2022
       description:
+        - Maintained and enhanced multi-platform (iOS and Android) data collecting application <a href='http://myamble.github.io/myamble-user-website'>MyAmble</a> and web admin dashboard
+        - "Stack: javascript, firebase, flutter (mobile), and vue (admin dash)"
+    - title: Crew Trainer
+      institution: McDonald's, Midlothian TX
+      year: 2016 - 2020
+      description:
+        - Led safety committee and addressed employees during 30-minute monthly safety meetings
+        - Trained employees on-the-job and formally
+        - In addition to 4 years of formal education, actively used Spanish on-the-job
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+- title: Projects
+  type: cv_projects
 
-- title: Open Source Projects
+- title: Achievements
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: 2022 Future Texas Business Legend Award Finalist
+      institution: Texas Business Hall of Fame
+      display_date: Spring 2022
+      year: 2022-02-15
+      description: For submitting <a href='/assets/pdf/Limboid-LLC-Business Plan.pdf'>Limboid LLC business proposal</a>
 
-- title: Honors and Awards
+    - title: Co-Author on Paper Accepted to Baltic DB&IS 2022 Conference
+      institution: Baltic DB&IS 2022
+      display_date: Spring 2022
+      year: 2022-04-15
+      description: "For co-authoring <a href='https://link.springer.com/chapter/10.1007/978-3-031-09850-5_16'>ModViz: A Modular and Extensible Architecture for Drill-Down and Visualization of Complex Data</a>"
+
+    - title: Broaden and Build Conference Honorable Mention
+      institution: UTA College of Social Work
+      year: 2021-09-27
+      description: For presenting work <a href='https://jacobfv.github.io/projects/broadening-and-building-beyond-classical-reinforcement-learning/'>Broadening and Building Beyond Classical Reinforcement Learning</a>
+
+    - title: SCRF Honorable Mention
+      institution: UTA CSE Dept
+      display_date: Spring 2021
+      year: 2021-04-01
+      description: For presenting work <a href='https://docs.google.com/presentation/d/1L2UdsujqXwl5R9h3t-tOJ5IhbWIXcyU0e3C4x5geHxk/edit?usp=sharing'>Predictive General Intelligence</a>
+
+    - title: 20% Project Presentation Honorable Mention
+      institution: FSMS
+      year: 2013-05-29
+      description: For presenting the <a href='https://jacobfvaldez.weebly.com/engineering.html#cookiebaker_3d_printer'>CookieBaker 3D Printer</a> to a 100-person audience
+
+- title: Certifications
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: AWS Certified Machine Learning Engineer – Specialty
+      year: Feb 2022 # 2022-02-01
 
-- title: Academic Interests
+    - title: Google TensorFlow Developer Certification
+      year: April 2021 # 2021-04-01
+
+    - title: DeepLearning.AI TensorFlow Developer
+      year: Oct 2020 # 2020-10-15
+
+    - title: Deep Learning Specialization by DeepLearning.AI
+      year: Sept 2020 # 2020-09-30
+
+    - title: AWS Certified Developer – Associate
+      year: Mar 2019 # 2019-03-18
+
+    - title: AWS Certified SysOps Administrator – Associate
+      year: Mar 2019 # 2019-03-18
+
+    - title: AWS Certified Solutions Architect – Associate
+      year: Mar 2019 # 2019-02-27
+
+- title: Long-Term Goals
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Develop artificial superintelligence
       items:
-        - Description 1.
-        - Description 2.
+        - Write 25% of the <a href="https://github.com/Limboid/the-fertile-crescent">Fertile Crescent</a>
+        - Develop and open-source a minimally-viable demonstration of artificial general intelligence, the <a href="https://github.com/Limboid/computatrum">Computatrum</a>
+        - Use this AGI to finish programming the Fertile Crescent and iterate on its own design
+    - title: Mass-produce affordable, intelligent humanoid robots
+      items:
+        - Use the Computatrum to refine my design for the <a href="https://github.com/Limboid/limboid-robot">Limboid robot</a>
+        - Use Limboids and the Computatrum to iteratively design, build, test; bootstrap production by hand
+        - Selectively offer on-demand <a href="https://github.com/Limboid/boid-net">humanoid-robots-as-a-service</a> on the basis of its humanitarian, social, and economic impact
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u>Hobbies</u>: Catching up on ML trends, learning about the natural world, open-source work, biking, eating oatmeal"

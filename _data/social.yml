@@ -1,0 +1,140 @@
+# core social
+
+- type: mail
+  id: 10601 Clarance Dr.<br>Suite 250 Frisco TX<br> 75033, United States
+  star: false
+  note:
+  icon: <i class="fas fa-envelope"></i>
+  url:
+
+- type: email
+  id: jacob.valdez@limboid.ai
+  star: true
+  note: Primary email address
+  icon: <i class="fas fa-envelope"></i>
+  url: mailto:jacob.valdez@limboid.ai
+
+- type: spam
+  id: jacobspam0123456789@gmail.com
+  star: false
+  note: Junkmail
+  icon: <i class="fas fa-envelope"></i>
+  url: mailto:jacobspam0123456789@gmail.com
+
+- type: phone
+  id: +1-972-460-6353
+  star: true
+  note: Please text before calling
+  icon: <i class="fab fas fa-phone"></i>
+  url: "tel:+1-972-460-6353"
+
+- type: discord
+  id: jacob-valdez#5523
+  star: true
+  note:
+  icon: <i class="fab fa-discord"></i>
+  url:
+
+- type: twitter
+  id: JacobFValdez
+  star:
+  note:
+  icon: <i class="fab fa-twitter"></i>
+  url: https://twitter.com/JacobFValdez
+
+- type: github
+  id: JacobFV
+  star: true
+  note:
+  icon: <i class="fab fa-github"></i>
+  url: https://github.com/JacobFV
+
+# cloud solutions
+
+- type: google
+  id: jacobfv123@gmail.com
+  star:
+  note:
+  icon: <i class="fab fa-google"></i>
+  url:
+
+- type: microsoft
+  id: jacobfv@msn.com
+  star:
+  note:
+  icon: <i class="fab fa-microsoft"></i>
+  url:
+
+# domain-specific
+
+- type: medium
+  id: jacobfv123
+  star:
+  note: Old blogging account
+  icon: <i class="fab fa-medium"></i>
+  url: "https://medium.com/@jacobfv123"
+
+- type: youtube
+  id: jacobfv123
+  star:
+  note: Presentations/animations/<br>experiments/etc.
+  icon: <i class="fab fa-youtube"></i>
+  url: https://www.youtube.com/channel/UCs5sasWz1dlbrvBo7tBincg
+
+- type: thingiverse
+  id: jacobfv123
+  star:
+  note: Things I've made
+  icon: <img src="/assets/img/logos/thingiverse.svg" height="80rem" width="80rem"  />
+  url: https://www.thingiverse.com/jacobfv123/designs
+
+- type: soundcloud
+  id: jacob-valdez-946056620
+  star:
+  note: Personal music
+  icon: <i class="fab fa-soundcloud"></i>
+  url: "https://soundcloud.com/jacob-valdez-946056620"
+
+- type: linkedin
+  id: jacob-f-valdez
+  star:
+  note: Professional networking
+  icon: <i class="fab fa-linkedin"></i>
+  url: "https://www.linkedin.com/in/jacob-f-valdez"
+
+# - quora:
+#   id: Jacob-Valdez-46
+#   star:
+#   note:
+#   icon: <i class="fab fa-quora"></i>
+#   url: "https://www.quora.com/profile/Jacob-Valdez-46" # "https://www.quora.com/profile/{{ id }}"
+
+- type: stackexchange
+  id: 14971315
+  star:
+  note: StackExchange Q&A
+  icon: <i class="fab fa-stack-exchange"></i>
+  url: "https://stackexchange.com/users/14971315"
+
+- type: gitlab
+  id: jacobfv123
+  star:
+  note: Partial GitHub mirror
+  icon: <i class="fab fa-gitlab"></i>
+  url: "https://gitlab.com/jacobfv123"
+
+- type: huggingface
+  id: jacob-valdez
+  star:
+  note: ML models
+  icon: <img src="/assets/img/logos/huggingface.svg" height="80rem" width="80rem" />
+  url: "https://huggingface.co/jacob-valdez"
+
+# RSS
+
+- type: rss
+  id:
+  star: true
+  note: Subscribe for updates
+  icon: <i class="fas fa-rss-square"></i>
+  url: "https://jacobfv.github.io/feed.xml"

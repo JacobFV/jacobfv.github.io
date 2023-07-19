@@ -9,8 +9,8 @@
       <div class="card hoverable">
         {%- if project.img %}
         {%- include figure.html
-          path=project.img
-          alt="project thumbnail" -%}
+        path=project.img
+        alt="project thumbnail" -%}
         {%- endif %}
         <div class="card-body">
           <h2 class="card-title text-lowercase">{{ project.title }}</h2>
@@ -28,6 +28,12 @@
               </span>
               {%- endif %}
             </div>
+            {%- endif %}
+            {%- if project.under_construction == true -%}
+            &nbsp;
+            <span class="icon" data-toggle="tooltip" title="Under construction">
+              🚧
+            </span>
             {%- endif %}
           </div>
         </div>
