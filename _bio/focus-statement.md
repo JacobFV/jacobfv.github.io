@@ -9,7 +9,7 @@ order: 1
 
 > The only constant is change. — Heraclitus as quoted by Dr. Ron Cross
 
-We're witnessing the greatest technoevolutionary leap in the history of the observable universe. Yes, we might retrospecively say we were living in a fast-ish takeoff. Everything Everywhere All at Once. And most people don't even realize it!
+We're witnessing the greatest technoevolutionary leap in the history of the observable universe. Yes, we might retrospectively say we were living in a fast-ish takeoff. Everything Everywhere All at Once. And most people don't even realize it!
 
 But what's a takeoff when only a minority are hanging 10? And the most capable AIs are locked away? And the robots cost more than many cars? Not a good takeoff. Not a good takeoff at all.
 
