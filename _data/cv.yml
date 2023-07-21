@@ -85,16 +85,11 @@
       year: 2021-09-27
       description: For presenting work <a href='https://jacobfv.github.io/projects/broadening-and-building-beyond-classical-reinforcement-learning/'>Broadening and Building Beyond Classical Reinforcement Learning</a>
 
-    - title: SCRF Honorable Mention
+    - title: SCRF Honorable Mention + &dollar;100 award
       institution: UTA CSE Dept
       display_date: Spring 2021
       year: 2021-04-01
       description: For presenting work <a href='https://docs.google.com/presentation/d/1L2UdsujqXwl5R9h3t-tOJ5IhbWIXcyU0e3C4x5geHxk/edit?usp=sharing'>Predictive General Intelligence</a>
-
-    - title: 20% Project Presentation Honorable Mention
-      institution: FSMS
-      year: 2013-05-29
-      description: For presenting the <a href='https://jacobfvaldez.weebly.com/engineering.html#cookiebaker_3d_printer'>CookieBaker 3D Printer</a> to a 100-person audience
 
 - title: Certifications
   type: time_table
@@ -123,18 +118,14 @@
 - title: Long-Term Goals
   type: nested_list
   contents:
-    - title: Develop artificial superintelligence
+    - title: Help people all over the world with humanoid robots
       items:
-        - Write 25% of the <a href="https://github.com/Limboid/the-fertile-crescent">Fertile Crescent</a>
-        - Develop and open-source a minimally-viable demonstration of artificial general intelligence, the <a href="https://github.com/Limboid/computatrum">Computatrum</a>
-        - Use this AGI to finish programming the Fertile Crescent and iterate on its own design
-    - title: Mass-produce affordable, intelligent humanoid robots
-      items:
-        - Use the Computatrum to refine my design for the <a href="https://github.com/Limboid/limboid-robot">Limboid robot</a>
-        - Use Limboids and the Computatrum to iteratively design, build, test; bootstrap production by hand
-        - Selectively offer on-demand <a href="https://github.com/Limboid/boid-net">humanoid-robots-as-a-service</a> on the basis of its humanitarian, social, and economic impact
+        - Develop a mass-produceable affordable, intelligent humanoid robot
+        - Manually bootstrap production, but transition to robots making robots
+        - Deploy on-demand humanoid-robots-as-a-service on the basis of their humanitarian, social, and economic impact
 
 - title: Other Interests
   type: list
   contents:
-    - "<u>Hobbies</u>: Catching up on ML trends, learning about the natural world, open-source work, biking, eating oatmeal"
+    - Walking, hanging out with friends, reading papers, and twittering
+    - I'm never going to have enough time to satisfy most of my interests
