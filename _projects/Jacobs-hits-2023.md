@@ -21,3 +21,4 @@ bullet_points: | # at least two bullet points
     - Some of my favorite personal songs 🎶
     - Wasn't intending to release, but felt there were people who needed to hear "Standing Up Together", so decided to go ahead and share a full album of my work
     - Available on [SoundCloud](https://on.soundcloud.com/TpJ5C)
+---
