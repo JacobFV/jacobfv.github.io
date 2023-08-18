@@ -3,7 +3,7 @@ layout: post
 title: Generalization -- Fast and Slow (incomplete)
 date: 2021-10-31
 description: Learning to generalize on multiple frequency bands
-hidden:
+hidden: true
 categories: [ai, ideas]
 tags:   [jupyter notebook]
 ---
