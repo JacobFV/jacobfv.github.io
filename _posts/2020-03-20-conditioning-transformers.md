@@ -7,4 +7,4 @@ categories: [ai]
 tags:   []
 ---
 
-{% jupyter_notebook "../../notebooks/Conditioning_Transformers.ipynb" %}
+{% jupyter_notebook "../../../notebooks/Conditioning_Transformers.ipynb" %}

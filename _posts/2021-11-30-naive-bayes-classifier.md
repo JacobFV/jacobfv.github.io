@@ -8,4 +8,4 @@ tags:   [jupyter notebook]
 read_time: 6
 ---
 
-{% jupyter_notebook "../../notebooks/naive_bayes.ipynb" %}
+{% jupyter_notebook "../../../notebooks/naive_bayes.ipynb" %}

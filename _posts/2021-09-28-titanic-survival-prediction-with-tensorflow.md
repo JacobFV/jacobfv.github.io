@@ -8,4 +8,4 @@ categories: [ai, tutorial]
 tags:   [jupyter notebook]
 read_time: 14
 ---
-{% jupyter_notebook "../../notebooks/titanic-survival-prediction-with-tensorflow.ipynb" %}
+{% jupyter_notebook "../../../notebooks/titanic-survival-prediction-with-tensorflow.ipynb" %}

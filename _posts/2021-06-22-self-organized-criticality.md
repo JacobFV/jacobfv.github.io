@@ -8,4 +8,4 @@ tags:   [jupyter notebook]
 read_time: 6
 ---
 
-{% jupyter_notebook "../../notebooks/self_organized_criticality.ipynb" %}
+{% jupyter_notebook "../../../notebooks/self_organized_criticality.ipynb" %}

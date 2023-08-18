@@ -6,4 +6,4 @@ description: Principles and practices for developing the next generation of soft
 hidden: true
 ---
 
-{% jupyter_notebook "../../notebooks/general-computer-interaction-language-alignment.ipynb" %}
+{% jupyter_notebook "../../../notebooks/general-computer-interaction-language-alignment.ipynb" %}

@@ -8,4 +8,4 @@ tags:   [jupyter notebook]
 read_time: 7
 ---
 
-{% jupyter_notebook "../../notebooks/image_classification.ipynb" %}
+{% jupyter_notebook "../../../notebooks/image_classification.ipynb" %}
