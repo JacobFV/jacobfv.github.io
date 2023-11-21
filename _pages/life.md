@@ -15,7 +15,7 @@ children:
     - title: 📅 Meeting
       permalink: https://cal.com/jacob-valdez
     - title: ❤️ Date
-      permalink: https://cal.com/jacob-valdez/❤-date
+      permalink: https://cal.com/jacob-valdez/date
     - title: divider
     - title: twitter ↗
       permalink: https://twitter.com/jvboid
