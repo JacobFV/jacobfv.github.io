@@ -33,7 +33,7 @@
   star: true
   note:
   icon: <i class="fab fa-discord"></i>
-  url:
+  url: https://discord.gg/hq9eWGeyPM
 
 - type: twitter
   id: jvboid
@@ -73,6 +73,13 @@
   note: Old blogging account
   icon: <i class="fab fa-medium"></i>
   url: "https://medium.com/@jacobfv123"
+  
+- type: substack
+  id: jacobvaldez
+  star:
+  note: Blogging account
+  icon: <i class="fab fa-substack"></i>
+  url: "https://jacobvaldez.substack.com/publish/posts"
 
 - type: youtube
   id: jacobfv123

@@ -3,7 +3,7 @@ layout: page
 
 title: The Agent Suite
 
-hidden:
+hidden: true
 redirect: https://theagentsuite.versoly.page/
 category: [ai,work]
 importance: 1

@@ -19,6 +19,6 @@ github:  # uname/repo, don't include the prefix `https://github.com/`
 description: Some of my favorite personal music creations
 bullet_points: | # at least two bullet points
     - Some of my favorite personal songs 🎶
-    - Wasn't intending to release, but felt there were people who needed to hear "Standing Up Together", so decided to go ahead and share a full album of my work
+    - Wasn't intending to release, but after doing "Standing Up Together" decided to go ahead and make a full album of my work
     - Available on [SoundCloud](https://on.soundcloud.com/TpJ5C)
 ---
