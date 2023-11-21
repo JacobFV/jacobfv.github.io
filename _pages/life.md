@@ -18,7 +18,7 @@ children:
       permalink: https://cal.com/jacob-valdez/❤-date
     - title: divider
     - title: twitter ↗
-      permalink: https://twitter.com/JacobFValdez
+      permalink: https://twitter.com/jvboid
     - title: linkedin ↗
       permalink: https://www.linkedin.com/in/jacob-f-valdez/
 ---
