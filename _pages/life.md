@@ -12,9 +12,9 @@ children:
     - title: ❓ Questions ↗
       permalink: https://jacobvaldez.notion.site/Questions-8e65810357d940468d083353e18085e0?pvs=4
     - title: divider
-    - title: 📅 Schedule Meeting
+    - title: 📅 Meeting
       permalink: https://cal.com/jacob-valdez
-    - title: ❤️ Schedule Date
+    - title: ❤️ Date
       permalink: https://cal.com/jacob-valdez/❤-date
     - title: divider
     - title: twitter ↗
