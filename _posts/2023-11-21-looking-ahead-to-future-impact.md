@@ -3,7 +3,7 @@ layout: post
 title: Looking Ahead to Future Impact
 date: 2023-11-21
 description: Reflections, gratitude, and looking ahead to positive future impact
-hidden: false
+hidden: true
 categories:
 tags:
 ---
