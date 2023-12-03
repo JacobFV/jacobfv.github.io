@@ -23,7 +23,7 @@ nav_order: 6
   {% assign phone = site.data.social | where: "type", "phone" | first %}
   {% assign email = site.data.social | where: "type", "email" | first %}
 
-Would you like to collaborate on a project or just need a second pair of eyes? Please contact me via <a href="tel:{{ phone.id | encode_phone }}">SMS</a> or <a href="mailto:{{ email.id | encode_email }}">email</a>. I can usually make time to meet during waking hours in Texas.
+Would you like to collaborate on a project or just need a second pair of eyes? Please contact me via [SMS](tel:{{ phone.id | encode_phone }}) or [email](mailto:{{ email.id | encode_email }}). I can usually make time to [meet](https://cal.com/jacob-valdez).
 
 <div id="contact" style="margin: 0.5rem; padding: 0.5rem; background-color: var(--global-bg-color-2); border-radius: 0.2rem; box-shadow: 0px 2px 5px #00000033;">
   {% include contact.html %}

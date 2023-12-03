@@ -2,7 +2,7 @@
 layout: post
 title: The Master Plan (part 1)
 date: 2023-07-14
-description: My plan to build a $500 general-purpose humanoid robot powered by human-level artificial intelligence.
+description: My plan to build a $1000 general-purpose humanoid robot powered by human-level artificial intelligence.
 hidden: false
 categories: [ai, idea]
 tags:   [agi]

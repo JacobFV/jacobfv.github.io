@@ -7,12 +7,33 @@
   icon: <i class="fas fa-envelope"></i>
   url:
 
-- type: email
+- type: email (Limboid)
   id: jacob.valdez@limboid.ai
   star: true
   note: Primary email address
   icon: <i class="fas fa-envelope"></i>
   url: mailto:jacob.valdez@limboid.ai
+
+- type: email (Animoid)
+  id: jacob.valdez@animoid.ai
+  star: false
+  note: 
+  icon: <i class="fas fa-envelope"></i>
+  url: mailto:jacob.valdez@animoid.ai
+
+- type: email (ComputaCo)
+  id: jacob.valdez@computaco.ai
+  star: false
+  note: 
+  icon: <i class="fas fa-envelope"></i>
+  url: mailto:jacob.valdez@computaco.ai
+
+- type: email (TensaCo)
+  id: jacob.valdez@tensaco.ai
+  star: false
+  note: 
+  icon: <i class="fas fa-envelope"></i>
+  url: mailto:jacob.valdez@tensaco.ai
 
 - type: spam
   id: jacobspam0123456789@gmail.com
@@ -78,7 +99,7 @@
   id: jacobvaldez
   star:
   note: Blogging account
-  icon: <i class="fab fa-substack"></i>
+  icon: # TODO
   url: "https://jacobvaldez.substack.com/publish/posts"
 
 - type: youtube
@@ -88,11 +109,18 @@
   icon: <i class="fab fa-youtube"></i>
   url: https://www.youtube.com/channel/UCs5sasWz1dlbrvBo7tBincg
 
+# - type: onshape
+#   id: jacob_valdez
+#   star:
+#   note: CAD models
+#   icon: <img class="show-on-light" src="/assets/img/logos/onshape-dark.png" height="60rem" width=260rem"  /><img class="show-on-dark" src="/assets/img/logos/onshape-light.png" height="60rem" width=260rem" />
+#   url: 
+
 - type: thingiverse
   id: jacobfv123
   star:
   note: Things I've made
-  icon: <img src="/assets/img/logos/thingiverse.svg" height="80rem" width="80rem"  />
+  icon: <img class="show-on-light" src="/assets/img/logos/thingiverse-dark.svg" height="80rem" width="80rem" /><img class="show-on-dark" src="/assets/img/logos/thingiverse-light.svg" height="80rem" width="80rem" />
   url: https://www.thingiverse.com/jacobfv123/designs
 
 - type: soundcloud
@@ -134,8 +162,32 @@
   id: jacob-valdez
   star:
   note: ML models
-  icon: <img src="/assets/img/logos/huggingface.svg" height="80rem" width="80rem" />
+  icon: <img class="show-on-light" src="/assets/img/logos/huggingface-dark.svg" height="80rem" width="80rem" /><img class="show-on-dark" src="/assets/img/logos/huggingface-light.svg" height="80rem" width="80rem" />
   url: "https://huggingface.co/jacob-valdez"
+
+# payment
+
+- type: paypal
+  id: jacobfv123
+  star:
+  note:
+  icon: <i class="fab fa-paypal"></i>
+  # other: <img class="show-on-light" src="/assets/img/logos/paypal-dark.svg" height="80rem" width="80rem" /><img class="show-on-dark" src="/assets/img/logos/venmo-light.svg" height="80rem" width="80rem" />
+  url: https://www.paypal.com/paypalme/jacobfv123
+
+- type: venmo
+  id: jvboid
+  star:
+  note:
+  icon: <img class="show-on-light" src="/assets/img/logos/venmo-dark.svg" height="80rem" width="80rem" /><img class="show-on-dark" src="/assets/img/logos/venmo-light.svg" height="80rem" width="80rem" />
+  url:
+
+- type: zelle
+  id: 469-968-9490
+  star:
+  note:
+  icon: <img class="show-on-light" src="/assets/img/logos/zelle-dark.svg" height="80rem" width="80rem" /><img class="show-on-dark" src="/assets/img/logos/zelle-light.svg" height="80rem" width="80rem" />
+  url:
 
 # RSS
 
