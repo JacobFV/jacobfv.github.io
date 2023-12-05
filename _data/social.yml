@@ -100,7 +100,7 @@
   star:
   note: Blogging account
   icon: # TODO
-  url: "https://jacobvaldez.substack.com/publish/posts"
+  url: "https://jacobvaldez.substack.com"
 
 - type: youtube
   id: jacobfv123
@@ -121,7 +121,7 @@
   star:
   note: Things I've made
   icon: <img class="show-on-light" src="/assets/img/logos/thingiverse-dark.svg" height="80rem" width="80rem" /><img class="show-on-dark" src="/assets/img/logos/thingiverse-light.svg" height="80rem" width="80rem" />
-  url: https://www.thingiverse.com/jacobfv123/designs
+  url: "https://www.thingiverse.com/jacobfv123/designs"
 
 - type: soundcloud
   id: jacob-valdez-946056620
