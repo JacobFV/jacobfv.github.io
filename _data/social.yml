@@ -125,7 +125,7 @@
 
 - type: insta
   id: jvboid
-  star:
+  star: true
   note:
   icon: <i class="fab fa-instagram"></i>
   url: https://www.instagram.com/jvboid/
