@@ -63,6 +63,13 @@
   icon: <i class="fab fa-twitter"></i>
   url: https://twitter.com/JacobFValdez
 
+- type: facebook
+  id: jvboid
+  star:
+  note:
+  icon: <i class="fab fa-facebook"></i>
+  url: https://www.facebook.com/profile.php?id=100077374237600
+
 - type: github
   id: JacobFV
   star: true
@@ -105,9 +112,23 @@
 - type: youtube
   id: jacobfv123
   star:
-  note: Presentations/animations/<br>experiments/etc.
+  note: Vlog/presentations/animations/<br>experiments/etc.
   icon: <i class="fab fa-youtube"></i>
   url: https://www.youtube.com/channel/UCs5sasWz1dlbrvBo7tBincg
+
+- type: tiktok
+  id: jvboid
+  star:
+  note: vlogs
+  icon: <i class="fab fa-tiktok"></i>
+  url: https://www.tiktok.com/@jvboid
+
+- type: insta
+  id: jvboid
+  star:
+  note:
+  icon: <i class="fab fa-instagram"></i>
+  url: https://www.instagram.com/jvboid/
 
 # - type: onshape
 #   id: jacob_valdez
