@@ -1,32 +1,32 @@
 # core social
 
 - type: mail
-  id: 10601 Clarance Dr.<br>Suite 250 Frisco TX<br> 75033, United States
+  id: 680 Sacramento St. San Fransisco, CA 94111, United States
   star: false
   note:
   icon: <i class="fas fa-envelope"></i>
   url:
 
+- type: anonymous feedback
+  id: anonymous feedback
+  star: true
+  note:
+  icon: <i class="fas fa-message"></i>
+  url: https://www.admonymous.co/jvboid
+
+- type: email (Human Robot)
+  id: jacob.valdez@humanrobots.ai
+  star: true
+  note: 
+  icon: <i class="fas fa-envelope"></i>
+  url: mailto:jacob.valdez@humanrobots.ai
+
 - type: email (Limboid)
   id: jacob.valdez@limboid.ai
-  star: true
+  star: false
   note: Primary email address
   icon: <i class="fas fa-envelope"></i>
   url: mailto:jacob.valdez@limboid.ai
-
-- type: email (Animoid)
-  id: jacob.valdez@animoid.ai
-  star: false
-  note: 
-  icon: <i class="fas fa-envelope"></i>
-  url: mailto:jacob.valdez@animoid.ai
-
-- type: email (ComputaCo)
-  id: jacob.valdez@computaco.ai
-  star: false
-  note: 
-  icon: <i class="fas fa-envelope"></i>
-  url: mailto:jacob.valdez@computaco.ai
 
 - type: email (TensaCo)
   id: jacob.valdez@tensaco.ai
@@ -51,14 +51,14 @@
 
 - type: discord
   id: jacob-valdez#5523
-  star: true
+  star:
   note:
   icon: <i class="fab fa-discord"></i>
   url: https://discord.gg/hq9eWGeyPM
 
 - type: twitter
   id: jvboid
-  star:
+  star: true
   note:
   icon: <i class="fab fa-twitter"></i>
   url: https://twitter.com/JacobFValdez
