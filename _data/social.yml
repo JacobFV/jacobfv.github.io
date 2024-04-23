@@ -32,7 +32,7 @@
   id: jacob.valdez@tensaco.ai
   star: false
   note: 
-  icon: <i class="fas fa-envelope"></i>
+  icon: <i class="fas fa-trash-can"></i>
   url: mailto:jacob.valdez@tensaco.ai
 
 - type: spam
@@ -61,7 +61,7 @@
   star: true
   note:
   icon: <i class="fab fa-twitter"></i>
-  url: https://twitter.com/JacobFValdez
+  url: https://twitter.com/jvboid
 
 - type: facebook
   id: jvboid
