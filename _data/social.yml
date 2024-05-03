@@ -77,6 +77,13 @@
   icon: <i class="fab fa-github"></i>
   url: https://github.com/JacobFV
 
+- type: beacons
+  id: jvboid
+  star:
+  note:
+  icon:
+  url: https://beacons.ai/jvboid
+
 # cloud solutions
 
 - type: google
