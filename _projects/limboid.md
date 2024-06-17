@@ -20,6 +20,6 @@ description: Humanoid robot
 bullet_points: | # at least two bullet points
     - Hydraulic actuated, endoskeletal humanoid robot
     - Technologies: 3D Printing, CNC routing, plasma cutting, PCB fab
-    - Artifacts available on request
+    - WIP! Artifacts available on request
 
 ---

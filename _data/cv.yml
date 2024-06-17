@@ -36,24 +36,47 @@
 - title: Experience
   type: time_table
   contents:
+    
+    - title: Full-Stack Pipeline Engineer (IC)
+      institution: "<a href='https://www.florafauna.ai//'>Flora Creative Systems</a>"
+      year: 2024 - 2024
+      description:
+        - "Worked alongside team of 10 other SwE's to build node-based AI media editor"
+        - "Implemented node editor drawing integration and user credit tracking refinement"
+
+    - title: Developer (IC)
+      institution: UTA College of Social Work, Arlington TX
+      year: 2024 - 2024
+      description:
+        - "Helping interns complete <a href='http://myamble.github.io/myamble-user-website'>MyAmble</a>: a full stack PWA for social work surveys with realtime LLM-driven analyses"
+    
+    - title: Full-stack founding engineer
+      institution: Everything Estate Sales
+      year: 2024 - Present
+      description:
+        - "Building fullstack Next.js PWA web app <a href='https://everythingestatesales.com'>everythingestatesales.com</a> for Afternoon Estate Sales LLC"
+    
     - title: Software Engineer
       institution: "<a href='https://motio.com/'>Motio Inc</a>"
       year: 2022 - 2023
       description:
-        - Develop <a href='https://motio.com/products/soterre/soterre-for-qlik-sense/'>Soterre for Qlik Sense</a>
-        - Started as intern in June; full-time after August 16th 2022
+        - "Develop <a href='https://motio.com/products/soterre/soterre-for-qlik-sense/'>Soterre for Qlik Sense</a>"
+        - "Started as intern in June; full-time after August 16th 2022"
+    
     - title: Student Research Assistant
       institution: "<a href='https://itlab.uta.edu'>IT Lab, UTA</a>"
       year: 2021 - 2022
       description:
         - Collaborated with research group to evolve and test a flask-based statistical visualization tool <a href='https://github.com/banditsbeware/dash'>CoWiz (renamed as Dash)</a>
         - Developed full stack web server <a href='https://github.com/JacobFV/mln-dashboard'>MLN-Dashboard</a> using Next-React-GraphQL-Strapi stack
+    
     - title: Student Research Assistant
       institution: UTA College of Social Work, Arlington TX
       year: 2021 - 2022
       description:
         - Maintained and enhanced multi-platform (iOS and Android) data collecting application <a href='http://myamble.github.io/myamble-user-website'>MyAmble</a> and web admin dashboard
         - "Stack: javascript, firebase, flutter (mobile), and vue (admin dash)"
+    
     - title: Crew Trainer
       institution: McDonald's, Midlothian TX
       year: 2016 - 2020

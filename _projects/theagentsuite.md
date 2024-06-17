@@ -20,6 +20,6 @@ description: Empowering Small, Medium and Large Size Enterprises Cut Costs, Redu
 bullet_points: | # at least two bullet points
     - Teammates: Garrett Sheyan & Matt Patternostro
     - Stack: Python, supabase, postgres, sqlmodel/pydantic/fastapi, stripe, typescript, react-native, expo
-    - WIP. Source available on request.
+    - Left for ethical reasons
 
 ---
