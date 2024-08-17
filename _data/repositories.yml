@@ -1,8 +1,132 @@
 github_users:
   - JacobFV
   - Limboid
+  - TensaCo
+  - ComputaCo
+  - ComputaCode
+  - EditorObjects
+  - gohumanfund
+  - Human-Worker
+  - humanrobots
+  - myamble
 
 github_repos:
+  # Personal
+  - JacobFV/JacobFV
+  - JacobFV/jacobfv.github.io
+  - JacobFV/resumeszzz
+  - JacobFV/manifesto
+  - JacobFV/fast-saas
+  - JacobFV/Implicate-Morphogenic-Potentiality
+  - JacobFV/research-1
+  - JacobFV/TheMorphicResonantUniverse
+  - JacobFV/agent-twitter-client
+  - JacobFV/fun-with-lex
+  - JacobFV/fun-with-yac
+  - JacobFV/dream
+  - JacobFV/type-server
+  - JacobFV/calib_challenge
+  - JacobFV/social-media-network
+  - JacobFV/gujarati-quiz-app
+  - JacobFV/EverythingEstateSale
+  - JacobFV/criminal-ai-detection-object-detection-app
+  - JacobFV/dashboard
+  - JacobFV/AutoNode
+  - JacobFV/fullstack-template
+  - JacobFV/deep-numbers
+  - JacobFV/icpp_llm
+  - JacobFV/sim-social
+  - JacobFV/wazzup
+  - JacobFV/icgpt
+  - JacobFV/nextjs-subscription-payments
+  - JacobFV/tree2md
+  - JacobFV/psyqd
+  - JacobFV/jvboid.art
+  - JacobFV/assets
+  - JacobFV/monorepo-factory
+  - JacobFV/ruliad
+  - JacobFV/animoid_v0
+  - JacobFV/animoid
+  - JacobFV/boid
+  - JacobFV/transinformalizing-humanity
+  - JacobFV/LibreChat
+  - JacobFV/OpenAI_Agent_Swarm
+  - JacobFV/type-categories
+  - JacobFV/ctai
+  - JacobFV/The-Domain
+  - JacobFV/precedent
+  - JacobFV/my-links
+  - JacobFV/alpaca-trading-bot
+  - JacobFV/contextmanaged-objects
+  - JacobFV/contextmanaged-assign
+  - JacobFV/simple-dotdict
+  - JacobFV/BridgeData-V2
+  - JacobFV/chatgpt-plugin
+  - JacobFV/inspect_mate-pp
+  - JacobFV/Potential.AI
+  - JacobFV/no-shit
+  - JacobFV/gpt-engineer
+  - JacobFV/jacobfv.github.io-old-7-23
+
+  # AI and Machine Learning
+  - JacobFV/jnumpy
+  - JacobFV/multigraph-nn
+  - JacobFV/tf-som
+  - JacobFV/AGI
+  - JacobFV/smae
+  - JacobFV/jaygents
+  - JacobFV/glom-tensorflow
+  - JacobFV/Computatrum-2019-attempt
+  - JacobFV/Nodal-RL
+  - JacobFV/Nodal-SL
+  - JacobFV/langchain
+  - JacobFV/autolang
+  - JacobFV/brain
+  - JacobFV/run-wild
+  - JacobFV/big-and-open-worlds
+  - JacobFV/simple-computatrum
+  - JacobFV/gym
+  - JacobFV/convogpt
+  - JacobFV/gpt3-cli
+  - JacobFV/Scattered-AGI-Ideas
+  - JacobFV/tensorcode
+
+  # Projects and Utils
+  - JacobFV/sodp-team114
+  - JacobFV/factory-server
+  - JacobFV/Workplace-Surveillance-System
+  - JacobFV/CUILIB
+  - JacobFV/jplotlib
+  - JacobFV/outdoors
+  - JacobFV/jekyll-phone-protect
+  - JacobFV/Discrete-Averager
+  - JacobFV/rewriter
+  - JacobFV/quantumrandom
+
+  # School and Teaching
+  - JacobFV/20Questions
+  - JacobFV/DesparadosAEYE
+  - JacobFV/Sale
+  - JacobFV/SQT-English-to-Spanish-Translator
+  - JacobFV/Labatron
+  - JacobFV/CookieControl
+  - JacobFV/Arduino-CookieControl
+  - JacobFV/Copyright-Calculator
+  - JacobFV/Ballistic-Physics
+  - JacobFV/Polyatomic-Dominoes
+  - JacobFV/naive_bayes
+  - JacobFV/JFS
+  - JacobFV/JOSS
+  - JacobFV/ai-proverbs
+  - JacobFV/latex-altacv-resume
+  - JacobFV/Artificial-Intelligence-Principle-and-Practice
+  - JacobFV/Electromagnetism-and-Quantum-Computing
+  - JacobFV/particle-accelerator
+
+  # Work
+  - JacobFV/mln-dashboard
+  - JacobFV/dash
+
   # Limboid
   - Limboid/the-fertile-crescent
   - Limboid/mutt
@@ -21,56 +145,81 @@ github_repos:
   - Limboid/limboid-robot
   - Limboid/company
 
-  # older AI
-  - JacobFV/jnumpy
-  - JacobFV/multigraph-nn
-  - JacobFV/tf-som
-  - JacobFV/AGI
-  - JacobFV/smae
-  - JacobFV/jaygents
-  - JacobFV/glom-tensorflow
-  - JacobFV/Computatrum-2019-attempt
-  - JacobFV/Nodal-RL
-  - JacobFV/Nodal-SL
+  # Additional repos
+  - JacobFV/S-1-tall
+  - JacobFV/repo-orchestrator
+  - JacobFV/vnc_env
+  - JacobFV/gpc-0
+  - JacobFV/EasyMLN
+  - JacobFV/mylimboid
+  - JacobFV/multi-graph-former
+  - JacobFV/street-lookup
+  - JacobFV/datasheetmaker
+  - JacobFV/Memorize
 
-  # personal projects
-  - JacobFV/sodp-team114
-  - JacobFV/factory-server
-  - JacobFV/Workplace-Surveillance-System
+  # Human-Worker repos
+  - Human-Worker/humanworker-server-web2
+  - Human-Worker/humanworker-frontend
+  - Human-Worker/humanworker-server-web3
 
-  # school
-  - JacobFV/20Questions
-  - JacobFV/DesparadosAEYE
-  - JacobFV/Sale
-  - JacobFV/SQT-English-to-Spanish-Translator
-  - JacobFV/Labatron
-  - JacobFV/CookieControl
-  - JacobFV/Arduino-CookieControl
-  - JacobFV/Copyright-Calculator
-  - JacobFV/Ballistic-Physics
-  - JacobFV/Polyatomic-Dominoes
-  - JacobFV/naive_bayes
+  # ComputaCo repos
+  - ComputaCo/lmi
+  - ComputaCo/hsl
+  - ComputaCo/lmi-ide
+  - ComputaCo/lmi-web-browser
+  - ComputaCo/lmi-calculator
+  - ComputaCo/lmi-terminal
+  - ComputaCo/gptOS
+  - ComputaCo/ComputaCore
+  - ComputaCo/context-managed-singleton
+  - ComputaCo/lmgui
+  - ComputaCo/object-api
+  - ComputaCo/react-native-svgator-player
+  - ComputaCo/react-native-svgator-player-demo
+  - ComputaCo/ComputaVerse
+  - ComputaCo/idb-active-record
+  - ComputaCo/SOP
+  - ComputaCo/computa-env
+  - ComputaCo/ComputaCode
+  - ComputaCo/computatrum-nn
+  - ComputaCo/computatrum-lm
+  - ComputaCo/ComputaComm
+  - ComputaCo/ComputaVerse3D
+  - ComputaCo/ComputaChat-old-
+  - ComputaCo/ComputaCo
+  - ComputaCo/ComputaComm-old-
+  - ComputaCo/dumpwd
+  - ComputaCo/singleton
+  - ComputaCo/templated
+  - ComputaCo/parselpy
+  - ComputaCo/computils
+  - ComputaCo/computatrum.io
 
-  - JacobFV/JFS
-  - JacobFV/JOSS
+  # ComputaCode repos
+  - ComputaCode/code-2
+  - ComputaCode/code-1
 
-  # teaching
-  - JacobFV/ai-proverbs
-  - JacobFV/latex-altacv-resume
-  - JacobFV/Artificial-Intelligence-Principle-and-Practice
-  - JacobFV/Electromagnetism-and-Quantum-Computing
-  - JacobFV/particle-accelerator
+  # myamble repos
+  - myamble/myamble-pwa-3.0.jv.0
+  - myamble/myamble-5
+  - myamble/myamble-pwa
+  - myamble/myAmble2024
+  - myamble/myamble-mobile
+  - myamble/myamble-admin
+  - myamble/one-off-scripts
+  - myamble/myamble-user-website
+  - myamble/cloud-function-for-messaging
 
-  # work
-  - JacobFV/mln-dashboard
-  - JacobFV/dash
+  # TensaCo repos
+  - TensaCo/tensacode-py
+  - TensaCo/tensacode
+  - TensaCo/tensacode-ts
+  - TensaCo/tensacode-swift
+  - TensaCo/tensacode-csharp
+  - TensaCo/tensacode-java
+  - TensaCo/tensacode-cpp
+  - TensaCo/tensacode-kotlin
+  - TensaCo/tensacode-dart
+  - TensaCo/treeops
 
-  # utils
-  - JacobFV/CUILIB
-  - JacobFV/jplotlib
-  - JacobFV/outdoors
-  - JacobFV/jekyll-phone-protect
-  - JacobFV/Discrete-Averager
-  - JacobFV/rewriter
-
-  # dumpster
+  # Dumpster (empty section, can be used for future additions)

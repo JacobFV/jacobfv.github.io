@@ -18,7 +18,7 @@ keywords: Jacob, Jacob Valdez, Jacob F Valdez, jacobfvaldez, AI, research, artif
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://jacobfv.github.io # the base hostname & protocol for your site
+url: https://jvboid.dev # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -69,17 +69,17 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: JacobFV # your GitHub user name
 gitlab_username: jacobfv123 # your GitLab user name
-twitter_username: JacobFValdez # your Twitter handle
+twitter_username: jvboid # your Twitter handle
 linkedin_username: jacob-f-valdez # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0009-0003-0583-1399 # your ORCID ID
 medium_username: jacobfv123 # your Medium username
-quora_username: # your Quora username
+quora_username: Jacob-Valdez-127 # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: https://jacobfv.github.io # work page URL
+work_url: https://jvboid.dev # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
@@ -87,8 +87,8 @@ stackoverflow_id: 14971315 # your stackoverflow id
 kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
 spotify_id: # your spotify id
-pinterest_id: # your pinterest id
-unsplash_id: # your unsplash id
+pinterest_id: jvboid # your pinterest id
+unsplash_id: jvboid # your unsplash id
 instagram_id: jvbiod # your instagram id
 facebook_id: jvboid # your facebook id
 discord_id: jacob-valdez#5523 # your discord id (18-digit unique numerical identifier)

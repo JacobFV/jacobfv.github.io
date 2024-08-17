@@ -1,142 +1,237 @@
-- title: Education
-  type: time_table
-  contents:
-    - title: BSCS
-      institution: The University of Texas at Arlington, Arlington, TX
-      year: 2020 - 2022
-      start: 2020-06-01
-      end: 2022-08-12
-      description:
-        - Studied CS with focus on ML
-        - Networked with professors, PhD's, and ML industry figures
-        - "Also learned to operate CNC's and shop equiptment at the <a href='https://libraries.uta.edu/services/fablab'>FabLab</a>"
-        - "GPA: 3.6/4.0"
-
-    - title: AAS in Mathematics
-      institution: Navarro College, Waxahachie, TX
-      year: 2014 - 2018
-      start: 2014-09-01
-      end: 2018-05-01
-      description:
-        - 85 hours completed
-        - "Graduated <i>Magna Cum Laude</i>"
-        - "GPA: 3.9/4.0"
-
-    - title: STEM classes + Navarro College and UT Tyler dual-credit program
-      institution: Waxahachie Global High School, Waxahachie, TX
-      year: 2014 - 2018
-      start: 2014-08-01
-      end: 2018-05-01
-      description:
-        - "Created dozens of <a href='https://jacobfvaldez.weebly.com/engineering.html'>projects</a> and <a href='https://jacobfvaldez.weebly.com/videos.html'>videos</a>, wrote a <a href='https://jacobfvaldez.weebly.com/programming.html'>handful of programs</a>, and  gave more than a <a href='https://jacobfvaldez.weebly.com/presentations.html'>dozen presentations</a>"
-        - "Took Calculus I-III and Linear Differential Equations in my senior year and made A+'s"
-        - Graduated rank 7
-        - "GPA: 3.9/4.0; 5.6/6.0"
-
 - title: Experience
   type: time_table
   contents:
-    
-    - title: Full-Stack Pipeline Engineer (IC)
-      institution: "<a href='https://www.florafauna.ai//'>Flora Creative Systems</a>"
-      year: 2024 - 2024
-      description:
-        - "Worked alongside team of 10 other SwE's to build node-based AI media editor"
-        - "Implemented node editor drawing integration and user credit tracking refinement"
-
     - title: Developer (IC)
-      institution: UTA College of Social Work, Arlington TX
-      year: 2024 - 2024
+      institution: UTA College of Social Work
+      year: June 2024 - Present
       description:
-        - "Helping interns complete <a href='http://myamble.github.io/myamble-user-website'>MyAmble</a>: a full stack PWA for social work surveys with realtime LLM-driven analyses"
-    
-    - title: Full-stack founding engineer
-      institution: Everything Estate Sales
-      year: 2024 - Present
+        - Helping interns complete MyAmble, a full stack PWA for social work surveys with real-time LLM-driven analyses
+
+    - title: Full-Stack Pipeline Engineer (IC)
+      institution: Flora Creative Systems
+      year: June 2024 - June 2024
       description:
-        - "Building fullstack Next.js PWA web app <a href='https://everythingestatesales.com'>everythingestatesales.com</a> for Afternoon Estate Sales LLC"
-    
+        - Worked alongside team of 10 other software engineers to build a node-based AI media editor
+        - Implemented node editor drawing integration and user credit tracking refinement
+
+    - title: Independent Research & Development
+      institution: Human Robot, Midlothian, TX
+      year: Jan 2023 - May 2024
+      description:
+        - "Worked on Human Robot: a $1,000 general-purpose humanoid robot prototype with full-scale articulation (not yet finished)"
+        - Engineered innovative low-pressure hydraulic systems, achieving 10x+ cost reduction in valves, actuators, and prime movers
+        - Designed for scalable manufacturing using welded plastic, CNC routed MDF, plasma cut sheet metal, and custom PCBs
+        - Conducted research in neurosymbolic AI, focusing on advanced control architectures for humanoid robots
+        - Pitched project to investors, including Z Fellows (top 10% applicant); received $10k seed funding from aunt, Debra Morgan
+        - Developed comprehensive business plan targeting $1000 price point with $100/mo AI subscription
+        - Gained valuable experience in mechanical, robotics, and AI engineering as well as startup basics
+
     - title: Software Engineer
-      institution: "<a href='https://motio.com/'>Motio Inc</a>"
-      year: 2022 - 2023
+      institution: Motio Inc
+      year: June 2022 - Jan 2023
       description:
-        - "Develop <a href='https://motio.com/products/soterre/soterre-for-qlik-sense/'>Soterre for Qlik Sense</a>"
-        - "Started as intern in June; full-time after August 16th 2022"
-    
+        - Developed Soterre for Qlik Sense
+        - Started as intern in June; full-time after August 16th 2022
+
     - title: Student Research Assistant
-      institution: "<a href='https://itlab.uta.edu'>IT Lab, UTA</a>"
-      year: 2021 - 2022
+      institution: IT Lab, UTA
+      year: June 2021 - May 2022
       description:
-        - Collaborated with research group to evolve and test a flask-based statistical visualization tool <a href='https://github.com/banditsbeware/dash'>CoWiz (renamed as Dash)</a>
-        - Developed full stack web server <a href='https://github.com/JacobFV/mln-dashboard'>MLN-Dashboard</a> using Next-React-GraphQL-Strapi stack
-    
+        - Collaborated with research group to evolve and test a flask-based statistical visualization tool CoWiz (renamed as Dash)
+        - Developed full stack web server MLN-Dashboard using Next-React-GraphQL-Strapi stack
+
     - title: Student Research Assistant
-      institution: UTA College of Social Work, Arlington TX
-      year: 2021 - 2022
+      institution: UTA College of Social Work
+      year: June 2021 - May 2022
       description:
-        - Maintained and enhanced multi-platform (iOS and Android) data collecting application <a href='http://myamble.github.io/myamble-user-website'>MyAmble</a> and web admin dashboard
-        - "Stack: javascript, firebase, flutter (mobile), and vue (admin dash)"
-    
+        - Maintained and enhanced multi-platform (iOS and Android) data collecting application MyAmble and web admin dashboard
+        - Stack: JavaScript, Firebase, Flutter (mobile), and Vue (admin dash)
+
     - title: Crew Trainer
       institution: McDonald's, Midlothian TX
-      year: 2016 - 2020
+      year: May 2016 - Mar 2020
       description:
         - Led safety committee and addressed employees during 30-minute monthly safety meetings
         - Trained employees on-the-job and formally
         - In addition to 4 years of formal education, actively used Spanish on-the-job
 
-- title: Projects
-  type: cv_projects
-
-- title: Achievements
+- title: Education
   type: time_table
   contents:
-    - title: 2022 Future Texas Business Legend Award Finalist
-      institution: Texas Business Hall of Fame
-      display_date: Spring 2022
-      year: 2022-02-15
-      description: For submitting <a href='/assets/pdf/Limboid-LLC-Business Plan.pdf'>Limboid LLC business proposal</a>
+    - title: B.S. Computer Science
+      institution: The University of Texas at Arlington, Arlington, TX
+      year: June 2020 - Aug 2022
+      description:
+        - "GPA: 3.6/4.0"
 
-    - title: Co-Author on Paper Accepted to Baltic DB&IS 2022 Conference
-      institution: Baltic DB&IS 2022
-      display_date: Spring 2022
-      year: 2022-04-15
-      description: "For co-authoring <a href='https://link.springer.com/chapter/10.1007/978-3-031-09850-5_16'>ModViz: A Modular and Extensible Architecture for Drill-Down and Visualization of Complex Data</a>"
+    - title: A.A.S. in Mathematics
+      institution: Navarro College, Waxahachie, TX
+      year: Sept 2014 - May 2018
+      description:
+        - "GPA: 3.9/4.0"
+        - 85 hours completed
+        - Dual-credit program
 
-    - title: Broaden and Build Conference Honorable Mention
-      institution: UTA College of Social Work
-      year: 2021-09-27
-      description: For presenting work <a href='https://jacobfv.github.io/projects/broadening-and-building-beyond-classical-reinforcement-learning/'>Broadening and Building Beyond Classical Reinforcement Learning</a>
+- title: Projects
+  type: time_table
+  contents:
+    - title: Human Robot
+      year: Feb 2019 - Present
+      description:
+        - Began development of a full-scale humanoid robot prototype with 2 legs, 2 arms, 5 fingers per hand, supporting all major body articulations
+        - Integrated 3MP & 12MP dual cameras, stereo mics, stereo speakers, and various sensors
+        - Designed for fast, scalable manufacturing using mostly welded plastic, CNC routed MDF, plasma cut sheet metal, and off-the-shelf components
+        - Engineered custom PCBs and injection molded parts to minimize costs and optimize performance
+        - Achieved 10x+ cost reduction in low pressure hydraulic valve, actuator, and prime mover fabrication
+        - Pitched innovative robotics technology to investors including ZFellows, Inception Studio, Schematic Ventures, VibeCap, StarshipVC, Y Combinator, and 1517 Fund. Received $10k seed funding from Debra Morgan (family)
+        - Developed comprehensive business plan targeting $1000 price point with $100/mo AI subscription
 
-    - title: SCRF Honorable Mention + &dollar;100 award
-      institution: UTA CSE Dept
-      display_date: Spring 2021
-      year: 2021-04-01
-      description: For presenting work <a href='https://docs.google.com/presentation/d/1L2UdsujqXwl5R9h3t-tOJ5IhbWIXcyU0e3C4x5geHxk/edit?usp=sharing'>Predictive General Intelligence</a>
+    - title: MLN-Dashboard
+      year: Oct 2021 - May 2022
+      description:
+        - Developed a full-stack Next.js web server for complex data visualization and analysis
+        - Implemented modular architecture allowing easy integration of new data sources and visualization types
+        - Utilized GraphQL for efficient data querying and Prisma for robust database management
+        - Later began integrating Strapi CMS for improved content management and user interface customization
+
+    - title: 20Q
+      year: June - Aug 2021
+      description:
+        - Collaborated in a 4-person team to develop an Android app for the classic 20 Questions game
+        - Implemented game logic and algorithm for app to guess user's thought based on responses
+        - Utilized Java and Kotlin programming languages for Android development
+
+    - title: DesparadosAEye
+      year: Jan - May 2021
+      description:
+        - Led a 5-person team as project manager, general app developer, and ML engineer
+        - Implemented on-device conversational AI using Facebook's BlenderBot-small, compiled to TFLite format
+        - Developed one of the first applications to use BlenderBot for on-device mobile chatting
+
+    - title: CookieCutter CNC
+      year: May 2021 - Jun 2021
+      description:
+        - Designed and built a 2x2 plasma cutter CNC machine to automate sheet metal cutting process
+        - Developed Windows software in C# to process SVG files and generate optimized path coordination code
+        - Created Arduino firmware to interpret commands and control machine movements
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python, JavaScript, TypeScript, Java, C#, Kotlin, VB6
+    - title: Web Technologies
+      items:
+        - React, Next.js, GraphQL, Node.js, Vue.js, Flask
+    - title: Database Systems
+      items:
+        - PostgreSQL, SQLite, Firebase
+    - title: Data Science & Machine Learning
+      items:
+        - TensorFlow, Keras, PyTorch, BERT
+    - title: Cloud Technologies
+      items:
+        - AWS, Firebase, Google Cloud Platform
+    - title: DevOps & Version Control
+      items:
+        - Git, GitHub, Docker/Compose
+    - title: Other Tools & Technologies
+      items:
+        - Android Development, Flutter, Blender, 3D Printing, CNC routing, PCB fabrication
 
 - title: Certifications
   type: time_table
   contents:
-    - title: AWS Certified Machine Learning Engineer – Specialty
-      year: Feb 2022 # 2022-02-01
+    - title: AWS Certified Machine Learning - Specialty
+      year: Feb 2022
+    - title: TensorFlow Developer Certificate
+      year: Apr 2021
+    - title: DeepLearning.AI TensorFlow Developer Specialization
+      year: Oct 2020
+    - title: AWS Certified Developer - Associate
+      year: Mar 2019
+    - title: AWS Certified SysOps Administrator - Associate
+      year: Mar 2019
+    - title: AWS Certified Solutions Architect - Associate
+      year: Mar 2019
 
-    - title: Google TensorFlow Developer Certification
-      year: April 2021 # 2021-04-01
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - title: Top 10% Applicant - Z Fellows Program
+      year: Spring 2024
+    - title: 2022 Future Texas Business Legend Award Finalist
+      year: Feb 2022
+    - title: Co-Author on Paper Accepted to Baltic DB&IS 2022 Conference
+      year: Apr 2022
+    - title: Broaden and Build Conference Honorable Mention
+      year: Sept 2021
+    - title: SCRF Honorable Mention + $100 award
+      year: Apr 2021
+    - title: 20% Project Presentation Honorable Mention
+      year: May 2013
 
-    - title: DeepLearning.AI TensorFlow Developer
-      year: Oct 2020 # 2020-10-15
+- title: Leadership Experience
+  type: time_table
+  contents:
+    - title: Crew Trainer and Safety Committee Organizer
+      institution: McDonald's
+      year: Jul 2018 - Mar 2020
+      description:
+        - Led Safety Committee and addressed employees during monthly safety meetings
+        - Trained and mentored new employees both on-the-job and through formal sessions
+        - Ensured compliance with safety protocols and procedures across all restaurant operations
 
-    - title: Deep Learning Specialization by DeepLearning.AI
-      year: Sept 2020 # 2020-09-30
+    - title: Biology Lab Group Leader
+      institution: General Biology I DC, Senior Year at WGHS
+      year: Sept 2017 - Dec 2017
+      description:
+        - Initiated and organized a biology lab group to streamline activities for a new teacher
+        - Authored and implemented a group contract outlining safety, task management, and communication protocols
+        - Led the Coordinator's Committee, overseeing group instruction, appointing leads, and managing progress schedules
 
-    - title: AWS Certified Developer – Associate
-      year: Mar 2019 # 2019-03-18
+- title: Volunteer Experience
+  type: time_table
+  contents:
+    - title: Founder and Operator
+      institution: GoHuman Fund
+      year: 2024 - Present
+      description:
+        - Founded and operate a global micro-seed fund investing/granting in innovative projects across various fields
+        - Deployed $1,100 of personal funds to support promising entrepreneurs and prodigies worldwide
+        - Manage quarterly capital deployments to foster early-stage R&D
+        - Provide mentorship, networking opportunities, and emotional support to fund recipients
 
-    - title: AWS Certified SysOps Administrator – Associate
-      year: Mar 2019 # 2019-03-18
+- title: Additional Information
+  type: list
+  contents:
+    - "Languages: English (Native), Spanish (Conversational)"
+    - "Interests: Neurosymbolic AI, Humanoid Robotics, Entrepreneurship/Investing, Full-Stack Development, 3D Printing, CNC Machining, Neuroscience and Deep Learning Theory, X Posting"
 
-    - title: AWS Certified Solutions Architect – Associate
-      year: Mar 2019 # 2019-02-27
+- title: References
+  type: nested_list
+  contents:
+    - title: Weber Wong
+      items: 
+        - "Founder/CEO, Flora Creative Systems"
+        - "Email: weber@florafauna.ai"
+        - "Relationship: CEO"
+    - title: Deok Gun Park
+      items:
+        - "Research Scientist, Stanford University"
+        - "Email: intuinno@gmail.com"
+        - "Relationship: Undergrad research advisor"
+    - title: Debra Henderson Morgan
+      items:
+        - "Managing Director, CohnReznick LLP"
+        - "Email: debra.morgan@cohnreznick.com"
+        - "Relationship: Aunt, Investor"
+    - title: Mark Summersett
+      items:
+        - "Branch Supervisor (retired), PGW Autoglass"
+        - "Email: mark@summersett.us"
+        - "Relationship: Friend/life mentor"
 
 - title: Long-Term Goals
   type: nested_list
