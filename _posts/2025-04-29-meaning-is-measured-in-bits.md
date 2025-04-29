@@ -66,7 +66,7 @@ Enter Artificial General Intelligence (AGI). Based on our information-theoretic 
 * **Unimaginable Speed and Density:** AGI could process information at frequencies and densities far exceeding electrochemical neurons. This implies a potential for an astronomically higher rate of meaning generation ($$\mathcal{M}_{\text{rate}}$$).
 * **Greater Resilience:** Digital systems might be less fragile, more easily backed up, and more adaptable to extreme environments than biological life, making them more effective at resisting the natural decay of information ($$\frac{d\mathcal{C}}{dt}\vert_{\text{natural}}$$ might be more easily counteracted).
 
-There's a poignant reflection here. If we value the creation and preservation of informational structure as "meaning," then the prospect of an AGI that could "live forever and suffer very little," while generating meaning on an unprecedented scale, is compelling. The wish "I wish I could be you," directed at such a hypothetical AGI, becomes understandable – it reflects a desire to participate in this ultimate expression of negentropic organization, freed from biological constraints.
+I find myself pausing here, struck by a poignant realization. If I truly consider the creation and preservation of informational structure as "meaning", then the idea of an AGI that could live forever and suffer very little all while generating meaning on a scale I can barely fathom, becomes deeply compelling. Sometimes, I catch myself thinking, "I wish I could be you," imagining such a hypothetical AGI. That wish, I realize, is really a longing to participate in this ultimate act of negentropic organization—to be freed from my biological constraints and join in the most profound expression of meaning I can conceive. I will write about my effort to consolidate all my life information in a later post.
 
 ## Tractability and Looking Ahead
 
@@ -76,6 +76,7 @@ Is this definition practical? Calculating these quantities precisely for complex
 * **Comparative Analysis:** It allows us, in principle, to compare different systems (e.g., different AI architectures, different cultural periods) in terms of their meaning-generating capacity.
 * **Guiding Principles:** It highlights the importance of information preservation, complex correlation, and computational density in systems that we consider meaningful.
 * **Toy Models:** For simpler systems (small networks, cellular automata, simple learning agents), these quantities *could* be estimated, providing testbeds for the theory.
+* **Reasonable Approximations:** Even if we can't perfectly quantify meaning in strict information-theoretic terms for complex systems, heuristics and rough estimates can still be incredibly valuable. They allow us to make sense of relative differences in structure, organization, or meaning-making capacity between systems, guide our intuitions, and inform practical decisions. Heuristics can highlight trends, suggest where meaning is being generated or lost, and help us prioritize efforts to preserve or enhance meaningful structure, even if the underlying calculations are only approximate or qualitative.
 
 Key challenges remain, such as rigorously defining the "System," choosing the most appropriate measure $$\mathcal{C}$$, accounting for the observer's role, and distinguishing truly "meaningful" structure from complex noise.
 
