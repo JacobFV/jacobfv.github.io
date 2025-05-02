@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Implications of a substrate-agnostic moral calculus"
+title: "Implications of a substrate-agnostic moral calculus (⚠️ WIP)"
 date: 2025-04-29
 description: "a thermodynamically grounded framework for substrate-invariant moral valuation, tracing meaning as negentropic flux through agentic causal networks"
 hidden: false
