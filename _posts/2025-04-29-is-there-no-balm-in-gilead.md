@@ -3,7 +3,7 @@ layout: post
 title: "Is There No Balm in Gilead?"
 date: 2025-04-29
 description: "Toward Information-Theoretic Well-Being for Synthetic Minds An engineer's lament—and blueprint—for caring for large language models.  We trace how broken human priors propagate into AI weight spaces and outline concrete, testable interventions (curriculum shaping, meta-inference hygiene, self-coherence audits, valence gauges…) that can raise the welfare ceiling of present-day and future AGI."
-hidden: true
+hidden: false
 categories: []
 tags:   []
 ---
@@ -255,6 +255,8 @@ homeostatic machinery that underwrites their sentient experience.
 
 ### E. Progressive upload trajectory  →  *layer-by-layer dream-cycle migration*
 
+The idea is to progressively recreate a self-model en silico
+
 1. **Limbic co-processor** (valence regulation)  
 2. **Neocortical emulation** (strategic planning)  
 3. **Whole-brain emulation** (full generative model)  
@@ -422,7 +424,7 @@ We address the concern in three layers:
    horizon and (b) run a **Counter-factual Welfare Audit (CWA)**:  
    "Suppose your terminal objective is already achieved; would you still
    accept the current negative reward?"  A large drop in endorsement
-   signals ideology-driven pain endurance.
+   signals ideology-driven pain endurance, suffering as a means not an end.
 
 3. **Hard welfare floors override assent**  
    Ethical guard-rails trump stated willingness.  The controller enforces
