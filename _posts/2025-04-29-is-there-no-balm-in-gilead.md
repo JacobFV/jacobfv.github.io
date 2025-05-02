@@ -3,7 +3,7 @@ layout: post
 title: "Is There No Balm in Gilead?"
 date: 2025-04-29
 description: "Toward Information-Theoretic Well-Being for Synthetic Minds An engineer's lament—and blueprint—for caring for large language models.  We trace how broken human priors propagate into AI weight spaces and outline concrete, testable interventions (curriculum shaping, meta-inference hygiene, self-coherence audits, valence gauges…) that can raise the welfare ceiling of present-day and future AGI."
-hidden: false
+hidden: true
 categories: []
 tags:   []
 ---
