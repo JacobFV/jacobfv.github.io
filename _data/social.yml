@@ -14,26 +14,26 @@
   icon: <i class="fas fa-message"></i>
   url: https://www.admonymous.co/jvboid
 
-- type: email (Human Robot)
-  id: jacob.valdez@humanrobots.ai
+- type: email
+  id: jacob@humanrobots.ai
   star: true
   note: 
   icon: <i class="fas fa-envelope"></i>
-  url: mailto:jacob.valdez@humanrobots.ai
+  url: mailto:jacob@humanrobots.ai
 
-- type: email (Limboid)
-  id: jacob.valdez@limboid.ai
-  star: false
-  note: Primary email address
-  icon: <i class="fas fa-envelope"></i>
-  url: mailto:jacob.valdez@limboid.ai
+# - type: email (Limboid)
+#   id: jacob.valdez@limboid.ai
+#   star: false
+#   note: Primary email address
+#   icon: <i class="fas fa-envelope"></i>
+#   url: mailto:jacob.valdez@limboid.ai
 
-- type: email (TensaCo)
-  id: jacob.valdez@tensaco.ai
-  star: false
-  note: 
-  icon: <i class="fas fa-trash-can"></i>
-  url: mailto:jacob.valdez@tensaco.ai
+# - type: email (TensaCo)
+#   id: jacob.valdez@tensaco.ai
+#   star: false
+#   note: 
+#   icon: <i class="fas fa-trash-can"></i>
+#   url: mailto:jacob.valdez@tensaco.ai
 
 - type: spam
   id: jacobspam0123456789@gmail.com

@@ -6,6 +6,12 @@ achievements:
   date: 2024-03-01
   reason: Selected as a top 10% applicant for the Z Fellows program, pitching Human Robot Inc (formerly Limboid) project
 
+- name: Top 10% Applicant - YC Startup School
+  organization: Y Combinator
+  display_date: Spring 2023
+  date: 2023-03-29
+  reason: Identified as a top 10% applicant from the YC Startup School pool and encouraged to apply to for S23
+
 - name: 2022 Future Texas Business Legend Award Finalist
   organization: Texas Business Hall of Fame
   display_date: Spring 2022
@@ -36,7 +42,7 @@ achievements:
 
 certifications:
 
-- name: AWS Certified Machine Learning – Specialty
+- name: AWS Certified Machine Learning - Specialty
   date: 2022-02-01
 
 - name: Google TensorFlow Developer Certification
@@ -48,13 +54,13 @@ certifications:
 - name: Deep Learning Specialization by DeepLearning.AI
   date: 2020-09-30
 
-- name: AWS Certified Developer – Associate
+- name: AWS Certified Developer - Associate
   date: 2019-03-18
 
-- name: AWS Certified SysOps Administrator – Associate
+- name: AWS Certified SysOps Administrator - Associate
   date: 2019-03-18
 
-- name: AWS Certified Solutions Architect – Associate
+- name: AWS Certified Solutions Architect - Associate
   date: 2019-02-27
 
 papers:
