@@ -1,6 +1,14 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Software Engineer
+      institution: Breezy AI
+      year: April 2025 - Present
+      description:
+        - Designed and implemented the company's browser automation system, enabling scalable and reliable web interactions
+        - Built an intelligent task extraction system to automate and streamline complex workflows
+        - Continue to develop and maintain the Next.js web frontend and Ruby on Rails backend for core product features
+
     - title: Developer (IC)
       institution: Exerton.XYZ
       year: March 2025
@@ -225,29 +233,24 @@
     - "Languages: English (Native), Spanish (Conversational)"
     - "Interests: Neurosymbolic AI, Humanoid Robotics, Entrepreneurship/Investing, Full-Stack Development, 3D Printing, CNC Machining, Neuroscience and Deep Learning Theory, X Posting"
 
-- title: References
-  type: nested_list
-  contents:
-    - title: Weber Wong
-      items: 
-        - "Founder/CEO, Flora Creative Systems"
-        - "Email: weber@florafauna.ai"
-        - "Relationship: CEO"
-    - title: Deok Gun Park
-      items:
-        - "Research Scientist, Stanford University"
-        - "Email: intuinno@gmail.com"
-        - "Relationship: Undergrad research advisor"
-    - title: Debra Henderson Morgan
-      items:
-        - "Managing Director, CohnReznick LLP"
-        - "Email: debra.morgan@cohnreznick.com"
-        - "Relationship: Aunt, Investor"
-    - title: Mark Summersett
-      items:
-        - "Branch Supervisor (retired), PGW Autoglass"
-        - "Email: mark@summersett.us"
-        - "Relationship: Friend/life mentor"
+# - title: References
+#   type: nested_list
+#   contents:
+#     - title: Deok Gun Park
+#       items:
+#         - "Research Scientist, Stanford University"
+#         - "Email: intuinno@gmail.com"
+#         - "Relationship: Undergrad research advisor"
+#     - title: Debra Henderson Morgan
+#       items:
+#         - "Managing Director, CohnReznick LLP"
+#         - "Email: debra.morgan@cohnreznick.com"
+#         - "Relationship: Aunt"
+#     - title: Mark Summersett
+#       items:
+#         - "Branch Supervisor (retired), PGW Autoglass"
+#         - "Email: mark@summersett.us"
+#         - "Relationship: Friend/life mentor"
 
 - title: Long-Term Goals
   type: nested_list
