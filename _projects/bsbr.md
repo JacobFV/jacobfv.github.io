@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: `bsbr`
+title: bsbr
 
 hidden:
 redirect: https://jacobfv.github.io/bsbr/

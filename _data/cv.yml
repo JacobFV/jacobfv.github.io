@@ -11,11 +11,11 @@
 
     - title: Applied ML Engineer (Intern)
       institution: Deepshard
-      year: Sept 2024 – Dec 2024
+      year: Sept 2024 - Dec 2024
       description:
         - Worked alongside team of 8 other engineers to bring Truffle computer to its December 2024 launch
-        - Implemented user interface components for the MacOS app and an endpoint for the website backend ([itsalltruffles.com](https://itsalltruffles.com/))
-        - [Built CAD models](https://x.com/jvboid/status/1869450137703264522) and [ran simulations](https://x.com/jvboid/status/1869450154551738687) on occasions when we didn't have a hardware engineer
+        - "Implemented user interface components for the MacOS app and an endpoint for the website backend ([itsalltruffles.com](https://itsalltruffles.com/))"
+        - "[Built CAD models](https://x.com/jvboid/status/1869450137703264522) and [ran simulations](https://x.com/jvboid/status/1869450154551738687) on occasions when we didn't have a hardware engineer"
 
     - title: Developer (IC)
       institution: UTA College of Social Work
@@ -262,4 +262,4 @@
   type: list
   contents:
     - Walking, hanging out with friends, reading papers, and twittering
-    - I'm never going to have enough time to satisfy most of my interests
+    - I'm never going to have enough time to satisfy most of my interests 
