@@ -12,8 +12,8 @@ children:
     - title: ❓ Questions ↗
       permalink: https://jacobvaldez.notion.site/Questions-8e65810357d940468d083353e18085e0?pvs=4
     - title: divider
-    - title: 📅 Meeting
-      permalink: https://cal.com/jacob-valdez
+    - title: ⚡️ Consultation
+      permalink: https://cal.com/jacob-valdez/vibecoded-tech-consult-w-jacob-valdez
     - title: divider
     - title: twitter ↗
       permalink: https://twitter.com/jvboid

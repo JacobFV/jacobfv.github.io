@@ -28,4 +28,4 @@ Your comfort is paramount to me. If you face any tech glitches, or if something 
 
 Every interaction, whether virtual or in person, holds significance for me. So, whether we feel a profound connection or simply share a delightful conversation, I'll treasure our time together. Every shared moment, after all, is a part of our story.
 
-
+**UPDATE (4/28/25)**: okay i'm in a relationship now but I was cleaning up the code for my site and could not delete this. this is so hilarious what i wrote at 22 lol
