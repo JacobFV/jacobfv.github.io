@@ -8,6 +8,8 @@ categories: []
 tags:   []
 ---
 
+*last updated 2025-07-30*
+
 **What is meaning?** For millennia, humanity has grappled with this question, seeking answers in philosophy, religion, and art. We often feel meaning is subjective, perhaps even mystical – a uniquely human experience tied to purpose, connection, and narrative. But what if meaning, or at least a crucial aspect of it, could be understood through the rigorous lens of physics and information theory? What if it's a quantifiable property of how systems organize themselves against the relentless tide of universal chaos?
 
 This post proposes such a framework: one where meaning is defined information-theoretically, rooted in the creation and preservation of correlations and structure. It suggests that conscious creatures, particularly humans, are potent nexuses of meaning generation precisely because of our ability to weave complex informational patterns that persist over time. And, looking forward, it considers how artificial general intelligence might take this process to scales we can currently only imagine.
