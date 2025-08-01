@@ -3,7 +3,7 @@ layout: post
 title: Multidimensional Alignment Through Principled Spiritual Evolution
 date: 2024-11-10
 description: Sorry this is uncalibbrated. A framework for evaluating and training AGI systems to align with fundamental principles of reality and consciousness.
-hidden: false
+hidden: true
 categories: [ai, idea]
 tags:   [agi]
 ---
