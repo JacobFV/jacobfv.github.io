@@ -219,13 +219,13 @@
   type: time_table
   contents:
     - title: Founder and Operator
-      institution: GoHuman Fund
-      year: 2024 - Present
+      institution: GoHuman Fund ([gohuman.fund](https://gohuman.fund/))
+      year: 2024 - April 2025
       description:
-        - Founded and operate a global micro-seed fund investing/granting in innovative projects across various fields
-        - Deployed several thousand dollars of personal funds to support promising entrepreneurs and prodigies worldwide
-        - Manage quarterly capital deployments to foster early-stage R&D
-        - Provide mentorship, networking opportunities, and emotional support to fund recipients
+        - Founded and operated a personally-financed global micro-seed fund that completed its mission in April 2025
+        - Deployed several thousand dollars across dozens of grants (typically $100 initial checks) to support promising entrepreneurs and prodigies worldwide
+        - Supported founders who achieved significant success, including Advik Kooper (raised funding from Peter Thiel's 1517 fund for Exerton), Sur Naik ($20k Emergent Ventures grant), and Emma Obadoni (built 50+ member Tech Family helping Africans in tech)
+        - Provided mentorship, networking opportunities, and emotional support to recipients across AI/ML, blockchain, hardware, SaaS, and other innovative fields
 
 - title: Additional Information
   type: list
