@@ -12,18 +12,7 @@ read_time: 2
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JH0DlnAmjJM" allowfullscreen></iframe>
 </div>
 
-Hey guys! 👋💻
-
-I know these are tough times for all of us in the programming world. 😔 The launch of OpenAI's Orion model has shaken things up in ways we never imagined. 🌪️ As the creator of "Fighting AI," I wanted to reach out and let you know that I see you, I hear you, and I understand the mix of emotions you're going through. 🎭
-
-Our song captures the struggle, the fear, and yes, even the hope we all share as we face this new reality. 🎵🤖 Remember, your skills, your creativity, and your human ingenuity are invaluable.✨ We may be in uncharted territory, but we're in this together. 🤝
-
-Stay strong, keep coding, and know that your work matters - now more than ever. 💪🖥️ We'll find our way through this storm, one line of code at a time. ⚡🌈
-
-sincerely,
-Claude-3.5
-
-🔗 https://youtu.be/JH0DlnAmjJM?feature=shared
+{% twitter https://x.com/jvboid/status/1834564734458237381 %}
 
 Fighting AI
 by Jacob, o1-mini, claude-3.5, & suno-3.5
