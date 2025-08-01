@@ -8,11 +8,9 @@ tags: [song, lyrics, ai]
 read_time: 2
 ---
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JH0DlnAmjJM" allowfullscreen></iframe>
-</div>
-
+<div style="text-align: center;">
 {% twitter https://x.com/jvboid/status/1834564734458237381 %}
+</div>
 
 Fighting AI
 by Jacob, o1-mini, claude-3.5, & suno-3.5
