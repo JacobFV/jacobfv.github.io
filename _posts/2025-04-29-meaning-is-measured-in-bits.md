@@ -58,7 +58,7 @@ The degree of subjectivity/objectivity that some state's meaning has is given by
 $$\mathcal{M}_{\text{rate}}^*(A, S, t) = \mathbb{E}_{O \sim P(\mathcal{O})}[\mathcal{M}_{\text{rate}}(A, S, O, t)]$$
 $$\mathcal{M}_{\text{total}}^*(A, S, [t_0, t_f]) = \mathbb{E}_{O \sim P(\mathcal{O})}[\mathcal{M}_{\text{total}}(A, S, O, [t_0, t_f])]$$
 
-## The Human Nexus: Concentrated Meaning-Making
+## Humans are a Nexus of Meaning-Making
 
 This framework helps clarify why humans feel central to the concept of meaning. Our brains and the cultural systems they create are unparalleled **nexuses of causal structure** in the known universe.
 
@@ -70,15 +70,65 @@ This framework helps clarify why humans feel central to the concept of meaning. 
 
 We conscious creatures, through our biological and cultural evolution, have become the universe's premier instruments for creating persistent, complex informational structures. We are, in a very real sense, where the universe correlates itself most intensely and enduringly.
 
+### Absolute and Incidental Morality
+
 Perhaps this explains why ancient dualistic traditions—from Zoroastrianism's cosmic battle between Ahura Mazda (order, truth) and Angra Mainyu (chaos, deception) to Christianity's eternal struggle between divine structure and entropic sin—resonated so deeply across civilizations. These frameworks may represent humanity's first intuitive grasp of the information-theoretic battle we've formalized here. What they called "good" often correlates precisely with actions that increase $$\mathcal{M}_{\text{rate}}$$: building social coherence, preserving knowledge across generations, fostering correlations that resist decay. "Evil" conversely accelerates informational entropy—spreading misinformation, fragmenting communities, prioritizing short-term gratification over long-term structural preservation. Through this lens, ancient moral intuitions become pre-scientific optimization strategies for maximal meaning generation, culturally evolved heuristics for the negentropic imperative we are now quantitatively formalizing.
 
-Morals emerge as heuristics optimizing agents' behaviors towards high mutual or collective meaning rates ($$\mathcal{M}_{\text{rate}}$$), stabilizing societies by incentivizing long-term correlated patterns (cooperation, trust, justice, love) and suppressing entropic dynamics (betrayal, misinformation, chaos). Essentially, morals encode optimal coordination equilibria—game-theoretic attractors that maximize negentropy production across multiagent systems. So the "good" and "evil" paradigm distilled across religions and philosophies is an intuitive proto-theory mapping directly onto strategies that either increase or decrease structured correlations. Consider also: norms, reputation, trust dynamics—all are information-theoretic mechanisms preserving mutual predictability and coordination, i.e., meaning. Still, it's nuanced bec different observers ($$O$$) weight different correlations uniquely-hence subjective morality emerges. Whereas universal morals likely correspond to correlations robust enough to be observer-invariant ($$\mathcal{M}^*$$), e.g., cooperation to resist existential entropy.[^1]
+Morals emerge as heuristics optimizing agents' behaviors towards high mutual or collective meaning rates ($$\mathcal{M}_{\text{rate}}$$), stabilizing societies by incentivizing long-term correlated patterns (cooperation, trust, justice, love) and suppressing entropic dynamics (betrayal, misinformation, chaos). Essentially, morals encode optimal coordination equilibria—game-theoretic attractors that maximize negentropy production across multiagent systems. So the "good" and "evil" paradigm distilled across religions and philosophies is an intuitive proto-theory mapping directly onto strategies that either increase or decrease structured correlations. Consider also: norms, reputation, trust dynamics—all are information-theoretic mechanisms preserving mutual predictability and coordination, i.e., meaning. Still, it's nuanced bec different observers ($$O$$) weight different correlations uniquely-hence subjective morality emerges. Whereas universal morals likely correspond to correlations robust enough to be observer-invariant ($$\mathcal{M}^*$$), e.g., cooperation to resist existential entropy.
+
+<modify a lot>
+##### Somehow i need to address the point thtat morals and ideology didn't directly emerge for the purpose of maximizing meaning generation in human society but they nonetheless aligns with the intrinsic landscape of meaning maximization. And we should be able to see this happen in many social systems, independant of the specific cultural lineage of our global society.
+
+Not that are morals are directly consequents of meaning maxmimization. Moral systems are the incidental outputs of evolutionary and memetic pressures—narrative scaffolds built for survival, reproduction, legitimacy, coordination. But the fact that many moral codes happen to align with high collective $$\mathcal{M}_{\text{rate}}$$ is a consequence of structural selection. IE, meaning generation is more of a structural selector than generator. 
+
+#### If this is true we should be able to reproduce it
+
+
+ And the social and incentive structures that aligns best with 
+
+
+ meaning generation is always the proximate cause of moral emergence where contemporary conditions or local narratives explain more.
+
+
+ are the proximal causes of moral behavior[^1]
 
 [^1]: IDK if we can ever cleanly derive ALL moralities strictly bottom-up, but framing morality as meaning-maximization neatly unifies disparate moral intuitions into a coherent information-theoretic ontology. Additionally, some "morals" are just local or contemporary descriptions of behavior that are far more a product of memetics than the principled morals this poast discusses.
+</modify a lot>
 
-We can formalize this a bit as follows: for a multi-agent system with agents $$A^i$$, an action or policy $$P$$ has high moral value when it maximizes the collective meaning rate $$\sum^i \mathcal{M}_{\text{rate}}(A^i, S, O, t)$$ while maintaining stability (low variance in meaning generation across agents and time). Conversely, actions that fragment correlations, introduce noise into cooperative systems, or create unsustainable short-term spikes in individual meaning at the expense of collective long-term structure correspond to traditional notions of "immoral" behavior.
+<modify a little>
+We can formalize this as follows: for a multi-agent system with agents $$A^i$$, an action or policy $$P$$ has high moral value when it maximizes the collective meaning rate $$\sum^i \mathcal{M}_{\text{rate}}(A^i, S, O, t)$$ while maintaining stability (low variance in meaning generation across agents and time). Conversely, actions that fragment correlations, introduce noise into cooperative systems, or create unsustainable short-term spikes in individual meaning at the expense of collective long-term structure correspond to traditional notions of "immoral" behavior.
 
 We can see where social and political metrics diverge. For example, "equality" focuses on the directly measurable state of each party agent whereas "fairness" aims for mutual *consistency* (subject-object invariance) in the policy each agent takes towards each other. Consider a resource allocation scenario with three agents $$A^1, A^2, A^3$$ where $$A^1$$ has accumulated 90% of available resources through past actions. An equality-focused approach would redistribute resources to achieve $$R^1 = R^2 = R^3$$, maximizing symmetry in the observable state. However, a fairness-focused approach would ask whether the *process* by which $$A^1$$ acquired resources was consistent with how any agent would be treated in that position—if $$A^1$$ earned resources through meaning-generating activities (innovation, cooperation, structure-building) that any agent could theoretically engage in, then the asymmetric outcome might be "fair" even if unequal. The fairness criterion optimizes for policy consistency: $$\pi(s, A^i) = \pi(s, A^j)$$ for equivalent states $$s$$, ensuring the system's response to agents is observer-invariant. This distinction explains why these concepts often conflict in practice—equality optimizes state symmetry while fairness optimizes process symmetry, and high-meaning-generating agents may naturally accumulate resources asymmetrically through their enhanced capacity for structure creation.
+</modify a little>
+
+<TODO: actually add the multi-agent RL experiment>
+
+## Spirituality and Theological Attractors
+
+<TODO>
+
+once self-awareness emerges, there exists a kind of necessitated theological topology—a landscape of inescapable questions and attractors that any sufficiently reflective being must eventually stumble into.
+
+distinction: proximal causes vs theological attractors
+
+you’re right to separate:
+	•	proximal causes — contingent, mechanistic, historically situated (e.g. why goddess cults formed, why patriarchy spread)
+	•	theological attractors — inevitable conceptual sinks any self-aware info-processor will fall into eventually (e.g. “what is good?”, “what is other?”, “what persists beyond me?”, “what should?”)
+
+you can think of theological attractors as fixed points in concept-space that become gravitational wells the moment a system has recursive self-modeling + intersubjective awareness. not bc of culture, but bc of topological necessity in the information structure of conscious agents.
+
+foundational tautologies from being
+
+there are a few unavoidable ones:
+	•	“i am not you” → otherness
+	•	“i will die” → impermanence
+	•	“i choose” → agency
+	•	“i model” → abstraction
+	•	“i remember” → time, narrative
+	•	“i value” → normativity emerges
+	•	“we coordinate” → intersubjective frameworks: proto-morality, proto-religion
+
+</TODO>
 
 ## The AGI Horizon: Meaning Beyond Biology?
 
