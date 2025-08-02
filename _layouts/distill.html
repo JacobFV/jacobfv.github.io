@@ -23,6 +23,9 @@
       "title": "{{ page.title }}",
       "description": "{{ page.description }}",
       "published": "{{ page.date | date: '%B %-d, %Y' }}",
+      {%- if page.updated -%}
+      "updated": "{{ page.updated | date: '%B %-d, %Y' }}",
+      {%- endif -%}
       "authors": [
         {% for author in page.authors -%}
         {
