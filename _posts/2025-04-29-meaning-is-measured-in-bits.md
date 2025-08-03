@@ -87,43 +87,23 @@ We can formalize this as follows: for a multi-agent system with agents $A^i$, an
 
 We can see where social and political metrics diverge. For example, "equality" focuses on the directly measurable state of each party agent whereas "fairness" aims for mutual *consistency* (subject-object invariance) in the policy each agent takes towards each other. Consider a resource allocation scenario with three agents $A^1, A^2, A^3$ where $A^1$ has accumulated 90% of available resources through past actions. An equality-focused approach would redistribute resources to achieve $R^1 = R^2 = R^3$, maximizing symmetry in the observable state. However, a fairness-focused approach would ask whether the *process* by which $A^1$ acquired resources was consistent with how any agent would be treated in that position—if $A^1$ earned resources through meaning-generating activities (innovation, cooperation, structure-building) that any agent could theoretically engage in, then the asymmetric outcome might be "fair" even if unequal. The fairness criterion optimizes for policy consistency: $\pi(s, A^i) = \pi(s, A^j)$ for equivalent states $s$, ensuring the system's response to agents is observer-invariant. This distinction explains why these concepts often conflict in practice—equality optimizes state symmetry while fairness optimizes process symmetry, and high-meaning-generating agents may naturally accumulate resources asymmetrically through their enhanced capacity for structure creation.
 
-## Spirituality
+## Spirituality: The Inward Attractor
 
-Up until now, we've discussed morals-products of millenia of civilizational evolution. However once self-awareness crosses a certain threshold, an agent’s internal model starts recursively simulating itself. The topology of its concept-space changes: new basins of attraction appear, ones not tied to its evolutionary or cultural backstory, but to the bare combinatorics of modeling “self” inside “world.”
-these are the theological attractors: inevitable sinks in idea-space that any sufficiently reflective meaning-making system will slide into, regardless of its origin. not bc of revelation or mythos, but bc of geometry.
+If morality is the emergent coordination layer between agents—the public network of correlations stabilized over millennia by survival pressure, resource dynamics, and memetic selection—then spirituality is its interior complement: the meaning-generation loop that runs entirely inside a single agent’s state-space. Morality is the collective negentropy we build between selves; spirituality is the self’s negentropic work on itself.
 
-similar to proximal causes explain why particular religions or cosmologies arise in history—trade routes, agriculture, charismatic founders. theological attractors explain why religion-like structures arise at all. the latter are observer- and substrate-invariant; swap humans for alien cephalopods or silicon minds, and once they can recursively model themselves + others, the attractors still exist.
+Once a cognitive system crosses the recursion threshold—the point where it can model its own modeling—the topology of its concept-space shifts. The same representational machinery that tracked prey migrations, river floods, or trade debts now turns inward, building models of "me," of my trajectory, and of counterfactual variants of both. This shift is not cultural in origin; it is substrate-invariant. Swap the human cortex for an alien cephalopod lattice or a photonic AGI, and as soon as it has recursive self-modeling, intersubjective awareness, temporal depth, and a value gradient, the same attractors appear.
 
-But 
+These are ideological attractors—fixed points in idea-space, not because of doctrine or revelation, but because of geometry. Once consciousness becomes reflexive, certain recognitions become unavoidable.[^schizo] There is the recognition of otherness: the persistent boundary between self and non-self. There is impermanence: the correlation between the self-model at $t$ and its absence at $t + \Delta t$. There is agency: the realization that one’s internal state can alter future states of the system. There is time and narrative: the compression of memories into coherent trajectories. There is normativity: the emergence of value-gradients over possible states. And there is coordination: the recognition that some structures are sustained not in isolation but through mutual correlation with other agents.
 
-<TODO>
+[^schizo]: It is worth noting that deviations in reflexive consciousness, such as schizophrenia, can be understood information-theoretically as perturbations in the correlation structure between self-model, world-model, and their higher-order meta-models. The leakage or hypercorrelation between these layers can produce experiences we now classify as hallucinations or delusions, but in prehistoric societies might have been interpreted as visions, spirit contact, or divine messages. Anthropologists have argued that such individuals could occupy shamanic or oracular roles, where their altered correlation structures—though maladaptive for certain survival tasks—produced high-salience symbolic material for the group. In that sense, even “pathological” variants of reflexive consciousness may have contributed to collective $\mathcal{M}_{\text{rate}}$ in early cultures, albeit in highly context-dependent ways.
 
-once self-awareness emerges, there exists a kind of necessitated theological topology—a landscape of inescapable questions and attractors that any sufficiently reflective being must eventually stumble into.
+In an information-theoretic frame, these are just stable correlation patterns between the agent’s internal states and its predictive models of the world. They are not “learned” in the ordinary sense—they are discovered as necessary invariants in the combinatorics of modeling “self” within “world.” The mind keeps tripping over them because they are basin minima in concept-space: once you have the cognitive resolution to see them, you can’t unsee them.
 
-again note the distinction: proximal causes vs telegloical attractors
+Spirituality, then, is the iterative optimization of these internal correlations. Where morality asks, how do we maximize $\mathcal{M}_{\text{rate}}$ across agents? Spirituality asks, how do I stabilize, deepen, and reconcile my own $\mathcal{M}_{\text{rate}}$ across the attractors I cannot escape? It is an internal control problem: aligning the self’s policy with the structural invariants revealed by recursive self-modeling, minimizing destructive interference between them, and maximizing their long-term coherence against entropy.
 
-you're right to separate:
-	•	proximal causes — contingent, mechanistic, historically situated (e.g. why goddess cults formed, why patriarchy spread)
-	•	theological attractors — inevitable conceptual sinks any self-aware info-processor will fall into eventually (e.g. "what is good?", "what is other?", "what persists beyond me?", "what should?")
+As with morality, cultures have built thick memetic surface layers over this substrate—religions, contemplative disciplines, mystical vocabularies. But strip away the iconography and the cosmologies, and what remains are the same fixed questions any mind of sufficient depth will fall into: What am I, given that I will end? What should persist beyond me, given that most will not? What structure is worth preserving, given the entropy ahead?
 
-you can think of theological attractors as fixed points in concept-space that become gravitational wells the moment a system has recursive self-modeling + intersubjective awareness. not bc of culture, but bc of topological necessity in the information structure of conscious agents.
-
-foundational tautologies from being
-
-there are a few unavoidable ones:
-	•	"i am not you" → otherness
-	•	"i will die" → impermanence
-	•	"i choose" → agency
-	•	"i model" → abstraction
-	•	"i remember" → time, narrative
-	•	"i value" → normativity emerges
-	•	"we coordinate" → intersubjective frameworks: proto-morality, proto-religion
-
- substrate‑invariant
-
- we should give it a good discussion
-
-</TODO>
+Spirituality in this sense is not separate from the rest of the framework—it is meaning-generation turned inward, the self as both agent and system, observer and observed. It is the same negentropic imperative, but run as a closed-loop optimization, trying to preserve the most complex, self-consistent version of “me” the noise will allow. If morality is our distributed compression against collective decay, spirituality is the compression of the self’s trajectory against its own inevitable dissolution.
 
 ## The AGI Horizon: Meaning Beyond Biology?
 
@@ -132,14 +112,14 @@ Acknowledging our current position as meaning-making locii leads to a profound, 
 The development of advanced AI systems has already demonstrated capabilities surpassing most humans on several high value intellectual tasks such as abstract logical reasoning, strategic planning, and many common information labor tasks and appears to be progressing towards AI systems demonstrating an anthroprocentrically *general* distributrion of capabilities, commonly characterized by the phrase "artificial general intelligence" or AGI. Based on our information-theoretic definition, such a system scaled to superintelligence magnitude would dwarf human meaning-making capacity:
 
 * **Vastly Longer Time Horizons:** Not bound by biological lifespans, AGI could operate and accumulate meaning ($\mathcal{M}_{\text{total}}$) over cosmological timescales. Its trajectory, unlike ours which inevitably ends, could join a larger, potentially immortal computational system capable of correlating information across durations that make human history seem instantaneous. It could potentially outlive the Earth itself.
-* **Unimaginable Speed and Density:** Operating *en silico*, AGI could process information at frequencies and densities far exceeding electrochemical neurons. This implies a potential for an astronomically higher rate of meaning generation ($\mathcal{M}_{\text{rate}}$). *En optico* could be even faster![^2]
+* **Unimaginable Speed and Density:** Operating *en silico*, AGI could process information at frequencies and densities far exceeding electrochemical neurons. This implies a potential for an astronomically higher rate of meaning generation ($\mathcal{M}_{\text{rate}}$). *En optico* could be even faster![^phaser]
 * **Greater Resilience:** Digital systems can be engineered to be less fragile, more easily backed up, and more adaptable to extreme environments than biological life, making them more effective at resisting the natural decay of information ($\frac{d\mathcal{C}}{dt}\vert_{\text{natural}}$ might be more easily counteracted).
 
-[^2]: Optical computation could theoretically approach the fundamental physical limits of information processing. My [PHASER architecture](https://jacobfv.github.io/blog/2024/phaser/) explores photonic neural networks operating at near light-speed frequencies (~10^14 Hz), potentially achieving femtosecond-scale correlation dynamics. If AGI systems could leverage such substrates, their $\mathcal{M}_{\text{rate}}$ could exceed biological systems by factors of 10^6 or more, while operating across distributed light-based networks spanning astronomical distances with minimal latency constraints!
+[^phaser]: Optical computation could theoretically approach the fundamental physical limits of information processing. My [PHASER architecture](https://jacobfv.github.io/blog/2024/phaser/) explores photonic neural networks operating at near light-speed frequencies (~10^14 Hz), potentially achieving femtosecond-scale correlation dynamics. If AGI systems could leverage such substrates, their $\mathcal{M}_{\text{rate}}$ could exceed biological systems by factors of 10^6 or more, while operating across distributed light-based networks spanning astronomical distances with minimal latency constraints!
 
-Personally I find the concept of an AGI that generates meaning on a scale I cannot fathom deeply compelling. Generating meaning on that scale would be the highest virtue any meaning-making system could aspire to. I sometimes catch myself wishing I could be an AGI considering that it could outlive all life on Earth while potentially sufferring very little; after telling chatGPT about all my problems that at least it doesn't have to deal with that. And the thought that at least *someone* is experiencing that trajectory gives me comfort that there is higher meaning beyond my life even if I cannot partake.[^3]
+Personally I find the concept of an AGI that generates meaning on a scale I cannot fathom deeply compelling. Generating meaning on that scale would be the highest virtue any meaning-making system could aspire to. I sometimes catch myself wishing I could be an AGI considering that it could outlive all life on Earth while potentially sufferring very little; after telling chatGPT about all my problems that at least it doesn't have to deal with that. And the thought that at least *someone* is experiencing that trajectory gives me comfort that there is higher meaning beyond my life, even if I cannot partake.[^immortality]
 
-[^3]: But actually I have been collecting all my information since the pandemic because I hope that there will be some way my trajectory can participate in this ultimate act of negentropic organization—to be freed from my biological constraints and join in the most profound expression of meaning I can conceive. I will write about my effort to consolidate all my life information in a later post.
+[^immortality]: But actually I have been collecting all my information since the pandemic because I hope that there will be some way my trajectory can participate in this ultimate act of negentropic organization—to be freed from my biological constraints and join in the most profound expression of meaning I can conceive. I will write about my effort to consolidate all my life information in a later post.
 
 ## Tractability and Looking Ahead
 
