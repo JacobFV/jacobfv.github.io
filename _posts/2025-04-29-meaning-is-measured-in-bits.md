@@ -65,7 +65,7 @@ This framework helps clarify why humans feel central to the concept of meaning. 
 
 * **High Density & Rate:** The human brain packs immense computational power into a small volume. Neurons operate at significant speeds, allowing for rapid processing and the formation of complex correlations – a high $\mathcal{M}_{\text{rate}}$ during learning and thought. This processing density is vastly higher than most natural phenomena.
 
-* **Long Time Horizons:** This is perhaps the most crucial factor. While Brownian motion erases correlations in microseconds, and even geological or astronomical processes might unfold over eons but represent relatively slow information integration, humans correlate information over decades (individual memory) and millennia (culture, science, history passed down through language, writing, and institutions). We fight $\frac{d\mathcal{C}}{dt}\vert_{\text{natural}}$ effectively over long durations $t_f - t_0 = \text{lifetime}$. This allows for an enormous accumulation and integration of $\mathcal{M}_{\text{total}}$. Even a fleeting thought can be captured and contribute significantly to $\mathcal{M}_{\text{total}}$. A scientific theory developed over centuries and influencing billions represents a colossal amount of accumulated, agent-driven structure. And against the black expanse of the cosmos, ideologies and their ego-like representations as spirits, demons, and gods distil information over longer horizons and touch more human lives (centers of information correlation) than most other information impulses have through history.
+* **Long Time Horizons:** This is perhaps the most crucial factor. While Brownian motion erases correlations in microseconds, and even geological or astronomical processes might unfold over eons but represent relatively slow information integration, humans correlate information over decades (individual memory) and millennia (culture, science, history passed down through language, writing, and institutions). We fight $\frac{d\mathcal{C}}{dt}\vert_{\text{natural}}$ effectively over long durations $t_f - t_0 = \text{lifetime}$. This allows for an enormous accumulation and integration of $M_{total}$. Even a fleeting thought can be captured and contribute significantly to $\mathcal{M}_{\text{total}}$. A scientific theory developed over centuries and influencing billions represents a colossal amount of accumulated, agent-driven structure. And against the black expanse of the cosmos, ideologies and their ego-like representations as spirits, demons, and gods distil information over longer horizons and touch more human lives (centers of information correlation) than most other information impulses have through history.
 
 * **Localization:** While vast phenomena exist – Saturn exchanging magnetic signals with its moons, galaxies interacting – the *density* and *complexity* of information processing seem uniquely concentrated in intelligent life. These natural phenomena, while fascinating, are often less dense and localized in their information processing compared to the intricate, highly structured activity within a single human brain, let alone a communicating society. The human spirit, viewed information-theoretically, is a remarkably concentrated locus of meaning generation.
 
@@ -73,44 +73,34 @@ We conscious creatures, through our biological and cultural evolution, have beco
 
 ### Absolute and Incidental Morality
 
+Morals emerge as heuristics optimizing agents' behaviors towards high mutual or collective meaning rates ($\mathcal{M}_{\text{rate}}$), stabilizing societies by incentivizing long-term correlated patterns (cooperation, trust, justice, love) and suppressing entropic dynamics (betrayal, misinformation, chaos). Essentially, morals encode optimal coordination equilibria—game-theoretic attractors that maximize negentropy production across multiagent systems. So the "good" and "evil" paradigm distilled across religions and philosophies is an intuitive proto-theory mapping directly onto strategies that either increase or decrease structured correlations. Consider also: norms, reputation, trust dynamics—all are information-theoretic mechanisms preserving mutual predictability and coordination, i.e., meaning. Still, it's nuanced bec different observers ($O_1, O_2, ..., O_n$) weight different correlations uniquely--hence subjective morality emerges. Whereas universal morals likely correspond to correlations robust enough to be observer-invariant ($\mathcal{M}^*$), e.g., cooperation to resist existential entropy.
+
 Perhaps this explains why ancient dualistic traditions—from Zoroastrianism's cosmic battle between Ahura Mazda (order, truth) and Angra Mainyu (chaos, deception) to Christianity's eternal struggle between divine structure and entropic sin—resonated so deeply across civilizations. These frameworks may represent humanity's first intuitive grasp of the information-theoretic battle we've formalized here. What they called "good" often correlates precisely with actions that increase $\mathcal{M}_{\text{rate}}$: building social coherence, preserving knowledge across generations, fostering correlations that resist decay. "Evil" conversely accelerates informational entropy—spreading misinformation, fragmenting communities, prioritizing short-term gratification over long-term structural preservation. Through this lens, ancient moral intuitions become pre-scientific optimization strategies for maximal meaning generation, culturally evolved heuristics for the negentropic imperative we are now quantitatively formalizing.
 
-Morals emerge as heuristics optimizing agents' behaviors towards high mutual or collective meaning rates ($\mathcal{M}_{\text{rate}}$), stabilizing societies by incentivizing long-term correlated patterns (cooperation, trust, justice, love) and suppressing entropic dynamics (betrayal, misinformation, chaos). Essentially, morals encode optimal coordination equilibria—game-theoretic attractors that maximize negentropy production across multiagent systems. So the "good" and "evil" paradigm distilled across religions and philosophies is an intuitive proto-theory mapping directly onto strategies that either increase or decrease structured correlations. Consider also: norms, reputation, trust dynamics—all are information-theoretic mechanisms preserving mutual predictability and coordination, i.e., meaning. Still, it's nuanced bec different observers ($O$) weight different correlations uniquely-hence subjective morality emerges. Whereas universal morals likely correspond to correlations robust enough to be observer-invariant ($\mathcal{M}^*$), e.g., cooperation to resist existential entropy.
+Not that are morals are directly consequents of meaning maxmimization. Philisophically, meaning is only a teleological attractor; whereas morals themselves are more directly the incidental outputs of evolutionary and memetic pressures—narrative scaffolds built for survival, reproduction, legitimacy, coordination.[^1] But if morals really do optimize agents' behaviors towards high mutual or collective meaning rates ($\mathcal{M}_{\text{rate}}$) as I have just claimed, then we be able to quantify the relationship in any multi-agent systems that has sufficient complexity and is subject to analogous selection pressures as our own, e.g., competition, resource scarcity, interdependence. Further, if meaning generation itself is the structural selector for morals, then we should be able to drive faster moral convergence (tho not necesarily to a global minima).
 
-<modify a lot>
-##### Somehow i need to address the point thtat morals and ideology didn't directly emerge for the purpose of maximizing meaning generation in human society but they nonetheless aligns with the intrinsic landscape of meaning maximization. And we should be able to see this happen in many social systems, independant of the specific cultural lineage of our global society.
+[^1]: And idk if we can ever cleanly derive ALL moralities strictly bottom-up, but framing morality as meaning-maximization neatly unifies disparate moral intuitions into a coherent information-theoretic ontology. Additionally, some "morals" are just local or contemporary descriptions of behavior that are far more a product of memetics than the principled morals this poast discusses.
 
-Not that are morals are directly consequents of meaning maxmimization. Moral systems are the incidental outputs of evolutionary and memetic pressures—narrative scaffolds built for survival, reproduction, legitimacy, coordination. But the fact that many moral codes happen to align with high collective $\mathcal{M}_{\text{rate}}$ is a consequence of structural selection. IE, meaning generation is more of a structural selector than generator. 
-
-#### If this is true we should be able to reproduce it
-
-
- And the social and incentive structures that aligns best with 
-
-
- meaning generation is always the proximate cause of moral emergence where contemporary conditions or local narratives explain more.
-
-
- are the proximal causes of moral behavior[^1]
-
-[^1]: IDK if we can ever cleanly derive ALL moralities strictly bottom-up, but framing morality as meaning-maximization neatly unifies disparate moral intuitions into a coherent information-theoretic ontology. Additionally, some "morals" are just local or contemporary descriptions of behavior that are far more a product of memetics than the principled morals this poast discusses.
-</modify a lot>
-
-<modify a little>
 We can formalize this as follows: for a multi-agent system with agents $A^i$, an action or policy $P$ has high moral value when it maximizes the collective meaning rate $\sum^i \mathcal{M}_{\text{rate}}(A^i, S, O, t)$ while maintaining stability (low variance in meaning generation across agents and time). Conversely, actions that fragment correlations, introduce noise into cooperative systems, or create unsustainable short-term spikes in individual meaning at the expense of collective long-term structure correspond to traditional notions of "immoral" behavior.
 
+`WorldGym` is an OpenAI gym-like environment for multi-agent  TODO
+
 We can see where social and political metrics diverge. For example, "equality" focuses on the directly measurable state of each party agent whereas "fairness" aims for mutual *consistency* (subject-object invariance) in the policy each agent takes towards each other. Consider a resource allocation scenario with three agents $A^1, A^2, A^3$ where $A^1$ has accumulated 90% of available resources through past actions. An equality-focused approach would redistribute resources to achieve $R^1 = R^2 = R^3$, maximizing symmetry in the observable state. However, a fairness-focused approach would ask whether the *process* by which $A^1$ acquired resources was consistent with how any agent would be treated in that position—if $A^1$ earned resources through meaning-generating activities (innovation, cooperation, structure-building) that any agent could theoretically engage in, then the asymmetric outcome might be "fair" even if unequal. The fairness criterion optimizes for policy consistency: $\pi(s, A^i) = \pi(s, A^j)$ for equivalent states $s$, ensuring the system's response to agents is observer-invariant. This distinction explains why these concepts often conflict in practice—equality optimizes state symmetry while fairness optimizes process symmetry, and high-meaning-generating agents may naturally accumulate resources asymmetrically through their enhanced capacity for structure creation.
-</modify a little>
 
-<TODO: actually add the multi-agent RL experiment>
+## Spirituality
 
-## Spirituality and Theological Attractors
+Up until now, we've discussed morals-products of millenia of civilizational evolution. However once self-awareness crosses a certain threshold, an agent’s internal model starts recursively simulating itself. The topology of its concept-space changes: new basins of attraction appear, ones not tied to its evolutionary or cultural backstory, but to the bare combinatorics of modeling “self” inside “world.”
+these are the theological attractors: inevitable sinks in idea-space that any sufficiently reflective meaning-making system will slide into, regardless of its origin. not bc of revelation or mythos, but bc of geometry.
+
+similar to proximal causes explain why particular religions or cosmologies arise in history—trade routes, agriculture, charismatic founders. theological attractors explain why religion-like structures arise at all. the latter are observer- and substrate-invariant; swap humans for alien cephalopods or silicon minds, and once they can recursively model themselves + others, the attractors still exist.
+
+But 
 
 <TODO>
 
 once self-awareness emerges, there exists a kind of necessitated theological topology—a landscape of inescapable questions and attractors that any sufficiently reflective being must eventually stumble into.
 
-distinction: proximal causes vs theological attractors
+again note the distinction: proximal causes vs telegloical attractors
 
 you're right to separate:
 	•	proximal causes — contingent, mechanistic, historically situated (e.g. why goddess cults formed, why patriarchy spread)
@@ -128,6 +118,10 @@ there are a few unavoidable ones:
 	•	"i remember" → time, narrative
 	•	"i value" → normativity emerges
 	•	"we coordinate" → intersubjective frameworks: proto-morality, proto-religion
+
+ substrate‑invariant
+
+ we should give it a good discussion
 
 </TODO>
 
