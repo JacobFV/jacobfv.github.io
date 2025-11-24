@@ -6,7 +6,7 @@ title: eggroll-trainer
 hidden:
 redirect:
 category: [ai, personal]
-importance: 3
+importance: 1
 
 date: 2025-11-23
 start:
