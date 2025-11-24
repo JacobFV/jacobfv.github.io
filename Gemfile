@@ -19,10 +19,10 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'nokogiri'
     #gem 'jekyll-spaceship'
 end
 group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
-    gem 'nokogiri'
 end

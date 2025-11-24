@@ -1,3 +1,4 @@
+require 'nokogiri'
 require 'feedjira'
 require 'httparty'
 require 'jekyll'
