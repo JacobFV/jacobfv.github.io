@@ -3,6 +3,9 @@ require 'feedjira'
 require 'httparty'
 require 'jekyll'
 
+# Configure feedjira to use nokogiri parser
+Feedjira.config.parsers = [Feedjira::Parser::RSS, Feedjira::Parser::Atom, Feedjira::Parser::ITunesRSS]
+
 module ExternalPosts
   class ExternalPostsGenerator < Jekyll::Generator
     safe true
