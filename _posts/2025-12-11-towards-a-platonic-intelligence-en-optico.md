@@ -9,7 +9,7 @@ categories: []
 tags:   []
 ---
 
-This poast continues from [PHASER optical computation system](https://jacobfv.github.io/blog/2024/phaser/) where i brought attention to using stacks of lcd masks to modulate optical resonence chamber dynamics (parallel mirrors on each end, saturated boosting, ots smartphone grade lcds, ccd read-out) and the filters set such that the optical dynamics perform computational operations. While that poast did go heavy on the physics, it didn't really address how to program the engine besides a handwave to "linearize bounded turing machines" so today i want to unwrap that, then show why there are better things to do than computation/programming, and then get into some of the more serious unlocks.
+This poast continues from [PHASER optical computation system](https://jacobfv.github.io/blog/2024/phaser/) where i shared a speculation on using stacks of lcd masks to modulate optical resonence chamber dynamics (parallel mirrors on each end, saturated boosting, ots smartphone grade lcds, ccd read-out) and the filters set such that the optical dynamics perform computational operations. While that poast did go heavi*er* on the physics, it was still pretty handwavey on how the photon waveform interactions actually translate into logical operations, so what i'm going to do in this poast is show you the naive computer scientist's approach (linearizing turing machines), point out some shortcomings, introduce a more organic approach to structuring latent dynamics than computation/programming brings, and then get into some of the more serious unlocks of this new approach may bring.
 
 ## linearizing bounded turing machines
 
@@ -79,16 +79,13 @@ where $U$ is a $D \times D$ linear operator implemented by the current LCD mask 
 
 ### Basis overlap
 
-On stability, this system is only running $10^4$–$10^5$ cycles per potential mask update so we should be able to tolerate a little imprecision like the 'almost' orthogonal hyperdimensional dense packing introduces, but I still think it would be good to compile your choice of tokens/symbols into dense virtual bases oriented s.t. their expected distribution is as far apart in distance as possible to minimize signal corruption -- and since this isn't a pure math problem, when i say "distance" i'm referring to their actual sensor matrix readout corruption, not just abstract hyperdimensional sphere dotprod separation.
-
+On stability, this system is only running $10^4$–$10^5$ cycles per potential mask update so we should be able to tolerate a little imprecision like the 'almost' orthogonal hyperdimensional dense packing introduces, but I still think it would be good to compile your choice of tokens/symbols into dense virtual bases oriented s.t. their expected distribution is as far apart in distance as possible to minimize signal corruption -- and since this isn't a pure math problem, when i say "distance" i'm referring to their actual sensor matrix readout corruption, the final expected nonlinear projection indeterminacy it introduces, not just abstract hyperdimensional sphere dotprod separation.
 
 i'm not referring to distance in hyperdimensional sphere dot-product space; i'm referrring to the actual photon beam drift, speckle, and diffusion as it projects through 1000x1000 retina pixel lcd masks. "distance" has to be defined after we pick a noise model + readout, not in abstract vector land.
 
-But there is a deeper limitation of the physical implementation of this process we have to consider. i forgot what it was but i just opened this file after leaving it halfway finished for the past 2 months so this will be addressed in part iii
+But there are deeper limitations of the physical implementation of this process we have to consider:
 
 ## the diffusion illusion
-
-
 
 Diffusion is the physical process by which a coherent wavefront spreads out as it passes through optical media. Each LCD mask pixel, mirror imperfection, and material inhomogeneity scatters photons slightly off-axis, and these small angular deviations compound over many bounces:
 
@@ -98,32 +95,17 @@ Diffusion is the physical process by which a coherent wavefront spreads out as i
 
 </div>
 
-this whole time we've been assuming there's arbitrary precision in our optical transforms, but real photon beams blur
+this whole time we've been assuming there's arbitrary precision in our optical transforms, but real photon beams blur. TODO: get into the technicalities of this particular problem
 
+And yeah i forgot to mention that with the pythagorean distance skew, phase shifts, and ____, we're going to end up seeing _____, _____, and ___ whether we like it or not. TODO explain the technicalities
 
+so although we can stack multiple optical masks, multiple successive wavefronts, and multiple overlapping wavefronts of different spins/frequencies/phase-shifts, we have to ensure that the logical operations their dynamics represent remain remainingfully distinguishable. The U = Ua1 Ua2 ... Uan now has $____$ _____'s to consider. TODO: more content
 
+TODO: close strong
 
+## Structured Latent Dynamics 
 
-
-
-And yeah i forgot to mention that we can stack multiple optical masks, multiple successive wavefronts, and multiple overlapping wavefronts of different spins/frequencies/phase-shifts:
-
-**Stacks of optical masks**: instead of performing a single U per pass, we perform n passes per
-
- U = Ua1 Ua2 ... Uan
-
- also a unicode nodes and arrow chain 
-
- It makes no different to the pghoton since it's already going to be passing through Since each liquid crystal - dielectric - crossbar sandwhich is only  
-
-
-
-
-Regarding choice of dense bases vectors, the naive approach would be to just make a direct mapping bbetween a SGD-trained neural 
-
-
-
-
+Now i don't want to waste this post on a back-and-forth -- the issues can be addressed to an extent -- and then there will be new challanges to consider -- but i want to draw attention to the end purpose of this all: intelligence. i know it's a loaded umbrella word but hopefully we can agree on the utility of "intelligence" as focusing on more than just the execution of a predetermined and fully visible symbolic transition function. So why not consider how the organic version behaves and see if we can constrain optical dynamics like so instead of working so hard to engineer symbolic precision just so that we can reintroduce softer dynamics on top of that?
 
 
 
