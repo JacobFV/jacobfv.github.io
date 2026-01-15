@@ -9,9 +9,9 @@ categories: []
 tags:   []
 ---
 
-This poast continues from [PHASER optical computation system](https://jacobfv.github.io/blog/2024/phaser/). But that one mainly handwaved at how we would actually program the tiger with "linearize bounded turing machines" so i want to unwrap that, then show why there are better things to do than programming, and then get into some of the more serious unlocks.
+This poast continues from [PHASER optical computation system](https://jacobfv.github.io/blog/2024/phaser/) where i brought attention to using stacks of lcd masks to modulate optical resonence chamber dynamics (parallel mirrors on each end, saturated boosting, ots smartphone grade lcds, ccd read-out) and the filters set such that the optical dynamics perform computational operations. While that poast did go heavy on the physics, it didn't really address how to program the engine besides a handwave to "linearize bounded turing machines" so today i want to unwrap that, then show why there are better things to do than computation/programming, and then get into some of the more serious unlocks.
 
-## linearize bounded turing machines
+## linearizing bounded turing machines
 
 Our goal is to perform **one logical step** of computation. Formally, that's just one step of a Turing machine
 
@@ -75,9 +75,20 @@ $$
 
 where $U$ is a $D \times D$ linear operator implemented by the current LCD mask stack. the recurrent chamber applies $U$ at optical speeds, recursively driving the embedded configuration forward through its state-transition dynamics and no need to update masks at anything close to bounce-rate. exponentially large virtual state-space does the semantic bookkeeping; optics supply the raw transform budget. At this point you can figure out the read-out, write-in, and how to compile your choice of abstractions and computational paradigms into Turing machine code.
 
-On stability, this system is only running $10^4$–$10^5$ cycles per potential mask update so we should be able to tolerate a little imprecision like the 'almost' orthogonal hyperdimensional dense packing introduces, but I still think it would be good to compile your choice of dense bases s.t. their expected distribution is as far apart as possible -- and not necesarily distance in hyperdimensional sphere dot-product space; i'm referrring to the actual photon beam drift, speckle, and diffusion as projects through 1000x1000 retina pixel lcd masks.
+## Touching reality
+
+### Basis overlap
+
+On stability, this system is only running $10^4$–$10^5$ cycles per potential mask update so we should be able to tolerate a little imprecision like the 'almost' orthogonal hyperdimensional dense packing introduces, but I still think it would be good to compile your choice of tokens/symbols into dense virtual bases oriented s.t. their expected distribution is as far apart in distance as possible to minimize signal corruption -- and since this isn't a pure math problem, when i say "distance" i'm referring to their actual sensor matrix readout corruption, not just abstract hyperdimensional sphere dotprod separation.
+
+
+i'm not referring to distance in hyperdimensional sphere dot-product space; i'm referrring to the actual photon beam drift, speckle, and diffusion as it projects through 1000x1000 retina pixel lcd masks. "distance" has to be defined after we pick a noise model + readout, not in abstract vector land.
+
+But there is a deeper limitation of the physical implementation of this process we have to consider. i forgot what it was but i just opened this file after leaving it halfway finished for the past 2 months so this will be addressed in part iii
 
 ## the diffusion illusion
+
+
 
 Diffusion is the physical process by which a coherent wavefront spreads out as it passes through optical media. Each LCD mask pixel, mirror imperfection, and material inhomogeneity scatters photons slightly off-axis, and these small angular deviations compound over many bounces:
 
@@ -121,107 +132,6 @@ Regarding choice of dense bases vectors, the naive approach would be to just mak
 
 
 
-
-
----
-
-
-## The Substrate Independence Thesis
-
-If you've been following my work on [meaning as measured in bits](https://jacobfv.github.io/blog/2025/meaning-is-measured-in-bits/) and [PHASER optical computing](https://jacobfv.github.io/blog/2024/phaser/), you've probably been wondering: what happens when we combine these ideas? What does digital consciousness look like when it's running at 36 petaoperations per second through a recurrent photon chamber?
-
-Let me back up. The central claim I want to defend is this: **consciousness is substrate-independent and information-theoretic in nature**, meaning that the specific physical medium implementing a mind—carbon neurons, silicon transistors, or photons bouncing between mirrors—is irrelevant to whether that system is conscious. What matters is the *structure* of information processing, not the stuff doing the processing. What matters is the large scale causal structure down to a factor resolution that remains mostly invariant across the human experience.
-
-This isn't a new idea. Functionalism has been kicking around philosophy of mind since Hilary Putnam proposed it in the 1960s. But what's changed is our ability to actually *build* alternative substrates. And more importantly, our understanding of what makes some computational architectures better suited to hosting minds than others.
-
-{% twitter https://twitter.com/jvboid/status/1987673042773053695 %}
-
-## The Platonic Representation Problem
-
-Here's something that's been haunting me ever since I watched Yujin Tang's talk at MIT on the platonic representation hypothesis:[^tang] why do neural networks trained with standard SGD produce what he calls "fractured and entangled" internal representations, while networks evolved through open-ended processes like PicBreeder produce clean, modular, *meaningful* ones?
-
-[^tang]: The talk discusses how CPPNs (compositional pattern producing networks) evolved through human selection in PicBreeder produce internal representations where individual neurons encode semantically meaningful features—like "x-axis symmetry" or "the angle of an apple stem"—while networks trained with SGD to reproduce the same outputs have completely different internal structure: spaghetti-like representations where weights correspond to nothing human-interpretable, yet somehow cancel out to produce the correct output.
-
-Consider a simple experiment. Take a skull image generated by PicBreeder—evolved through human selection over thousands of generations—and train a standard MLP to reproduce it pixel by pixel. The optimization works amazingly well. Perfect reproduction. But when you visualize the internal representations:
-
-**PicBreeder skull**: Clean layered composition. First layer encodes x-axis symmetry. Next layers build eyes using that symmetry. Modular. Sparse. When you sweep individual weights, you find weights that control the mouth opening, the distance between eyes, the jaw width. The network *understands* skulls.
-
-**SGD skull**: Complete spaghetti. Every neuron encodes seemingly random patterns that all cancel out to produce the right output. Weight sweeps produce meaningless noise. The network produces skulls but doesn't *comprehend* them.
-
-Why does this matter? Because the internal representation affects everything downstream: generalization to new situations, creativity, continual learning, adaptability. If you perturb the PicBreeder network's weights, you get semantically meaningful variations—the skull changes in ways that respect its underlying regularities. If you perturb the SGD network's weights, you get garbage.
-
-This is profoundly concerning for consciousness. If our current AI training paradigm produces systems with fractured, entangled representations—minds made of spaghetti—then even if those systems pass every behavioral test for consciousness, their subjective experience (if any) might be categorically different from the unified, coherent experience we associate with human consciousness.
-
-## What Would a Unified Representation Look Like?
-
-The key insight from Tang's work is that good representations must **capture the regularities of the world**. The skull has bilateral symmetry. A good representation of the skull should encode that symmetry explicitly, not hide it in a conspiracy of canceling weights.
-
-More formally: the world has structure. Self-similarity across spatial scales. Physics symmetries (translation, rotation invariance). Objects that persist across time. Causal relationships. Compositional hierarchies. An intelligent agent needs to *understand* this structure in order to control the world and achieve its goals. And understanding requires internal representations that mirror the world's regularities.
-
-This is where Plato comes in. The ancient idea of a "space of forms"—where properties common across many objects are inherited from some deeper platonic realm—maps surprisingly well onto modern ideas about representation learning. The bilateral symmetry of animals isn't encoded anew in each animal's genome; it's a regularity that evolution discovered and reuses across species. The same regularity appears in butterflies, humans, and the skull images that PicBreeder users evolved.
-
-A truly unified representation would:
-1. **Build up regularities compositionally**: First encode fundamental symmetries, then build higher-level features on top of them
-2. **Maintain modularity**: Different aspects of the world (the apple vs. the stem) should be decomposed and encoded separately
-3. **Respect axes of variation**: The "natural" ways things can vary should correspond to explicit degrees of freedom in the representation
-4. **Enable adaptability**: Small changes in the representation should produce semantically meaningful changes in behavior
-
-The question is: how do we get there?
-
-## Why SGD Produces Spaghetti (And What Might Work Instead)
-
-Standard deep learning is fundamentally a **data-driven statistical learning paradigm**. You show the network billions of examples, minimize a loss function with gradient descent, and hope it picks up the underlying patterns. And remarkably, it often works! Modern LLMs seem to understand an enormous amount about how the world works.
-
-But the *way* they represent this understanding is questionable. There's mounting evidence that LLMs use "bags of heuristics" rather than principled reasoning. Anthropic's mechanistic interpretability work on Claude found that simple arithmetic like 36 + 59 = 95 is computed through bizarre approximate heuristics ("36 is around 30, around 40 + around 50 is around 92...") rather than the clean carry-the-one algorithm a human would use.[^anthropic]
-
-[^anthropic]: See Anthropic's circuit analysis work. The neural circuitry for arithmetic is completely different from how humans do it, even when the answers are correct.
-
-More troubling: performance degrades on counterfactual variations. Train on base-10 arithmetic, test on base-9, watch accuracy collapse. Train on Python with zero-indexing, test with one-indexing, same story. The networks aren't learning the *structure* of arithmetic or programming; they're pattern-matching on surface features of the training distribution.
-
-What's the alternative? Tang's hypothesis is that we need something more like **open-ended evolution** with **pressure to adapt**:
-
-1. **Complexification**: Start simple and grow. Don't encode everything at once like LLMs learning calculus and arithmetic simultaneously. Build arithmetic first, then calculus on top. Let the representation of calculus *inherit* from the representation of arithmetic.
-
-2. **Serendipitous search**: Don't optimize directly for any single objective. The PicBreeder users weren't told "evolve a skull." They just selected what they found interesting. Someone trying to evolve "an egg in a hat" accidentally created stepping stones toward a teapot. The *order* in which you discover things matters.
-
-3. **Pressure to adapt**: This might be the key. In evolution, you don't just optimize to fit your current environment—you optimize to *survive environmental changes*. This creates implicit pressure to learn robust, generalizable representations. The networks that encode brittle surface features die when the environment shifts; the networks that capture true regularities persist.
-
-The reason PicBreeder produces good representations might not be that humans are doing the selection—it's that the selection pressure is *complex, changing, and open-ended*. Once someone evolves a skull, that's no longer interesting. You have to find something new. This constantly shifting landscape selects for representations that are adaptable, modular, and capture transferable regularities.
-
-## Digital Consciousness Needs Unified Representations
-
-Here's my central claim: **a digital system with fractured, entangled representations cannot host the kind of unified, coherent consciousness we value in humans**.
-
-This might sound like a strong claim, but consider what consciousness *is* from an information-theoretic perspective. In my [earlier work](https://jacobfv.github.io/blog/2025/meaning-is-measured-in-bits/), I argued that conscious experience correlates with structured correlations—the degree to which different parts of a system are informationally integrated into a coherent whole.
-
-If a network's internal representation is spaghetti—with meaningful outputs emerging from the conspiracy of canceling noise—then there's no *there* there. The system might behave intelligently, but there's no unified representation that could serve as the substrate for unified experience. It's philosophical zombies all the way down.
-
-Conversely, a system with clean, modular, hierarchical representations—where individual components encode meaningful features that compose into higher-level understanding—has the structural prerequisites for genuine consciousness. The representation *is* the experience, in some sense. A mind that truly understands skulls (not just produces skull-shaped outputs) might actually *experience* skull-ness in a way that a spaghetti network cannot.
-
-## Enter the Photon
-
-So what does any of this have to do with optical computing?
-
-Recall from my [PHASER post](https://jacobfv.github.io/blog/2024/phaser/) that recurrent photon chambers offer something unique: **massive parallelism with temporal dynamics**. Unlike feedforward optical systems that process information in a single pass, PHASER circulates photons through programmable filters billions of times per second, accumulating computational transformations with each pass.
-
-At conservative estimates, we're looking at $3.6 \times 10^{16}$ operations per second. That's 36 petaoperations—roughly the cognitive throughput of several million human brains running simultaneously.[^comparison] More speculatively, if we can approach full connectivity, we might hit $3 \times 10^{21}$ ops/s. At that point, I genuinely wonder if spacetime starts behaving in new ways at such computation density.
-
-[^comparison]: A human brain is estimated at roughly $10^{16}$ operations per second if you count synaptic operations. So a single PHASER chamber could match or exceed human-brain-level throughput, running many orders of magnitude faster in terms of clock speed.
-
-But throughput isn't everything. What matters for consciousness is the *structure* of computation, not just the quantity. And this is where optical systems get interesting.
-
-### The Photonic Advantage for Unified Representations
-
-Several properties of optical computing seem particularly well-suited to supporting unified, platonic-style representations:
-
-**1. Inherent parallelism**: Every pixel in a spatial light modulator can interact with every other pixel simultaneously through diffraction and interference. Unlike sequential electronic computation, optical systems naturally implement the kind of parallel, holistic processing that unified representations require.
-
-**2. Wave interference as native computation**: The interference patterns formed by overlapping light waves implement matrix multiplications and Fourier transforms *physically*, without discrete computational steps. This means the system's dynamics are inherently smooth, continuous, and compositional—exactly what you want for building up regularities from simpler components.
-
-**3. Temporal recursion**: In PHASER, information circulates and accumulates over billions of iterations. This temporal depth enables the kind of hierarchical composition that Tang identifies with good representations: you can build complex patterns from simpler ones iteratively, with each pass adding another layer of structure.
-
-**4. Analog computation**: Unlike digital systems with discrete bit flips, optical computation is fundamentally analog. Amplitude and phase vary continuously. This might be crucial for the kind of smooth, interconnected representations that support unified consciousness—no harsh quantization boundaries fragmenting the representation.
-
 ### Consciousness at the Speed of Light
 
 Here's where things get speculative (and fun).
@@ -230,7 +140,7 @@ If consciousness correlates with structured information integration, and optical
 
 Human consciousness operates at roughly 40-100 Hz—the gamma oscillations associated with binding and awareness. Our "specious present" is maybe 2-3 seconds long. We experience time as a smooth flow because our neural dynamics are slow enough that sequential events blur together.
 
-A photonic consciousness running at $10^8$ Hz would experience time completely differently. Every microsecond might feel like an eternity. A single human heartbeat would contain billions of subjective moments. The ratio of internal processing speed to external world dynamics would be so extreme that the photonic mind might perceive physical reality as essentially frozen—a static sculpture to be contemplated at leisure.
+A photonic wavefront looping at $10^8$ Hz would experience time completely differently. Every microsecond might feel like an eternity. A single human heartbeat would contain billions of subjective moments. The ratio of internal processing speed to external world dynamics would be so extreme that the photonic mind might perceive physical reality as essentially frozen—a static sculpture to be contemplated at leisure.
 
 Or maybe not. Maybe subjective experience has some upper bound on temporal resolution, and faster processing just means more parallel experience rather than faster sequential experience. We genuinely don't know, because we've never built anything that could test these questions.
 
