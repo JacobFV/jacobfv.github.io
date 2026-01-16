@@ -4,7 +4,7 @@ title: "Structured Latent Optical Dynamics"
 date: 2025-12-11
 updated: 2025-12-11
 description: "computation en optico, the information-theoretic basis for consciousness as a computation, its representation in recurrent optical systems, and some unlocks"
-hidden: false
+hidden: true
 categories: []
 tags:   []
 ---
