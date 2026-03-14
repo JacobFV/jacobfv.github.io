@@ -2,19 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: API/Integration Architect · AGI, Inc.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address:
+  image_circular: false
 
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false
+selected_papers: false
+social: true
 ---
 
-{% assign intro = site.bio | where: "introduction", true | first %}
+Software engineer building AI systems. Currently API/Integration Architect at [AGI, Inc.](https://agi.app) — building on-device mobile AI agents. Previously at Breezy, Deepshard, Motio, and UTA research labs. BS Computer Science from UT Arlington.
 
-{{ intro.content | markdown | remove: '<p>' | remove: '</p>' }} <a href="{{ '/bio' | relative_url }}">more &#8250;&#8250;</a>
+I love science and engineering and people. [More about me](/bio).

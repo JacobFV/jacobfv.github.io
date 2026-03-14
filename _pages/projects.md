@@ -3,8 +3,8 @@ layout: page
 title: projects
 permalink: /projects/
 description:
-nav: false
-nav_order: 3
+nav: true
+nav_order: 4
 display_categories: [school, ai, personal, work, community]
 horizontal: false
 ---
