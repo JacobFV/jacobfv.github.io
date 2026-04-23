@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: API/Integration Architect · AGI, Inc.
+subtitle: Building VibeStartup
 
 profile:
   align: right
@@ -14,6 +14,6 @@ selected_papers: false
 social: true
 ---
 
-Software engineer building AI systems. Currently API/Integration Architect at [AGI, Inc.](https://agi.app) — building on-device mobile AI agents. Previously at Breezy, Deepshard, Motio, and UTA research labs. BS Computer Science from UT Arlington.
+Software engineer building AI systems. Currently building [VibeStartup](https://vibestartup.pro). Previously API/Integration Architect at [AGI, Inc.](https://agi.app), where I worked on APIs, integrations, and agent infrastructure for on-device mobile AI agents. Earlier: Breezy, Deepshard, Motio, and UTA research labs. BS Computer Science from UT Arlington.
 
 I love science and engineering and people. [More about me](/bio).

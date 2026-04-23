@@ -1,9 +1,17 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Founder / Builder
+      institution: VibeStartup
+      year: Apr 2026 - Present
+      categories: [startup, engineering, ml]
+      description:
+        - Building [VibeStartup](https://vibestartup.pro)
+        - Developing new AI products and experiments across agent workflows, developer tools, and applied intelligence
+
     - title: API/Integration Architect
       institution: AGI, Inc.
-      year: Jan 2026 - Present
+      year: Jan 2026 - Apr 2026
       categories: [ml, startup, engineering]
       description:
         - Interfaces and integration across API, SDKs, and partner-facing surfaces

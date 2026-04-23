@@ -1,5 +1,11 @@
+- date: "Apr 2026"
+  text: "Now building [VibeStartup](https://vibestartup.pro)."
+
 - date: "Feb 2026"
   text: "3rd place in the OpenAI track at [Hack-Nation's Global AI Hackathon](https://hacknation.io/) with CortexOne — an organizational intelligence layer that builds living knowledge graphs from communication. 1500+ participants from MIT, Stanford, ETH Zurich, Harvard, Oxford."
+
+- date: "Apr 2026"
+  text: "Wrapped up my time at [AGI, Inc.](https://agi.app), where I worked on API, integration, and agent infrastructure for on-device mobile AI systems."
 
 - date: "Jan 2026"
   text: "Promoted to API/Integration Architect at [AGI, Inc.](https://agi.app) — interfaces across API, SDKs, partner surfaces, MLE, agents, and control plane."
