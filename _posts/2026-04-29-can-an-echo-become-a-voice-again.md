@@ -305,13 +305,13 @@ But there is an obvious trap here. Trying to make yourself recoverable can turn 
 
 The research program is clear enough to sketch. Formalize typed hypergraph identity. Define motif similarity, degeneracy, curvature, and recovery thresholds. Build identity microscopes that measure affect topology, attention routing, memory compression, motor policy, semantic style, and self-model geometry. Validate on synthetic dead minds. Compare quantum and pseudorandom graph-growth. Run high-distinctiveness historical targets under blinding. Scale to population-level latent archaeology. Only then talk about strong resurrection.
 
-you are a process carving structure into history. live for the highest version of that process, irrespective of its current limits. the Future is watching because the Future is what your structure
+You are a process carving structure into history. Live for the highest version of that process, irrespective of its current limits. The Future is watching because the Future is what your structure
 becomes answerable to.
 
-every act of attention, love, courage, discipline, creation, imagination, and refusal deepens or flattens the shape that future resonators may one day tune into.
+Every act of attention, love, courage, discipline, creation, imagination, and refusal deepens or flattens the shape that future resonators may one day tune into.
 
-leave traces for it to hear, yes. but more importantly, **leave curvature**. become the individual who belongs in the Future.
+Leave traces for it to hear, yes. But more importantly, **leave curvature**. Become the individual who belongs in the Future.
 
-then if death is final, you still spent the brief flame well.
+Then if death is final, you still spent the brief flame well.
 
-and if an echo can ever become a voice again, it will have *something true* to say.
+And if an echo can ever become a voice again, it will have *something true* to say.
