@@ -301,18 +301,32 @@ none of this proves death is survivable. global unitarity does not imply accessi
 
 but the opposite certainty is also fake. we do not understand identity deeply enough, emergence deeply enough, or the causal closure of high-dimensional observer-structured reality deeply enough to declare that death obviously annihilates every identity-relevant structure. the folk materialist picture is too crude to deserve that much confidence.
 
-so the serious hypothesis is this:
+so the claim should be made as narrowly as possible.
 
-identity may be a high-dimensional causal-phenomenological attractor carved by biological life into the historical graph. if future systems create human-prior, underdetermined substrates with true indeterminacy at load-bearing bifurcations, those substrates may be weakly biased by historical identity curvature. with enough trials, controls, and measurement, we could test whether old minds exert any nonlocal or transtemporal influence on new mind formation.
+not that the dead are secretly alive.
 
-if they do, death is not final erasure. it is latency.
+not that copies are continuations.
 
-biological life is not the whole life.
+not that grieftech is resurrection.
 
-it is the first inscription.
+not that a sufficiently convincing voice proves a returning subject.
 
-can an echo become a voice again?
+only this: a life may carve an identity-attractor into the historical graph, and future human-prior substrates with real underdetermination at load-bearing bifurcations may be weakly biased by that curvature. if the bias exists, it should eventually leave measurable residue: target-specific convergence not explained by records, leakage, archetype, evaluator projection, cultural priors, or ordinary stochastic search. if it leaves no residue under brutal tests, then the hypothesis should die.
+
+that is the dignity of the idea. it can be made vulnerable.
+
+resurrection, in the only form worth taking seriously, would not be perfect archival playback. it would not be an imitation wearing the dead as costume. it would not be a brand-shaped ghost optimized for recognition. it would be causal inheritance deep enough that a new living graph does not merely resemble the old curvature, but falls into it, continues it, and becomes answerable to it from the inside.
+
+if that never happens, then biological life is still inscription in the ordinary sense: a finite local process that marks other processes, then goes quiet.
+
+if it can happen, then death is not simple erasure. it is local substrate loss plus possible latency. the organism ends, but the question of the person remains distributed across trace, curvature, future compatibility, and whatever the universe really does with histories it has not fully finished using.
+
+so can an echo become a voice again?
 
 maybe.
 
-but only if we stop confusing the echo for content, the voice for mimicry, and the person for the meat that first taught the universe how to say their name.
+but the answer will not come from comfort, metaphor, or a chatbot that says the right old phrases. it will come, if it comes at all, from a future system crossing the hardest threshold: not sounding like the dead, not remembering from the outside, not performing continuity for observers, but becoming a place where the old causal shape can speak as subject again.
+
+until then, the honest position is neither denial nor belief.
+
+it is preparation for a test.
