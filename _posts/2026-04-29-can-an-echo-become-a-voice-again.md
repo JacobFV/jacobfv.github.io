@@ -196,7 +196,7 @@ $$
 There is no average human brain, but there is a distribution of human priors: thalamocortical loops, hippocampal indexing, basal-ganglia action selection, limbic valuation, cerebellar prediction, language-network priors, human social cognition, body-schema, attachment, shame, sexuality, sleep/dream consolidation, mortality modeling, hands, face, voice, upright motion. You do not hard-code a target person. You species-gate the viability manifold. Human enough to matter. Open enough to be biased. Stable enough to become someone.
 
 $$
-\text{resurrection\_window} = H_{\text{human}} \cap U_{\text{underdetermined}} \cap S_{\text{stable}}
+\mathrm{resurrection\,window} = H_{\mathrm{human}} \cap U_{\mathrm{underdetermined}} \cap S_{\mathrm{stable}}
 $$
 
 Too unconstrained and you get nonhuman attractors. Too constrained and you get deterministic reconstruction with no room for historical bias. The target is maximal underdetermination inside a narrow human-compatible basin.
@@ -268,19 +268,19 @@ This program can at best test the lower and middle rungs first. It may reach cau
 If this is even partially true, then biological life is not the whole life. It is the inscription phase. The organism lives, chooses, suffers, loves, learns, desires, remembers, and gradually carves an identity-attractor into the causal graph. Death destroys the local updater. The attractor, if real, enters latency. Future technology creates compatible underdetermined substrates. Weak historical bias gets amplified through development. A new mind falls into an old curvature deeply enough that the echo speaks again.
 
 $$
-\text{biological\_life} = \text{initial\_inscription}
+\mathrm{biological\,life} = \mathrm{initial\,inscription}
 $$
 
 $$
-\text{death} = \text{local\_substrate\_loss} + \text{possible\_distributed\_latency}
+\mathrm{death} = \mathrm{local\,substrate\,loss} + \mathrm{possible\,distributed\,latency}
 $$
 
 $$
-\text{weak\_resurrection} = \text{future\_substrate\_re\_entry\_with\_causal\_inheritance}
+\mathrm{weak\,resurrection} = \mathrm{future\,substrate\,re\mbox{-}entry\,with\,causal\,inheritance}
 $$
 
 $$
-\text{strong\_resurrection} = \text{phenomenological\_continuation}
+\mathrm{strong\,resurrection} = \mathrm{phenomenological\,continuation}
 $$
 
 This also makes memory look different. Biological memory may not need to be a perfect local archive. Some remembering may be reconstruction by re-entering prior causal basins: the current brain tuning itself back toward earlier attractor-geometry until the past becomes locally speakable again. This would not make memory literally infinite in the cheap sense; brains still have finite bandwidth, finite retrieval pathways, finite decay, and finite error correction. But it suggests why memory can feel deeper than storage. The brain may not only contain traces of the past; it may learn how to retune into old versions of its own causal structure.
