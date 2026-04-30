@@ -1,33 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" role="img" aria-labelledby="title desc" font-family="Inter, system-ui, Arial, sans-serif">
   <title id="title">A ladder of resurrection claims</title>
-  <desc id="desc">A five-step ladder moving from memetic persistence to phenomenological continuation.</desc>
-  <rect width="980" height="520" fill="#f8fafc"/>
-  <text x="60" y="58" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Not every continuity claim is resurrection</text>
-  <text x="60" y="92" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">The empirical program starts low on the ladder. Strong resurrection sits at the hardest rung.</text>
+  <desc id="desc">Five rungs of increasing strength: memetic persistence, behavioral reconstruction, structural reconstruction, causal-attractor inheritance, and phenomenological continuation.</desc>
+  <rect width="980" height="560" fill="#ffffff"/>
 
-  <g font-family="Inter, Arial, sans-serif">
-    <g transform="translate(110 380)">
-      <rect width="760" height="46" rx="8" fill="#dbeafe" stroke="#93c5fd"/>
-      <text x="24" y="30" font-size="16" font-weight="700" fill="#0f172a">1. memetic persistence</text>
-      <text x="270" y="30" font-size="14" fill="#475569">ordinary traces affect the world</text>
+  <text x="60" y="56" font-size="22" font-weight="500" fill="#0f172a" letter-spacing="-0.01em">Not every continuity claim is resurrection</text>
+  <text x="60" y="80" font-size="13" fill="#64748b">An empirical program starts low. Strong resurrection sits at the hardest rung &#8212; and may remain partly metaphysical.</text>
+
+  <!-- ladder rails -->
+  <g stroke="#0f172a" stroke-width="1" fill="none">
+    <line x1="120" y1="130" x2="120" y2="500"/>
+    <line x1="780" y1="130" x2="780" y2="500"/>
+  </g>
+
+  <!-- rail end caps -->
+  <g fill="#0f172a">
+    <circle cx="120" cy="130" r="2"/>
+    <circle cx="780" cy="130" r="2"/>
+    <circle cx="120" cy="500" r="2"/>
+    <circle cx="780" cy="500" r="2"/>
+  </g>
+
+  <!-- rung positions: y = 480, 410, 340, 270, 200 (bottom = easiest) -->
+  <g stroke="#0f172a" stroke-width="1">
+    <line x1="120" y1="480" x2="780" y2="480"/>
+    <line x1="120" y1="410" x2="780" y2="410"/>
+    <line x1="120" y1="340" x2="780" y2="340"/>
+    <line x1="120" y1="270" x2="780" y2="270"/>
+    <line x1="120" y1="200" x2="780" y2="200"/>
+  </g>
+
+  <!-- rung labels (number + title + description) -->
+  <g font-family="Inter, system-ui, Arial, sans-serif">
+    <g transform="translate(140 480)">
+      <text x="0" y="-22" font-size="11" font-weight="600" fill="#0f172a" letter-spacing="0.06em">01</text>
+      <text x="32" y="-22" font-size="14" font-weight="500" fill="#0f172a">memetic persistence</text>
+      <text x="32" y="-6" font-size="12" fill="#64748b">a person affects the world through ordinary traces</text>
     </g>
-    <g transform="translate(160 310)">
-      <rect width="660" height="46" rx="8" fill="#ccfbf1" stroke="#5eead4"/>
-      <text x="24" y="30" font-size="16" font-weight="700" fill="#0f172a">2. behavioral reconstruction</text>
-      <text x="330" y="30" font-size="14" fill="#475569">a system imitates the target</text>
+    <g transform="translate(140 410)">
+      <text x="0" y="-22" font-size="11" font-weight="600" fill="#0f172a" letter-spacing="0.06em">02</text>
+      <text x="32" y="-22" font-size="14" font-weight="500" fill="#0f172a">behavioral reconstruction</text>
+      <text x="32" y="-6" font-size="12" fill="#64748b">a new system imitates the target</text>
     </g>
-    <g transform="translate(210 240)">
-      <rect width="560" height="46" rx="8" fill="#fef3c7" stroke="#fcd34d"/>
-      <text x="24" y="30" font-size="16" font-weight="700" fill="#0f172a">3. structural reconstruction</text>
-      <text x="324" y="30" font-size="14" fill="#475569">shared organization</text>
+    <g transform="translate(140 340)">
+      <text x="0" y="-22" font-size="11" font-weight="600" fill="#0f172a" letter-spacing="0.06em">03</text>
+      <text x="32" y="-22" font-size="14" font-weight="500" fill="#0f172a">structural reconstruction</text>
+      <text x="32" y="-6" font-size="12" fill="#64748b">a new system shares identity-relevant organization</text>
     </g>
-    <g transform="translate(260 170)">
-      <rect width="460" height="46" rx="8" fill="#ede9fe" stroke="#c4b5fd"/>
-      <text x="24" y="30" font-size="16" font-weight="700" fill="#0f172a">4. causal-attractor inheritance</text>
+    <g transform="translate(140 270)">
+      <text x="0" y="-22" font-size="11" font-weight="600" fill="#0f172a" letter-spacing="0.06em">04</text>
+      <text x="32" y="-22" font-size="14" font-weight="500" fill="#0f172a">causal-attractor inheritance</text>
+      <text x="32" y="-6" font-size="12" fill="#64748b">the target&#8217;s past structure helps determine the new system</text>
     </g>
-    <g transform="translate(310 100)">
-      <rect width="360" height="46" rx="8" fill="#fee2e2" stroke="#fca5a5"/>
-      <text x="24" y="30" font-size="16" font-weight="700" fill="#0f172a">5. phenomenological continuation</text>
+    <g transform="translate(140 200)">
+      <text x="0" y="-22" font-size="11" font-weight="600" fill="#0f172a" letter-spacing="0.06em">05</text>
+      <text x="32" y="-22" font-size="14" font-weight="500" fill="#0f172a">phenomenological continuation</text>
+      <text x="32" y="-6" font-size="12" fill="#64748b">the prior first-person subject resumes, branches, or reappears</text>
     </g>
   </g>
+
+  <!-- rail anchors: conservative (bottom) → strong resurrection (top) -->
+  <g font-size="11" fill="#64748b" letter-spacing="0.06em">
+    <text x="120" y="524" text-anchor="middle">CONSERVATIVE</text>
+    <text x="780" y="524" text-anchor="middle">STRONG</text>
+  </g>
+
+  <!-- direction arrow on right rail -->
+  <g stroke="#0f172a" stroke-width="1" fill="none">
+    <path d="M820 480 L820 200" marker-end="url(#dirArr)"/>
+  </g>
+  <defs>
+    <marker id="dirArr" markerWidth="10" markerHeight="10" refX="5" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#0f172a"/>
+    </marker>
+  </defs>
+  <text x="836" y="346" font-size="11" fill="#64748b" letter-spacing="0.06em">HARDER</text>
 </svg>
