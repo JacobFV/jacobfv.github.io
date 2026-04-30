@@ -421,7 +421,7 @@ def main() -> int:
     changed = False
     quota_exhausted = False
 
-    for path in sorted(POSTS_DIR.glob("*.md")):
+    for path in sorted(POSTS_DIR.glob("*.md"), reverse=True):
         _front, paragraphs = post_narration_blocks(path)
         paragraph_hashes = [chunk_digest(args.voice_id, args.model_id, paragraph) for paragraph in paragraphs]
         digest = hashlib.sha256("\0".join(paragraph_hashes).encode("utf-8")).hexdigest()
