@@ -8,11 +8,7 @@ categories: [ai]
 tags:   [agi]
 ---
 
-**This is mostly AI generated, but the main ideas are mine. It is not factual research, although it is written as such (and by the end of the year, I think it will be)**
-
-# LLMs are the Update Rules of Intelligent Fractals: Escaping the Context Window with Iterative, Structured Local Updates
-
-> Large language models (LLMs) such as GPT-4 have revolutionized natural language processing (NLP), but face the challenge of a limited token window size. Ad-hoc solutions have been employed, but lack a theoretical framework. We propose a novel perspective on LLMs as update rules for intelligent fractals, which allows problems to be approached as a fractal, with attention on holistic algorithms and local updates. We showcase practical applications such as an automated tech startup and societal modeling, and aim to contribute to ongoing research and development of LLMs.
+> Large language models (LLMs) such as GPT-4 have revolutionized natural language processing (NLP), but face the challenge of a limited token window size.[^disclaimer] Ad-hoc solutions have been employed, but lack a theoretical framework. We propose a novel perspective on LLMs as update rules for intelligent fractals, which allows problems to be approached as a fractal, with attention on holistic algorithms and local updates. We showcase practical applications such as an automated tech startup and societal modeling, and aim to contribute to ongoing research and development of LLMs.
 
 # 1. Introduction
 
@@ -40,17 +36,21 @@ Our paper is organized as follows: we propose a novel perspective on LLMs as upd
 
 Large Language Models (LLMs) refer to neural networks that are trained to process large amounts of text data, allowing them to learn the underlying patterns and structure in the data. These models often use techniques such as the Transformer architecture, which employs self-attention mechanisms to process sequences of tokens. While there exist many variants, a 'vanilla' self-attention mechanism can be represented as:
 
-y = Attention(Q, K, V) = softmax(QK^T / sqrt(d_k))V
+$$
+y = \text{Attention}(Q, K, V) = \text{softmax}\!\left(\frac{Q K^{\top}}{\sqrt{d_k}}\right) V
+$$
 
-where Q, K, and V are the query, key, and value matrices respectively, typically produced via linearly projecting the inputs, and d_k is the dimensionality of the key vectors. The softmax function ensures that the attention scores sum to 1, effectively creating a weighted average of the values based on the compatibility of the query and key vectors. This mechanism allows input tokens to dynamically alter the routing of information, but it also introduces computational constraints, as the memory and time complexity of the self-attention mechanism scale quadratically with sequence length, thus limiting effective token window size, and hence the amount of total information that can be considered at any given pass.
+where $Q$, $K$, and $V$ are the query, key, and value matrices respectively, typically produced via linearly projecting the inputs, and $d_k$ is the dimensionality of the key vectors. The softmax function ensures that the attention scores sum to 1, effectively creating a weighted average of the values based on the compatibility of the query and key vectors. This mechanism allows input tokens to dynamically alter the routing of information, but it also introduces computational constraints, as the memory and time complexity of the self-attention mechanism scale quadratically with sequence length, thus limiting effective token window size, and hence the amount of total information that can be considered at any given pass.
 
 ### 2.1.2 Von Neumann and Distributed Computing
 
 Von Neumann and distributed computing are two paradigms for designing and implementing computer systems. The Von Neumann architecture, named after the prominent mathematician John von Neumann, is a centralized architecture in which a single processing unit, the central processing unit (CPU), performs all computations while accessing a common memory. Mathematically, the Von Neumann architecture can be described using the stored-program model:
 
-M[PC] -> IR; PC += 1
+$$
+M[\text{PC}] \rightarrow \text{IR}; \quad \text{PC} \mathrel{+}= 1
+$$
 
-where M is the memory, PC is the program counter, and IR is the instruction register. The architecture is based on the fetch-decode-execute cycle, which involves fetching instructions from memory, decoding them, and executing the corresponding operations.
+where $M$ is the memory, $\text{PC}$ is the program counter, and $\text{IR}$ is the instruction register. The architecture is based on the fetch-decode-execute cycle, which involves fetching instructions from memory, decoding them, and executing the corresponding operations.
 
 On the other hand, distributed computing refers to a decentralized architecture in which multiple processing units work together to perform computations. Distributed computing can be modeled using graph theory, with nodes representing processing units and edges representing communication links between them. One common algorithm for distributed computing is the message-passing model, which involves exchanging messages between nodes to coordinate computation and share information.
 
@@ -96,45 +96,51 @@ In the following sections, we will elaborate on our proposed methodology and pre
 
 We define an intelligent fractal as a complex, self-organizing, and interconnected system that can be modeled as a hierarchical or recursive structure. Examples of intelligent fractals include natural language texts, computer programs, and social systems. The key idea is that intelligent fractals can be understood and manipulated using local updates rather than attempting to process the entire system at once.
 
-Mathematically, we represent an intelligent fractal as a graph G = (V, E), where V is the set of vertices or nodes, and E is the set of edges or connections between the nodes. Each node v_i ∈ V represents a subproblem or context within the intelligent fractal, and each edge e_ij ∈ E represents a relationship or dependency between subproblems v_i and v_j.
+Mathematically, we represent an intelligent fractal as a graph $G = (V, E)$, where $V$ is the set of vertices or nodes, and $E$ is the set of edges or connections between the nodes. Each node $v_i \in V$ represents a subproblem or context within the intelligent fractal, and each edge $e_{ij} \in E$ represents a relationship or dependency between subproblems $v_i$ and $v_j$.
 
-We define a local update as a transformation or operation applied to a node or a set of nodes within the intelligent fractal. Formally, a local update can be represented as a function f: V → V, where f(v_i) = v'_i, transforming node v_i into node v'_i.
+We define a local update as a transformation or operation applied to a node or a set of nodes within the intelligent fractal. Formally, a local update can be represented as a function $f: V \rightarrow V$, where $f(v_i) = v'_i$, transforming node $v_i$ into node $v'_i$.
 
 ## 3.2 LLMs as Update Rules
 
-To formalize the idea of LLMs as update rules for intelligent fractals, we represent an LLM as a parametric function L: V → V, with L(v_i) = v'_i, transforming node v_i into node v'_i. The inputs V are composed of the context windows within the intelligent fractal, and the outputs V' represent the updated contexts after applying the LLM transformation. In this framework, LLMs learn to generate local updates by processing and understanding the relationships and dependencies between nodes within the context window.
+To formalize the idea of LLMs as update rules for intelligent fractals, we represent an LLM as a parametric function $L: V \rightarrow V$, with $L(v_i) = v'_i$, transforming node $v_i$ into node $v'_i$. The inputs $V$ are composed of the context windows within the intelligent fractal, and the outputs $V'$ represent the updated contexts after applying the LLM transformation. In this framework, LLMs learn to generate local updates by processing and understanding the relationships and dependencies between nodes within the context window.
 
-Let C(v_i) be the context window of node v_i, consisting of a set of nodes within a certain distance from v_i in the graph G. The LLM function L operates on this context window, taking into account the local structure and dependencies of the intelligent fractal to generate an appropriate update. Formally, we can represent the LLM function as:
+Let $C(v_i)$ be the context window of node $v_i$, consisting of a set of nodes within a certain distance from $v_i$ in the graph $G$. The LLM function $L$ operates on this context window, taking into account the local structure and dependencies of the intelligent fractal to generate an appropriate update. Formally, we can represent the LLM function as:
 
-L(C(v_i); θ_pretrained) = v'_i
+$$
+L\!\left(C(v_i);\, \theta_{\text{pretrained}}\right) = v'_i
+$$
 
-Here, θ_pretrained represents the fixed, pre-trained parameters of the LLM. The LLM generates local updates by processing the context windows C(v_i) within the intelligent fractal, leveraging its pre-trained knowledge to understand the relationships and dependencies between nodes and produce updated contexts v'_i.
+Here, $\theta_{\text{pretrained}}$ represents the fixed, pre-trained parameters of the LLM. The LLM generates local updates by processing the context windows $C(v_i)$ within the intelligent fractal, leveraging its pre-trained knowledge to understand the relationships and dependencies between nodes and produce updated contexts $v'_i$.
 
 ## 3.3 Iterative Local Updates
 
-Given the constraint of a limited token window, we propose an iterative approach to update the intelligent fractal by applying the LLM function L to subsets of nodes within the graph G. In each iteration, we select a subset of nodes S ⊆ V and perform local updates on their corresponding context windows C(v_i) using the LLM function L:
+Given the constraint of a limited token window, we propose an iterative approach to update the intelligent fractal by applying the LLM function $L$ to subsets of nodes within the graph $G$. In each iteration, we select a subset of nodes $S \subseteq V$ and perform local updates on their corresponding context windows $C(v_i)$ using the LLM function $L$:
 
-v'_i = L(C(v_i); θ_pretrained), ∀ v_i ∈ S
+$$
+v'_i = L\!\left(C(v_i);\, \theta_{\text{pretrained}}\right), \quad \forall\, v_i \in S
+$$
 
-After each iteration, the updated nodes v'_i replace their corresponding original nodes v_i in the graph G, and the context windows for the next iteration are adjusted accordingly. This iterative process continues until a stopping criterion is met, which could be based on a predefined number of iterations, a convergence threshold, or an external evaluation metric.
+After each iteration, the updated nodes $v'_i$ replace their corresponding original nodes $v_i$ in the graph $G$, and the context windows for the next iteration are adjusted accordingly. This iterative process continues until a stopping criterion is met, which could be based on a predefined number of iterations, a convergence threshold, or an external evaluation metric.
 
 ## Section 3.4: Theoretical Statements
 
 ### 3.4.1 Statement 1: Dependence of Local Updates on Pre-trained Knowledge and Intelligent Fractal Complexity
 
-Statement 1: The LLM's ability to generate meaningful local updates is contingent upon the quality of its pre-trained knowledge (θ_pretrained) and the complexity of the intelligent fractal.
+Statement 1: The LLM's ability to generate meaningful local updates is contingent upon the quality of its pre-trained knowledge ($\theta_{\text{pretrained}}$) and the complexity of the intelligent fractal.
 
 Proof:
 
-Let X be an intelligent fractal, and let L be an LLM with pre-trained knowledge θ_pretrained. We model X as a graph G = (V, E), and Ω(X) be a function measuring the complexity of the underlying fractal structure within X. Let Y = L(X; θ_pretrained) be the output fractal generated by applying local updates using L.
+Let $X$ be an intelligent fractal, and let $L$ be an LLM with pre-trained knowledge $\theta_{\text{pretrained}}$. We model $X$ as a graph $G = (V, E)$, and $\Omega(X)$ be a function measuring the complexity of the underlying fractal structure within $X$. Let $Y = L(X;\, \theta_{\text{pretrained}})$ be the output fractal generated by applying local updates using $L$.
 
-First, we aim to analyze the relationship between the quality of pre-trained knowledge θ_pretrained and the resulting output fractal Y. Intuitively, the better the pre-trained knowledge, the more effectively the LLM can understand the dependencies and structure within X, resulting in more accurate local updates. We define the quality of θ_pretrained as a metric Γ(θ_pretrained) that measures how well the LLM's understanding correlates with the true structure of X. Clearly, the higher Γ(θ_pretrained), the more accurate and coherent the output fractal Y.
+First, we aim to analyze the relationship between the quality of pre-trained knowledge $\theta_{\text{pretrained}}$ and the resulting output fractal $Y$. Intuitively, the better the pre-trained knowledge, the more effectively the LLM can understand the dependencies and structure within $X$, resulting in more accurate local updates. We define the quality of $\theta_{\text{pretrained}}$ as a metric $\Gamma(\theta_{\text{pretrained}})$ that measures how well the LLM's understanding correlates with the true structure of $X$. Clearly, the higher $\Gamma(\theta_{\text{pretrained}})$, the more accurate and coherent the output fractal $Y$.
 
-Second, we analyze the relationship between the complexity of the intelligent fractal structure Ω(X) and the effectiveness of LLM-generated local updates. As Ω(X) increases, the task of generating meaningful updates becomes more challenging due to the intricate dependencies and relationships within the fractal. The LLM may struggle to capture the complex structure within X, resulting in output fractal Y that deviates from the true structure.
+Second, we analyze the relationship between the complexity of the intelligent fractal structure $\Omega(X)$ and the effectiveness of LLM-generated local updates. As $\Omega(X)$ increases, the task of generating meaningful updates becomes more challenging due to the intricate dependencies and relationships within the fractal. The LLM may struggle to capture the complex structure within $X$, resulting in output fractal $Y$ that deviates from the true structure.
 
-From both analyses, the LLM's ability to generate meaningful local updates is contingent upon the quality of its pre-trained knowledge (θ_pretrained) and the complexity of the intelligent fractal. In summary,
+From both analyses, the LLM's ability to generate meaningful local updates is contingent upon the quality of its pre-trained knowledge ($\theta_{\text{pretrained}}$) and the complexity of the intelligent fractal. In summary,
 
-Y = f(Γ(θ_pretrained), Ω(X))
+$$
+Y = f\!\left(\Gamma(\theta_{\text{pretrained}}),\, \Omega(X)\right)
+$$
 
 ### 3.4.2 Statement 2: Overcoming Token Window Limitations Through Iterative Local Updates
 
@@ -142,27 +148,27 @@ Statement 2: The iterative local update approach enables the LLM to process and 
 
 Proof (Logical Argument):
 
-Let X be a large-scale intelligent fractal with a complexity greater than the token window limitations of the LLM L with pre-trained knowledge θ_pretrained. By utilizing iterative local updates, we perform the following steps:
+Let $X$ be a large-scale intelligent fractal with a complexity greater than the token window limitations of the LLM $L$ with pre-trained knowledge $\theta_{\text{pretrained}}$. By utilizing iterative local updates, we perform the following steps:
 
-1. Divide X into subproblems or contexts: Partition X into a set of smaller subproblems {X_1, X_2, ..., X_n} that fit within the LLM's token window. These subproblems should capture essential dependencies and relationships within the intelligent fractal.
+1. Divide $X$ into subproblems or contexts: Partition $X$ into a set of smaller subproblems $\{X_1, X_2, \ldots, X_n\}$ that fit within the LLM's token window. These subproblems should capture essential dependencies and relationships within the intelligent fractal.
 
-2. Apply local updates iteratively: For each subproblem X_i, apply the LLM transformation L(X_i; θ_pretrained) to generate an updated context Y_i. Replace the original subproblem X_i with the updated context Y_i in X.
+2. Apply local updates iteratively: For each subproblem $X_i$, apply the LLM transformation $L(X_i;\, \theta_{\text{pretrained}})$ to generate an updated context $Y_i$. Replace the original subproblem $X_i$ with the updated context $Y_i$ in $X$.
 
 3. Repeat steps 1 and 2 until a stopping criterion is met: Continue updating subproblems iteratively until convergence, a predetermined number of iterations, or an external evaluation metric is satisfied.
 
-By iteratively updating smaller subproblems that fit within the LLM's token window, the intelligent fractal X can be progressively refined, capturing the complexity of the overall system without violating the token window limitations.
+By iteratively updating smaller subproblems that fit within the LLM's token window, the intelligent fractal $X$ can be progressively refined, capturing the complexity of the overall system without violating the token window limitations.
 
 ### 3.4.3 Statement 3: Effect of Increasing Iterations on LLM's Understanding of Intelligent Fractals
 
-Statement 3: As the number of iterations increases, the LLM progressively refines its understanding of the intelligent fractal and generates increasingly accurate and coherent updates, provided that the pre-trained knowledge (θ_pretrained) captures relevant information about the problem domain.
+Statement 3: As the number of iterations increases, the LLM progressively refines its understanding of the intelligent fractal and generates increasingly accurate and coherent updates, provided that the pre-trained knowledge ($\theta_{\text{pretrained}}$) captures relevant information about the problem domain.
 
 Proof (Logical Argument):
 
-Suppose we update a large-scale intelligent fractal X using the LLM L with pre-trained knowledge θ_pretrained. As we apply iterative local updates, the LLM continues to refine its understanding of the relationships and dependencies within X. During each iteration, the LLM operates on context windows C(v_i) that capture local structure and dependencies within the intelligent fractal.
+Suppose we update a large-scale intelligent fractal $X$ using the LLM $L$ with pre-trained knowledge $\theta_{\text{pretrained}}$. As we apply iterative local updates, the LLM continues to refine its understanding of the relationships and dependencies within $X$. During each iteration, the LLM operates on context windows $C(v_i)$ that capture local structure and dependencies within the intelligent fractal.
 
-Given that the pre-trained knowledge θ_pretrained captures relevant information about the problem domain, it is likely that the LLM will generate progressively more accurate and coherent updates in each iteration. As the number of iterations increases, the LLM's understanding of the intelligent fractal X converges, resulting in a more accurate representation of the overall structure and dependencies within the system.
+Given that the pre-trained knowledge $\theta_{\text{pretrained}}$ captures relevant information about the problem domain, it is likely that the LLM will generate progressively more accurate and coherent updates in each iteration. As the number of iterations increases, the LLM's understanding of the intelligent fractal $X$ converges, resulting in a more accurate representation of the overall structure and dependencies within the system.
 
-This statement implies that, with sufficient iterations and adequate pre-trained knowledge, the LLM can generate increasingly precise and coherent updates that capture the intricate dependencies and relationships within the intelligent fractal X.
+This statement implies that, with sufficient iterations and adequate pre-trained knowledge, the LLM can generate increasingly precise and coherent updates that capture the intricate dependencies and relationships within the intelligent fractal $X$.
 
 In the following sections, we will demonstrate the practical applications of our proposed perspective on LLMs as update rules for intelligent fractals by showcasing the automated tech startup and societal modeling. These examples will highlight the potential of our approach to overcome the limitations posed by the limited token window and contribute to ongoing research and development of LLMs.
 
@@ -225,3 +231,5 @@ LLMs are the update rules of intelligent fractals, providing a theoretically gro
 We demonstrated the practical utility of our approach in automating a tech startup and modeling a society, showcasing the potential of LLMs to transform NLP and contribute to ongoing research and development across multiple domains.
 
 Moving forward, we plan to expand our research and applications of LLMs as update rules for intelligent fractals to address other complex problems in fields such as climate modeling, molecular biology, and finance, enhancing our understanding of these interconnected systems and their hidden intricacies.
+
+[^disclaimer]: This post is mostly AI-generated, but the main ideas are mine. It is not factual research, although it is written as such (and by the end of the year, I think it will be).
