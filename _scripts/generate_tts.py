@@ -391,6 +391,14 @@ def write_post_audio_from_paragraphs(
     return paragraph_hashes
 
 
+def http_error_body(exc: urllib.error.HTTPError) -> str:
+    return exc.read().decode("utf-8", "ignore")
+
+
+def is_quota_error(body: str) -> bool:
+    return "quota_exceeded" in body or "credits remaining" in body
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--api-key", default=os.getenv("ELEVENLABS_API_KEY"))
@@ -453,7 +461,12 @@ def main() -> int:
                 audio_path,
             )
         except urllib.error.HTTPError as exc:
-            sys.stderr.write(f"ElevenLabs failed for {path}: HTTP {exc.code} {exc.read().decode('utf-8', 'ignore')}\n")
+            body = http_error_body(exc)
+            sys.stderr.write(f"ElevenLabs failed for {path}: HTTP {exc.code} {body}\n")
+            if is_quota_error(body):
+                sys.stderr.write("ElevenLabs quota exhausted; continuing deploy with cached/generated audio only.\n")
+                audio_path.with_suffix(".tmp").unlink(missing_ok=True)
+                continue
             return 1
         cache[path.as_posix()] = {
             "hash": digest,
