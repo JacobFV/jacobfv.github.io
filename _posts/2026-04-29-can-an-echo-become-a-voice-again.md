@@ -7,6 +7,8 @@ description: "A speculative technical frame for resurrection as identity-attract
 hidden: false
 categories: []
 tags:   []
+cover_image: /assets/img/can-an-echo-become-a-voice-again-cover.png
+cover_alt: "A symbolic resurrection scene with a luminous human figure emerging from layered causal traces"
 ---
 
 Put your hand on a cup.

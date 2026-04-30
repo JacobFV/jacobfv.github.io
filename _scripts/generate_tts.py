@@ -27,6 +27,7 @@ POSTS_DIR = Path("_posts")
 OUTPUT_DIR = Path("assets/media/tts")
 DATA_FILE = Path("_data/tts.json")
 CACHE_FILE = Path(".tts-cache/manifest.json")
+CHUNK_CACHE_DIR = Path(".tts-cache/chunks")
 
 DEFAULT_VOICE_ID = "21m00Tcm4TlvDq8ikWAM"
 DEFAULT_MODEL_ID = "eleven_multilingual_v2"
@@ -268,15 +269,29 @@ def clean_markdown(text: str) -> str:
     return text.strip()
 
 
-def post_narration(path: Path) -> tuple[dict[str, str], str]:
+def body_blocks(body: str) -> list[str]:
+    blocks = []
+    for block in re.split(r"\n\s*\n+", body):
+        cleaned = clean_markdown(block)
+        if cleaned:
+            blocks.extend(chunk_text(cleaned))
+    return blocks
+
+
+def post_narration_blocks(path: Path) -> tuple[dict[str, str], list[str]]:
     front, body = split_front_matter(path.read_text(encoding="utf-8"))
     title = front.get("title", post_slug(path).replace("-", " ").title())
     description = front.get("description", "")
     parts = [title]
     if description:
         parts.append(description)
-    parts.append(clean_markdown(body))
-    return front, "\n\n".join(part for part in parts if part)
+    parts.extend(body_blocks(body))
+    return front, [part for part in parts if part]
+
+
+def post_narration(path: Path) -> tuple[dict[str, str], str]:
+    front, blocks = post_narration_blocks(path)
+    return front, "\n\n".join(blocks)
 
 
 def chunk_text(text: str, limit: int = 4200) -> list[str]:
@@ -343,6 +358,39 @@ def generate_audio(api_key: str, voice_id: str, model_id: str, text: str, output
     tmp.replace(output)
 
 
+def chunk_digest(voice_id: str, model_id: str, text: str) -> str:
+    return hashlib.sha256(f"{voice_id}\0{model_id}\0{text}".encode("utf-8")).hexdigest()
+
+
+def paragraph_audio_path(digest: str) -> Path:
+    return CHUNK_CACHE_DIR / f"{digest}.mp3"
+
+
+def write_post_audio_from_paragraphs(
+    api_key: str,
+    voice_id: str,
+    model_id: str,
+    paragraphs: list[str],
+    output: Path,
+) -> list[str]:
+    output.parent.mkdir(parents=True, exist_ok=True)
+    CHUNK_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    tmp = output.with_suffix(".tmp")
+    paragraph_hashes = []
+    with tmp.open("wb") as post_handle:
+        for index, paragraph in enumerate(paragraphs, start=1):
+            digest = chunk_digest(voice_id, model_id, paragraph)
+            paragraph_hashes.append(digest)
+            cached = paragraph_audio_path(digest)
+            if not cached.exists():
+                sys.stderr.write(f"  paragraph {index}\n")
+                cached.write_bytes(request_elevenlabs(api_key, voice_id, model_id, paragraph))
+                time.sleep(0.2)
+            post_handle.write(cached.read_bytes())
+    tmp.replace(output)
+    return paragraph_hashes
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--api-key", default=os.getenv("ELEVENLABS_API_KEY"))
@@ -357,11 +405,31 @@ def main() -> int:
     changed = False
 
     for path in sorted(POSTS_DIR.glob("*.md")):
-        _front, narration = post_narration(path)
-        digest = hashlib.sha256(f"{args.voice_id}\0{args.model_id}\0{narration}".encode("utf-8")).hexdigest()
+        _front, paragraphs = post_narration_blocks(path)
+        paragraph_hashes = [chunk_digest(args.voice_id, args.model_id, paragraph) for paragraph in paragraphs]
+        digest = hashlib.sha256("\0".join(paragraph_hashes).encode("utf-8")).hexdigest()
         slug = post_slug(path)
         audio_path = OUTPUT_DIR / f"{slug}.mp3"
-        if cache.get(path.as_posix(), {}).get("hash") == digest and audio_path.exists():
+        cached_post = cache.get(path.as_posix(), {})
+        chunk_files_exist = all(paragraph_audio_path(paragraph_hash).exists() for paragraph_hash in paragraph_hashes)
+        if cached_post.get("hash") == digest and audio_path.exists():
+            data[path.as_posix()] = {
+                "audio": "/" + audio_path.as_posix(),
+                "hash": digest,
+            }
+            continue
+        if chunk_files_exist:
+            sys.stderr.write(f"Rebuilding {audio_path} from paragraph cache.\n")
+            audio_path.parent.mkdir(parents=True, exist_ok=True)
+            with audio_path.open("wb") as handle:
+                for paragraph_hash in paragraph_hashes:
+                    handle.write(paragraph_audio_path(paragraph_hash).read_bytes())
+            cache[path.as_posix()] = {
+                "hash": digest,
+                "audio": "/" + audio_path.as_posix(),
+                "paragraph_hashes": paragraph_hashes,
+            }
+            changed = True
             data[path.as_posix()] = {
                 "audio": "/" + audio_path.as_posix(),
                 "hash": digest,
@@ -377,11 +445,21 @@ def main() -> int:
             continue
         sys.stderr.write(f"Generating {audio_path}\n")
         try:
-            generate_audio(args.api_key, args.voice_id, args.model_id, narration, audio_path)
+            paragraph_hashes = write_post_audio_from_paragraphs(
+                args.api_key,
+                args.voice_id,
+                args.model_id,
+                paragraphs,
+                audio_path,
+            )
         except urllib.error.HTTPError as exc:
             sys.stderr.write(f"ElevenLabs failed for {path}: HTTP {exc.code} {exc.read().decode('utf-8', 'ignore')}\n")
             return 1
-        cache[path.as_posix()] = {"hash": digest, "audio": "/" + audio_path.as_posix()}
+        cache[path.as_posix()] = {
+            "hash": digest,
+            "audio": "/" + audio_path.as_posix(),
+            "paragraph_hashes": paragraph_hashes,
+        }
         changed = True
         data[path.as_posix()] = {
             "audio": "/" + audio_path.as_posix(),

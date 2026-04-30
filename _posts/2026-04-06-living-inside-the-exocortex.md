@@ -7,6 +7,10 @@ description: "delegation, distributed cognition, exocortical identity, and the p
 hidden: false
 categories: []
 tags:   []
+cover_image: /assets/img/living-inside-the-exocortex-cover.png
+cover_alt: "Two prototype Nudge headset devices on display stands"
+cover_credit: Nudge
+cover_credit_url: https://nudge.com/blog/about/
 ---
 
 Consider your delegation over time: Yesterday, you managed every cognitive action yourself. As AI agents become capable of useful autonomous work, your check-in frequency dropped. You reviewed an agent's output only every few minutes. Then every hour. Then every day. Now we're reviewing summaries of summaries, intervening only when the summary signals anomaly. At each step, the egocentric stream--"I decided, I noticed, I thought"--becomes less central to the causal structure we are maintaining. And the information structure of those agent relationships--what you monitor, what you trust, what you intervene on--progressively becomes the structure of your mind.
