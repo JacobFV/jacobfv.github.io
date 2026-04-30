@@ -399,6 +399,14 @@ def is_quota_error(body: str) -> bool:
     return "quota_exceeded" in body or "credits remaining" in body
 
 
+def skip_reason(args: argparse.Namespace, quota_exhausted: bool) -> str:
+    if quota_exhausted:
+        return "ElevenLabs quota is exhausted"
+    if args.skip_api:
+        return "API use is disabled"
+    return "no ElevenLabs API key"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--api-key", default=os.getenv("ELEVENLABS_API_KEY"))
@@ -411,6 +419,7 @@ def main() -> int:
     cache = load_json(CACHE_FILE)
     data: dict[str, dict[str, str]] = {}
     changed = False
+    quota_exhausted = False
 
     for path in sorted(POSTS_DIR.glob("*.md")):
         _front, paragraphs = post_narration_blocks(path)
@@ -443,8 +452,8 @@ def main() -> int:
                 "hash": digest,
             }
             continue
-        if args.skip_api or not args.api_key:
-            sys.stderr.write(f"Skipping {path}: no ElevenLabs API key and cached audio is missing/stale.\n")
+        if args.skip_api or not args.api_key or quota_exhausted:
+            sys.stderr.write(f"Skipping {path}: {skip_reason(args, quota_exhausted)} and cached audio is missing/stale.\n")
             if audio_path.exists():
                 data[path.as_posix()] = {
                     "audio": "/" + audio_path.as_posix(),
@@ -465,6 +474,7 @@ def main() -> int:
             sys.stderr.write(f"ElevenLabs failed for {path}: HTTP {exc.code} {body}\n")
             if is_quota_error(body):
                 sys.stderr.write("ElevenLabs quota exhausted; continuing deploy with cached/generated audio only.\n")
+                quota_exhausted = True
                 audio_path.with_suffix(".tmp").unlink(missing_ok=True)
                 continue
             return 1
