@@ -13,3 +13,26 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+.post-tts {
+  margin: 1.5rem 0 2rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background: var(--global-bg-color);
+}
+
+.post-tts__label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.65rem;
+  color: var(--global-text-color);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.post-tts audio {
+  display: block;
+  width: 100%;
+}
