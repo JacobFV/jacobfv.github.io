@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" role="img" aria-labelledby="title desc">
+  <title id="title">Identity as motif-family in a causal graph</title>
+  <desc id="desc">A network diagram showing a person as recurrent motif families rather than a single node.</desc>
+  <rect width="980" height="520" fill="#f8fafc"/>
+  <text x="60" y="58" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">A person is not one node</text>
+  <text x="60" y="92" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">Identity is a recurrent topology of motifs: attention, memory, affect, values, body, language, and self-repair.</text>
+
+  <g stroke="#94a3b8" stroke-width="2" opacity="0.75">
+    <path d="M230 250 C330 110 530 110 650 245"/>
+    <path d="M230 250 C350 400 535 405 650 245"/>
+    <path d="M340 160 C300 270 340 360 475 370"/>
+    <path d="M475 120 C620 165 650 270 590 365"/>
+    <path d="M340 160 C445 80 565 96 650 245"/>
+    <path d="M255 330 C380 260 500 260 635 330"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(190 222)">
+      <circle cx="40" cy="40" r="40" fill="#2563eb"/>
+      <text x="40" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">attention</text>
+    </g>
+    <g transform="translate(300 120)">
+      <circle cx="40" cy="40" r="40" fill="#14b8a6"/>
+      <text x="40" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">memory</text>
+    </g>
+    <g transform="translate(435 80)">
+      <circle cx="40" cy="40" r="40" fill="#f59e0b"/>
+      <text x="40" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">affect</text>
+    </g>
+    <g transform="translate(610 205)">
+      <circle cx="40" cy="40" r="40" fill="#7c3aed"/>
+      <text x="40" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">agency</text>
+    </g>
+    <g transform="translate(550 325)">
+      <circle cx="40" cy="40" r="40" fill="#dc2626"/>
+      <text x="40" y="38" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">self</text>
+      <text x="40" y="54" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">repair</text>
+    </g>
+    <g transform="translate(435 330)">
+      <circle cx="40" cy="40" r="40" fill="#0891b2"/>
+      <text x="40" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">language</text>
+    </g>
+    <g transform="translate(215 290)">
+      <circle cx="40" cy="40" r="40" fill="#16a34a"/>
+      <text x="40" y="46" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">body</text>
+    </g>
+  </g>
+
+  <path d="M170 420 C330 475 600 475 760 420" fill="none" stroke="#0f172a" stroke-width="3"/>
+  <text x="465" y="462" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f172a">identity-attractor basin</text>
+</svg>

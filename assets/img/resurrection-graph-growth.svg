@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" role="img" aria-labelledby="title desc">
+  <title id="title">Underdetermined graph-growth chamber</title>
+  <desc id="desc">A pipeline diagram showing human priors, soft constraints, and indeterminate branch points producing emergent identity graphs.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="980" height="520" fill="#f8fafc"/>
+  <text x="60" y="58" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Underdetermined graph-growth chamber</text>
+  <text x="60" y="92" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">The target is not arbitrary noise, but maximal underdetermination inside a human-compatible basin.</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="70" y="180" width="190" height="140" rx="14" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="165" y="222" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">human priors</text>
+    <text x="165" y="250" text-anchor="middle" font-size="14" fill="#64748b">body schema</text>
+    <text x="165" y="272" text-anchor="middle" font-size="14" fill="#64748b">memory loops</text>
+    <text x="165" y="294" text-anchor="middle" font-size="14" fill="#64748b">social cognition</text>
+
+    <rect x="395" y="150" width="190" height="200" rx="14" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="490" y="192" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">growth chamber</text>
+    <text x="490" y="222" text-anchor="middle" font-size="14" fill="#64748b">soft constraints</text>
+    <text x="490" y="244" text-anchor="middle" font-size="14" fill="#64748b">Q branch points</text>
+    <text x="490" y="266" text-anchor="middle" font-size="14" fill="#64748b">prune / dream / learn</text>
+    <g fill="none" stroke="#14b8a6" stroke-width="2">
+      <circle cx="440" cy="306" r="8"/><circle cx="492" cy="296" r="8"/><circle cx="542" cy="315" r="8"/>
+      <path d="M448 306 L484 298 M500 299 L534 312 M448 308 L534 316"/>
+    </g>
+
+    <rect x="720" y="180" width="190" height="140" rx="14" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="815" y="222" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">emergent graph</text>
+    <text x="815" y="250" text-anchor="middle" font-size="14" fill="#64748b">identity signatures</text>
+    <text x="815" y="272" text-anchor="middle" font-size="14" fill="#64748b">tested against nulls</text>
+    <text x="815" y="294" text-anchor="middle" font-size="14" fill="#64748b">not just imitation</text>
+  </g>
+
+  <g stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M270 250 H380"/>
+    <path d="M595 250 H705"/>
+  </g>
+  <text x="326" y="232" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#64748b">species-gate</text>
+  <text x="650" y="232" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#64748b">measure</text>
+</svg>

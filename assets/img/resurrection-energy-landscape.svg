@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" role="img" aria-labelledby="title desc">
+  <title id="title">Historical-bias energy landscape</title>
+  <desc id="desc">A landscape diagram showing local constraints, viability, coherence, and historical bias shaping future graph formation.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef2ff"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#0f172a"/>
+    </marker>
+  </defs>
+  <rect width="980" height="520" fill="url(#sky)"/>
+  <text x="60" y="58" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Future formation as weighted descent</text>
+  <text x="60" y="92" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">Most futures are not forbidden. They are made more or less likely by overlapping constraint fields.</text>
+
+  <path d="M80 390 C170 250 260 330 340 230 C430 115 520 330 610 210 C700 95 820 310 900 170 L900 440 L80 440 Z" fill="#dbeafe"/>
+  <path d="M80 390 C170 250 260 330 340 230 C430 115 520 330 610 210 C700 95 820 310 900 170" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <path d="M130 380 C235 320 300 365 380 285 C465 200 530 355 625 285 C720 218 775 278 845 225" fill="none" stroke="#14b8a6" stroke-width="4" stroke-dasharray="8 8"/>
+  <path d="M480 128 C520 185 530 245 505 314" fill="none" stroke="#0f172a" stroke-width="3" marker-end="url(#arrow)"/>
+  <circle cx="505" cy="314" r="10" fill="#f59e0b"/>
+  <text x="526" y="320" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a">sampled future graph</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="14">
+    <rect x="92" y="132" width="210" height="112" rx="10" fill="#fff" stroke="#cbd5e1"/>
+    <text x="112" y="162" font-weight="700" fill="#0f172a">Energy terms</text>
+    <text x="112" y="188" fill="#475569">local physics</text>
+    <text x="112" y="212" fill="#475569">viability</text>
+    <text x="210" y="188" fill="#475569">coherence</text>
+    <text x="210" y="212" fill="#475569">history</text>
+  </g>
+</svg>

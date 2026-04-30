@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" role="img" aria-labelledby="title desc">
+  <title id="title">A ladder of resurrection claims</title>
+  <desc id="desc">A five-step ladder moving from memetic persistence to phenomenological continuation.</desc>
+  <rect width="980" height="520" fill="#f8fafc"/>
+  <text x="60" y="58" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Not every continuity claim is resurrection</text>
+  <text x="60" y="92" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">The empirical program starts low on the ladder. Strong resurrection sits at the hardest rung.</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(110 380)">
+      <rect width="760" height="46" rx="8" fill="#dbeafe" stroke="#93c5fd"/>
+      <text x="24" y="30" font-size="16" font-weight="700" fill="#0f172a">1. memetic persistence</text>
+      <text x="270" y="30" font-size="14" fill="#475569">ordinary traces affect the world</text>
+    </g>
+    <g transform="translate(160 310)">
+      <rect width="660" height="46" rx="8" fill="#ccfbf1" stroke="#5eead4"/>
+      <text x="24" y="30" font-size="16" font-weight="700" fill="#0f172a">2. behavioral reconstruction</text>
+      <text x="330" y="30" font-size="14" fill="#475569">a system imitates the target</text>
+    </g>
+    <g transform="translate(210 240)">
+      <rect width="560" height="46" rx="8" fill="#fef3c7" stroke="#fcd34d"/>
+      <text x="24" y="30" font-size="16" font-weight="700" fill="#0f172a">3. structural reconstruction</text>
+      <text x="324" y="30" font-size="14" fill="#475569">shared organization</text>
+    </g>
+    <g transform="translate(260 170)">
+      <rect width="460" height="46" rx="8" fill="#ede9fe" stroke="#c4b5fd"/>
+      <text x="24" y="30" font-size="16" font-weight="700" fill="#0f172a">4. causal-attractor inheritance</text>
+    </g>
+    <g transform="translate(310 100)">
+      <rect width="360" height="46" rx="8" fill="#fee2e2" stroke="#fca5a5"/>
+      <text x="24" y="30" font-size="16" font-weight="700" fill="#0f172a">5. phenomenological continuation</text>
+    </g>
+  </g>
+</svg>
