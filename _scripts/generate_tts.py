@@ -17,7 +17,10 @@ import json
 import os
 from pathlib import Path
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.request
@@ -31,6 +34,11 @@ CHUNK_CACHE_DIR = Path(".tts-cache/chunks")
 
 DEFAULT_VOICE_ID = "21m00Tcm4TlvDq8ikWAM"
 DEFAULT_MODEL_ID = "eleven_multilingual_v2"
+
+# Bump this to invalidate previously concatenated post audio without
+# discarding the per-paragraph ElevenLabs cache. v2 switched from raw
+# byte concatenation (broken seeking, wrong duration) to ffmpeg remux.
+CONCAT_VERSION = "concat-v2-ffmpeg"
 
 
 GREEK = {
@@ -366,6 +374,34 @@ def paragraph_audio_path(digest: str) -> Path:
     return CHUNK_CACHE_DIR / f"{digest}.mp3"
 
 
+def concat_mp3s(chunk_paths: list[Path], output: Path) -> None:
+    """Remux a list of MP3 chunks into a single MP3 with correct duration.
+
+    ElevenLabs returns mp3_44100_128 (CBR 128 kbps), so ``-c copy`` writes a
+    single clean container without re-encoding. Naive byte concatenation
+    leaves multiple MP3 headers in the file: the browser reads only the
+    first one, reports the wrong duration, and seeking jumps to the start.
+    """
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False) as listing:
+        for chunk in chunk_paths:
+            listing.write(f"file '{chunk.resolve().as_posix()}'\n")
+        list_path = Path(listing.name)
+    try:
+        subprocess.run(
+            [
+                "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+                "-f", "concat", "-safe", "0",
+                "-i", str(list_path),
+                "-c", "copy",
+                str(output),
+            ],
+            check=True,
+        )
+    finally:
+        list_path.unlink(missing_ok=True)
+
+
 def write_post_audio_from_paragraphs(
     api_key: str,
     voice_id: str,
@@ -375,19 +411,18 @@ def write_post_audio_from_paragraphs(
 ) -> list[str]:
     output.parent.mkdir(parents=True, exist_ok=True)
     CHUNK_CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    tmp = output.with_suffix(".tmp")
     paragraph_hashes = []
-    with tmp.open("wb") as post_handle:
-        for index, paragraph in enumerate(paragraphs, start=1):
-            digest = chunk_digest(voice_id, model_id, paragraph)
-            paragraph_hashes.append(digest)
-            cached = paragraph_audio_path(digest)
-            if not cached.exists():
-                sys.stderr.write(f"  paragraph {index}\n")
-                cached.write_bytes(request_elevenlabs(api_key, voice_id, model_id, paragraph))
-                time.sleep(0.2)
-            post_handle.write(cached.read_bytes())
-    tmp.replace(output)
+    chunk_paths: list[Path] = []
+    for index, paragraph in enumerate(paragraphs, start=1):
+        digest = chunk_digest(voice_id, model_id, paragraph)
+        paragraph_hashes.append(digest)
+        cached = paragraph_audio_path(digest)
+        if not cached.exists():
+            sys.stderr.write(f"  paragraph {index}\n")
+            cached.write_bytes(request_elevenlabs(api_key, voice_id, model_id, paragraph))
+            time.sleep(0.2)
+        chunk_paths.append(cached)
+    concat_mp3s(chunk_paths, output)
     return paragraph_hashes
 
 
@@ -415,6 +450,10 @@ def main() -> int:
     parser.add_argument("--skip-api", action="store_true")
     args = parser.parse_args()
 
+    if shutil.which("ffmpeg") is None:
+        sys.stderr.write("ffmpeg is required to concatenate post audio; install it and retry.\n")
+        return 1
+
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     cache = load_json(CACHE_FILE)
     data: dict[str, dict[str, str]] = {}
@@ -424,7 +463,9 @@ def main() -> int:
     for path in sorted(POSTS_DIR.glob("*.md"), reverse=True):
         _front, paragraphs = post_narration_blocks(path)
         paragraph_hashes = [chunk_digest(args.voice_id, args.model_id, paragraph) for paragraph in paragraphs]
-        digest = hashlib.sha256("\0".join(paragraph_hashes).encode("utf-8")).hexdigest()
+        digest = hashlib.sha256(
+            ("\0".join(paragraph_hashes) + "\0" + CONCAT_VERSION).encode("utf-8")
+        ).hexdigest()
         slug = post_slug(path)
         audio_path = OUTPUT_DIR / f"{slug}.mp3"
         cached_post = cache.get(path.as_posix(), {})
@@ -437,10 +478,10 @@ def main() -> int:
             continue
         if chunk_files_exist:
             sys.stderr.write(f"Rebuilding {audio_path} from paragraph cache.\n")
-            audio_path.parent.mkdir(parents=True, exist_ok=True)
-            with audio_path.open("wb") as handle:
-                for paragraph_hash in paragraph_hashes:
-                    handle.write(paragraph_audio_path(paragraph_hash).read_bytes())
+            concat_mp3s(
+                [paragraph_audio_path(paragraph_hash) for paragraph_hash in paragraph_hashes],
+                audio_path,
+            )
             cache[path.as_posix()] = {
                 "hash": digest,
                 "audio": "/" + audio_path.as_posix(),
