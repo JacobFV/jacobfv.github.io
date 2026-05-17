@@ -13,7 +13,7 @@ start: 2026-03-26
 end:
 display_date:
 
-img: "https://raw.githubusercontent.com/JacobFV/brain-model/HEAD/output/consciousness/predictability.png"
+img: /assets/img/brain-model-resonance.svg
 github: https://github.com/JacobFV/brain-model
 
 description: A set of experiments using Meta TRIBE v2 to model emotion, UX, virtual EEG, consciousness dynamics, and affective intervention from predicted brain activity.
@@ -22,6 +22,8 @@ bullet_points: |
     - Introduces HIX proxy signals for UI design, linking cognition, trust, confusion, and flow to predicted brain activity
     - Connects neuro-modeling to practical questions in design, intervention, and autonomous systems
 ---
+
+{% pdf /assets/pdf/Resonance_Presentation.pdf %}
 
 `brain-model` is less a single application than a research notebook organized around one new capability: using Meta's TRIBE v2 as a way to simulate brain activity from described stimuli, then asking what that enables.
 
