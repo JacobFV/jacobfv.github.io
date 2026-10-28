@@ -7,8 +7,11 @@
     <title>Redirecting...</title>
     <script>
       (function () {
-        var target = new URL("https://jvboid.dev");
-        target.pathname = window.location.pathname;
+        var path = window.location.pathname;
+        // ComputerWorld moved: its old GitHub Pages site lived at /computerworld/.
+        var moved = /^\/computerworld(\/|$)/i.test(path);
+        var target = new URL(moved ? "https://computerworld.pages.dev" : "https://jvboid.dev");
+        target.pathname = moved ? (path.replace(/^\/computerworld/i, "") || "/") : path;
         target.search = window.location.search;
         target.hash = window.location.hash;
         window.location.replace(target.toString());
